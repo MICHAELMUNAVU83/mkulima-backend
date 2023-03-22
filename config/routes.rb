@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :plantable_crops
+  resources :constituencies
+  resources :counties
   # config/routes.rb
   namespace :api do
     namespace :v1 do
