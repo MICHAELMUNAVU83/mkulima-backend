@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :years
+  resources :yearly_data
   resources :plantable_crops
   resources :constituencies
   resources :counties
