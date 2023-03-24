@@ -3850,6 +3850,7 @@ plantable_crops = PlantableCrop.create(
     [
         {
             name: "Tomato",
+            extension_officer_phone_number: "0712345678",
             cost_to_produce_kg: 2000,
             price_per_kg: 3000,
             average_fertilizer_cost_per_kg: 1000,
@@ -3976,6 +3977,7 @@ plantable_crops = PlantableCrop.create(
         {
             name: "Kale/SukumaWIki",
             cost_to_produce_kg: 2500,
+            extension_officer_phone_number: "0712345678",
             price_per_kg: 3400,
             average_fertilizer_cost_per_kg: 1000,
             maturity_period: "5 months",
@@ -4102,6 +4104,7 @@ plantable_crops = PlantableCrop.create(
             name: "Kale/SukumawIki",
             cost_to_produce_kg: 1500,
             price_per_kg: 2300,
+            extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 500,
             maturity_period: "4 months",
             image:"https://images.unsplash.com/photo-1668717066198-53148ca2b11b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a2FsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -4227,6 +4230,7 @@ plantable_crops = PlantableCrop.create(
             name: "Beans",
             cost_to_produce_kg: 2000,
             price_per_kg: 2500,
+            extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
             maturity_period: "9 months",
             image:"https://images.unsplash.com/photo-1560252030-9fc63cb78dac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -4352,6 +4356,7 @@ plantable_crops = PlantableCrop.create(
             name: "Maize",
             cost_to_produce_kg: 3000,
             price_per_kg: 4000,
+            extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
             maturity_period: "10 months",
             image:"https://images.unsplash.com/photo-1542994740-3061a3455ae6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1haXplfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -4477,6 +4482,7 @@ plantable_crops = PlantableCrop.create(
             name: "Onions",
             cost_to_produce_kg: 3000,
             price_per_kg: 4000,
+            extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
             maturity_period: "10 months",
             image:"https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25pb25zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",

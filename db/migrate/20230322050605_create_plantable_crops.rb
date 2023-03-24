@@ -5,6 +5,7 @@ class CreatePlantableCrops < ActiveRecord::Migration[7.0]
       t.string :image
      
       t.integer :cost_to_produce_kg
+      t.string :extension_officer_phone_number
 
       t.string :price_per_kg
       t.string :average_fertilizer_cost_per_kg
