@@ -168,13 +168,19 @@ puts "Starts seeding years"
 years = Year.create(
     [
         {
+            name: "2018",
+            precipitation: 0.0,
+            soil_type: "Loam",
+            county_id: 1
+        },
+        {
             name: "2019",
             precipitation: 0.0,
             soil_type: "Loam",
             county_id: 1
         },
         {
-            name: "2018",
+            name: "2020",
             precipitation: 0.0,
             soil_type: "Loam",
             county_id: 1
