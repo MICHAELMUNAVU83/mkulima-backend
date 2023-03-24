@@ -31,10 +31,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_103807) do
   create_table "input_supplies", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.string "type"
+    t.string "type_of_supply"
     t.integer "price_per_kg"
     t.string "product_image"
     t.string "crop_for"
+    t.string "location"
+    t.integer "contact"
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

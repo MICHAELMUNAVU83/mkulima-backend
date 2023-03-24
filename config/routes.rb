@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   resources :constituencies
   resources :counties
   get '/first_three_crops', to: 'plantable_crops#first_three'
-   get '/average_precipitation/:id', to: 'counties#average_precipitation'
+   
+   get "/my_supplies/:id", to: "input_supplies#my_supplies"
   # config/routes.rb
   namespace :api do
     namespace :v1 do
