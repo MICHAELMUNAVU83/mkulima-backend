@@ -21,12 +21,27 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_23_020756) do
 
   create_table "plantable_crops", force: :cascade do |t|
     t.string "name"
-    t.integer "precipitation_needed_id"
-    t.integer "soil_type_id"
+    t.string "image"
+    t.integer "cost_to_produce_kg"
+    t.string "price_per_kg"
+    t.string "average_fertilizer_cost_per_kg"
+    t.string "maturity_period"
+    t.string "site_selection"
+    t.string "land_preparation"
+    t.string "pre_planting"
+    t.string "varieties"
+    t.string "planting"
+    t.string "water_management"
+    t.string "weed_management"
+    t.string "soil_fertility"
+    t.string "crop_management"
+    t.string "harvesting"
+    t.string "post_harvesting_handling"
+    t.string "storage"
+    t.integer "precipitation_needed"
+    t.string "soil_type_needed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["precipitation_needed_id"], name: "index_plantable_crops_on_precipitation_needed_id"
-    t.index ["soil_type_id"], name: "index_plantable_crops_on_soil_type_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -34,7 +49,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_23_020756) do
     t.string "last_name"
     t.string "password_digest"
     t.string "password_confirmation"
-    t.string "email"
+    t.string "national_id"
     t.string "role"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
