@@ -1,0 +1,3 @@
+class InputSupply < ApplicationRecord
+    belongs_to :user
+end

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :input_supplies
   resources :years
   resources :yearly_data
   resources :plantable_crops
