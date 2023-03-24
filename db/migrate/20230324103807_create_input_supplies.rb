@@ -7,6 +7,8 @@ class CreateInputSupplies < ActiveRecord::Migration[7.0]
       t.integer :price_per_kg
       t.string :product_image
       t.string :crop_for
+      t.string :location
+      t.integer :contact
       t.references :user, null: false, foreign_key: true
 
       t.timestamps

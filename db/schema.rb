@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_24_073802) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_24_103807) do
   create_table "constituencies", force: :cascade do |t|
     t.string "name"
     t.integer "county_id", null: false
@@ -26,6 +26,19 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_073802) do
     t.integer "precipitation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "input_supplies", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "type"
+    t.integer "price_per_kg"
+    t.string "product_image"
+    t.string "crop_for"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_input_supplies_on_user_id"
   end
 
   create_table "plantable_crops", force: :cascade do |t|
@@ -65,7 +78,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_073802) do
   end
 
   create_table "years", force: :cascade do |t|
-    t.string "name"
+    t.integer "name"
     t.integer "precipitation"
     t.string "soil_type"
     t.integer "county_id", null: false
@@ -75,5 +88,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_073802) do
   end
 
   add_foreign_key "constituencies", "counties"
+  add_foreign_key "input_supplies", "users"
   add_foreign_key "years", "counties"
 end

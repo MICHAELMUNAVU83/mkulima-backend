@@ -19,7 +19,7 @@ class InputSuppliesController < ApplicationController
 
     private
     def input_supply_params
-        params.require(:input_supply).permit(:name, :description, :type, :product_image, :crop_for, :price_per_kg)
+        params.require(:input_supply).permit(:name, :description, :type, :product_image, :crop_for, :price_per_kg, :location, :contact, :user_id)
     end
 
 end

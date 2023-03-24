@@ -1217,94 +1217,94 @@ puts "Starts seeding years"
 years = Year.create(
     [
         {
-            name: "2018",
+            name: 2018,
             precipitation:  638.7,
             soil_type: "Loam",
             county_id: 1
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:785.5,
             soil_type: "Loam",
             county_id: 1
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 705.6,
             soil_type: "Loam",
             county_id: 1
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  735.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2022",
+            name: 2022,
             precipitation:  750.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  695.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  710.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
          {
-            name: "2018",
+            name: 2018,
             precipitation:  638.7,
             soil_type: "Loam",
             county_id: 1
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:785.5,
             soil_type: "Loam",
             county_id: 1
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 705.6,
             soil_type: "Loam",
             county_id: 1
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  735.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2022",
+            name: 2022,
             precipitation:  750.7,
             soil_type: "Loam",
             county_id: 1,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  695.7,
             soil_type: "Loam",
             county_id: 1,
@@ -1312,53 +1312,53 @@ years = Year.create(
         # Kwale
 
          {
-            name: "2018",
-            precipitation:  1,300.0,
+            name: 2018,
+            precipitation:  1300.0,
             soil_type: "Loam",
             county_id: 2
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1400.2,
             soil_type: "Loam",
             county_id: 2
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1300.0,
             soil_type: "Loam",
             county_id: 2
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1350.5,
             soil_type: "Loam",
             county_id: 2,
         },
 
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1280.2,
             soil_type: "Loam",
             county_id: 2,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1150.0,
             soil_type: "Loam",
             county_id: 2,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1200.4,
             soil_type: "Loam",
             county_id: 2,
         },
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1340.5,
             soil_type: "Loam",
             county_id: 2,
@@ -1366,53 +1366,53 @@ years = Year.create(
 
         # Kilifi
         {
-            name: "2018",
+            name: 2018,
             precipitation:   970.0,
             county_id: 3,
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation: 1000.0,
             soil_type: "Loam",
             county_id: 3,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 980.0,
             soil_type: "Loam",
             county_id: 3,
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1000.0,
             soil_type: "Loam",
             county_id: 3,
         },
 
         {
-            name: "2022",
+            name: 2022,
             precipitation:  960.0,
             soil_type: "Loam",
             county_id: 3,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  940.5,
             soil_type: "Loam",
             county_id: 3,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  950.0,
             soil_type: "Loam",
             county_id: 3,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  980.0,
             soil_type: "Loam",
             county_id: 3,
@@ -1420,55 +1420,55 @@ years = Year.create(
 
         # Tana River
         {
-            name: "2018",
+            name: 2018,
             precipitation:  750.0,
             soil_type: "Loam",
             county_id: 4
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:800.2,
             soil_type: "Loam",
             county_id: 4
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 4
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  880.5,
             soil_type: "Loam",
             county_id: 4,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  900.2,
             soil_type: "Loam",
             county_id: 4,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  790.0,
             soil_type: "Loam",
             county_id: 4,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 4,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 4,
@@ -1476,54 +1476,54 @@ years = Year.create(
 
         # Lamu
         {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 5
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 5,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 5
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  880.5,
             soil_type: "Loam",
             county_id: 5,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  900.2,
             soil_type: "Loam",
             county_id: 5,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  790.0,
             soil_type: "Loam",
             county_id: 5,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 5,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 5,
@@ -1532,54 +1532,54 @@ years = Year.create(
         # Taita tavetta
 
           {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 6
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 6,
     },
       {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 6
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  880.5,
             soil_type: "Loam",
             county_id: 6,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  900.2,
             soil_type: "Loam",
             county_id: 6,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  790.0,
             soil_type: "Loam",
             county_id: 6,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 6,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 6,
@@ -1587,54 +1587,54 @@ years = Year.create(
 
         # Garissa
         {
-            name: "2018",
+            name: 2018,
             precipitation:  270.0,
             soil_type: "Loam",
             county_id: 7
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:290.2,
             soil_type: "Loam",
             county_id: 7,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 250.0,
             soil_type: "Loam",
             county_id: 7
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  280.5,
             soil_type: "Loam",
             county_id: 7,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  300.2,
             soil_type: "Loam",
             county_id: 7,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  290.0,
             soil_type: "Loam",
             county_id: 7,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  280.4,
             soil_type: "Loam",
             county_id: 7,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  200.5,
             soil_type: "Loam",
             county_id: 7,
@@ -1642,272 +1642,272 @@ years = Year.create(
 
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  250.0,
             soil_type: "Loam",
             county_id: 8
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:249.2,
             soil_type: "Loam",
             county_id: 8,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 8
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  280.5,
             soil_type: "Loam",
             county_id: 8,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  300.2,
             soil_type: "Loam",
             county_id: 8,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  290.0,
             soil_type: "Loam",
             county_id: 8,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  380.4,
             soil_type: "Loam",
             county_id: 8,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  280.5,
             soil_type: "Loam",
             county_id: 8,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  450.0,
             soil_type: "Loam",
             county_id: 9
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:300.2,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 350.0,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  380.5,
             soil_type: "Loam",
             county_id: 9
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  400.2,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  490.0,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  380.4,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  371.5,
             soil_type: "Loam",
             county_id: 9
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 10
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 10
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 10
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  880.5,
             soil_type: "Loam",
             county_id: 10
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  900.2,
             soil_type: "Loam",
             county_id: 10
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  790.0,
             soil_type: "Loam",
             county_id: 10
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 10
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 10
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  350.0,
             soil_type: "Loam",
             county_id: 11
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:400.2,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 350.0,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  380.5,
             soil_type: "Loam",
             county_id: 11
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  400.2,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  390.0,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  300.4,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  360.5,
             soil_type: "Loam",
             county_id: 11
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 12
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 12
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 12
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  880.5,
             soil_type: "Loam",
             county_id: 12
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  900.2,
             soil_type: "Loam",
             county_id: 12
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  890.0,
             soil_type: "Loam",
             county_id: 12
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 12
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  900.5,
             soil_type: "Loam",
             county_id: 12
@@ -1915,55 +1915,55 @@ years = Year.create(
 
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1150.0,
             soil_type: "Loam",
             county_id: 13
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1200.2,
             soil_type: "Loam",
             county_id: 13
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1250.0,
             soil_type: "Loam",
             county_id: 13
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1068.5,
             soil_type: "Loam",
             county_id: 13
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1000.2,
             soil_type: "Loam",
             county_id: 13
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1090.0,
             soil_type: "Loam",
             county_id: 13
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1080.4,
             soil_type: "Loam",
             county_id: 13
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1000.5,
             soil_type: "Loam",
             county_id: 13
@@ -1971,109 +1971,109 @@ years = Year.create(
 
      
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1070.0,
             soil_type: "Loam",
             county_id: 14
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 14
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1050.0,
             soil_type: "Loam",
             county_id: 14
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  980.5,
             soil_type: "Loam",
             county_id: 14
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1000.2,
             soil_type: "Loam",
             county_id: 14
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1190.0,
             soil_type: "Loam",
             county_id: 14
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1080.4,
             soil_type: "Loam",
             county_id: 14
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1070.5,
             soil_type: "Loam",
             county_id: 14,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  550.0,
             soil_type: "Loam",
             county_id: 15
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:500.2,
             soil_type: "Loam",
             county_id: 15
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 450.0,
             soil_type: "Loam",
             county_id: 15
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  580.5,
             soil_type: "Loam",
             county_id: 15
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  400.2,
             soil_type: "Loam",
             county_id: 15
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  490.0,
             soil_type: "Loam",
             county_id: 15,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  480.4,
             soil_type: "Loam",
             county_id: 15,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  500.5,
             soil_type: "Loam",
             county_id: 15,
@@ -2081,327 +2081,327 @@ years = Year.create(
 
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  670.0,
             soil_type: "Loam",
             county_id: 16
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:690.2,
             soil_type: "Loam",
             county_id: 16
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 550.0,
             soil_type: "Loam",
             county_id: 16
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation: 580.5,
             soil_type: "Loam",
             county_id: 16,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  600.2,
             soil_type: "Loam",
             county_id: 16,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  650.0,
             soil_type: "Loam",
             county_id: 16,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  680.4,
             soil_type: "Loam",
             county_id: 16,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 16,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  450.0,
             soil_type: "Loam",
             county_id: 17
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:400.2,
             soil_type: "Loam",
             county_id: 17
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 350.0,
             soil_type: "Loam",
             county_id: 17
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  380.5,
             soil_type: "Loam",
             county_id: 17
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  300.2,
             soil_type: "Loam",
             county_id: 17
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  390.0,
             soil_type: "Loam",
             county_id: 17,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  480.4,
             soil_type: "Loam",
             county_id: 17
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  400.5,
             soil_type: "Loam",
             county_id: 17
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1470.0,
             soil_type: "Loam",
             county_id: 18
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1390.2,
             soil_type: "Loam",
             county_id: 18
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1250.0,
             soil_type: "Loam",
             county_id: 18
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1580.5,
             soil_type: "Loam",
             county_id: 18
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1300.2,
             soil_type: "Loam",
             county_id: 18
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1490.0,
             soil_type: "Loam",
             county_id: 18
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1380.4,
             soil_type: "Loam",
             county_id: 18
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1400.5,
             soil_type: "Loam",
             county_id: 18
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1750.0,
             soil_type: "Loam",
             county_id: 19
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1700.2,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1650.0,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1680.5,
             soil_type: "Loam",
             county_id: 19
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1600.2,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1590.0,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1680.4,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation: 1700.5,
             soil_type: "Loam",
             county_id: 19
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1770.0,
             soil_type: "Loam",
             county_id: 20
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1490.2,
             soil_type: "Loam",
             county_id: 20
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 950.0,
             soil_type: "Loam",
             county_id: 20
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1680.5,
             soil_type: "Loam",
             county_id:20
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1700.2,
             soil_type: "Loam",
             county_id: 20
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1790.0,
             soil_type: "Loam",
             county_id: 20
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1880.4,
             soil_type: "Loam",
             county_id: 20
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 20
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1750.0,
             soil_type: "Loam",
             county_id: 21
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1800.2,
             soil_type: "Loam",
             county_id: 21
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1550.0,
             soil_type: "Loam",
             county_id: 21
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1680.5,
             soil_type: "Loam",
             county_id: 21
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1700.2,
             soil_type: "Loam",
             county_id: 21
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1790.0,
             soil_type: "Loam",
             county_id: 21
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1680.4,
             soil_type: "Loam",
             county_id: 21
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 21
@@ -2409,600 +2409,600 @@ years = Year.create(
 
         # Kiambu
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1670.0,
             soil_type: "Loam",
             county_id: 22
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1590.2,
             soil_type: "Loam",
             county_id: 22
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1450.0,
             soil_type: "Loam",
             county_id: 22
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1480.5,
             soil_type: "Loam",
             county_id: 22
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1500.2,
             soil_type: "Loam",
             county_id: 22,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1690.0,
             soil_type: "Loam",
             county_id: 22,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1780.4,
             soil_type: "Loam",
             county_id: 22,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1600.5,
             soil_type: "Loam",
             county_id: 22,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  150.0,
             soil_type: "Loam",
             county_id: 23
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:800.2,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 150.0,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  260.5,
             soil_type: "Loam",
             county_id: 23
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  200.2,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  190.0,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  280.4,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  200.5,
             soil_type: "Loam",
             county_id: 23
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  450.0,
             soil_type: "Loam",
             county_id: 24
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:400.2,
             soil_type: "Loam",
             county_id: 24
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 550.0,
             soil_type: "Loam",
             county_id: 24
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  480.5,
             soil_type: "Loam",
             county_id:24
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  300.2,
             soil_type: "Loam",
             county_id: 24
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  250.0,
             soil_type: "Loam",
             county_id: 24
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  480.4,
             soil_type: "Loam",
             county_id: 24
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  500.5,
             soil_type: "Loam",
             county_id: 24
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  300.0,
             soil_type: "Loam",
             county_id: 25
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:380.2,
             soil_type: "Loam",
             county_id: 25
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 450.0,
             soil_type: "Loam",
             county_id: 25
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  390.5,
             soil_type: "Loam",
             county_id: 25
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  400.2,
             soil_type: "Loam",
             county_id: 25
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  590.0,
             soil_type: "Loam",
             county_id: 25
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  344.4,
             soil_type: "Loam",
             county_id:25
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  377.5,
             soil_type: "Loam",
             county_id: 25
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1370.0,
             soil_type: "Loam",
             county_id: 26
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1490.2,
             soil_type: "Loam",
             county_id: 26,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1150.0,
             soil_type: "Loam",
             county_id: 26
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1280.5,
             soil_type: "Loam",
             county_id: 26
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1300.2,
             soil_type: "Loam",
             county_id: 26
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1290.0,
             soil_type: "Loam",
             county_id: 26
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1180.4,
             soil_type: "Loam",
             county_id: 26
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 26
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1250.0,
             soil_type: "Loam",
             county_id: 27
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1400.2,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1550.0,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1280.5,
             soil_type: "Loam",
             county_id: 27
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1400.2,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1390.0,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1480.4,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1300.5,
             soil_type: "Loam",
             county_id: 27
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 28
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:990.2,
             soil_type: "Loam",
             county_id: 28
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1050.0,
             soil_type: "Loam",
             county_id: 28
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  980.5,
             soil_type: "Loam",
             county_id: 28
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  880.2,
             soil_type: "Loam",
             county_id: 28
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  910.0,
             soil_type: "Loam",
             county_id: 28
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  980.4,
             soil_type: "Loam",
             county_id: 28
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  900.5,
             soil_type: "Loam",
             county_id: 28
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1750.0,
             soil_type: "Loam",
             county_id: 29
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1800.2,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1950.0,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1880.5,
             soil_type: "Loam",
             county_id: 29
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1900.2,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1790.0,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1880.4,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 29
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  750.0,
             soil_type: "Loam",
             county_id: 30
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:650.2,
             soil_type: "Loam",
             county_id: 30
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 650.0,
             soil_type: "Loam",
             county_id: 30
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  550.5,
             soil_type: "Loam",
             county_id: 30
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  600.2,
             soil_type: "Loam",
             county_id: 30
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  590.0,
             soil_type: "Loam",
             county_id: 30
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  600.4,
             soil_type: "Loam",
             county_id:30
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 30
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  770.0,
             soil_type: "Loam",
             county_id: 31
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:890.2,
             soil_type: "Loam",
             county_id: 31
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 750.0,
             soil_type: "Loam",
             county_id: 31
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  600.5,
             soil_type: "Loam",
             county_id: 31
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  690.2,
             soil_type: "Loam",
             county_id: 31
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  790.0,
             soil_type: "Loam",
             county_id: 31
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  550.4,
             soil_type: "Loam",
             county_id: 31
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  600.5,
             soil_type: "Loam",
             county_id: 31
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1150.0,
             soil_type: "Loam",
             county_id: 32
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1200.2,
             soil_type: "Loam",
             county_id: 32
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1150.0,
             soil_type: "Loam",
             county_id: 32
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1000.5,
             soil_type: "Loam",
             county_id: 32
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  800.2,
             soil_type: "Loam",
             county_id: 32
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  890.0,
             soil_type: "Loam",
             county_id: 32
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 32
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 32
@@ -3010,109 +3010,109 @@ years = Year.create(
 
    
         {
-            name: "2018",
+            name: 2018,
             precipitation:  970.0,
             soil_type: "Loam",
             county_id: 33
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1290.2,
             soil_type: "Loam",
             county_id: 33
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1100.0,
             soil_type: "Loam",
             county_id: 33
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1180.5,
             soil_type: "Loam",
             county_id: 33
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1200.2,
             soil_type: "Loam",
             county_id: 33
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  900.0,
             soil_type: "Loam",
             county_id: 33
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  880.4,
             soil_type: "Loam",
             county_id: 33
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 33
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  700.0,
             soil_type: "Loam",
             county_id: 34
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:480.2,
             soil_type: "Loam",
             county_id: 34
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 680.0,
             soil_type: "Loam",
             county_id: 34
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  550.5,
             soil_type: "Loam",
             county_id:34,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  700.2,
             soil_type: "Loam",
             county_id: 34,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  600.0,
             soil_type: "Loam",
             county_id: 34,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  500.4,
             soil_type: "Loam",
             county_id: 34,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 34,
@@ -3120,109 +3120,109 @@ years = Year.create(
 
        
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1270.0,
             soil_type: "Loam",
             county_id: 35
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1190.2,
             soil_type: "Loam",
             county_id: 35,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1350.0,
             soil_type: "Loam",
             county_id: 35
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1480.5,
             soil_type: "Loam",
             county_id: 35,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1500.2,
             soil_type: "Loam",
             county_id: 35,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1300.0,
             soil_type: "Loam",
             county_id: 35,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1280.4,
             soil_type: "Loam",
             county_id: 35,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 35,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1250.0,
             soil_type: "Loam",
             county_id: 36
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1400.2,
             soil_type: "Loam",
             county_id: 36
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1500.0,
             soil_type: "Loam",
             county_id: 36
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1400.5,
             soil_type: "Loam",
             county_id: 36
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1200.2,
             soil_type: "Loam",
             county_id: 36,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1290.0,
             soil_type: "Loam",
             county_id: 36,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1350.4,
             soil_type: "Loam",
             county_id: 36,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1400.5,
             soil_type: "Loam",
             county_id: 36,
@@ -3230,109 +3230,109 @@ years = Year.create(
 
       
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1700.0,
             soil_type: "Loam",
             county_id: 37
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1800.2,
             soil_type: "Loam",
             county_id: 37
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1950.0,
             soil_type: "Loam",
             county_id: 37
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 37
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1650.2,
             soil_type: "Loam",
             county_id: 37
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1690.0,
             soil_type: "Loam",
             county_id: 37
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1880.4,
             soil_type: "Loam",
             county_id: 37
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  2000.5,
             soil_type: "Loam",
             county_id: 37
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1750.0,
             soil_type: "Loam",
             county_id: 38
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1800.2,
             soil_type: "Loam",
             county_id: 38
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1950.0,
             soil_type: "Loam",
             county_id: 38
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1880.5,
             soil_type: "Loam",
             county_id: 38
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1900.2,
             soil_type: "Loam",
             county_id: 38
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1790.0,
             soil_type: "Loam",
             county_id: 38
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1880.4,
             soil_type: "Loam",
             county_id: 38
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 38
@@ -3340,109 +3340,109 @@ years = Year.create(
 
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1600.0,
             soil_type: "Loam",
             county_id: 39
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1990.2,
             soil_type: "Loam",
             county_id: 39,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1950.0,
             soil_type: "Loam",
             county_id: 39
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1880.5,
             soil_type: "Loam",
             county_id: 39,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1700.2,
             soil_type: "Loam",
             county_id: 39,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1600.0,
             soil_type: "Loam",
             county_id: 39,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1980.4,
             soil_type: "Loam",
             county_id: 39,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  2000.5,
             soil_type: "Loam",
             county_id: 39,
         },
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1350.0,
             soil_type: "Loam",
             county_id: 40
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1400.2,
             soil_type: "Loam",
             county_id: 40
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1550.0,
             soil_type: "Loam",
             county_id: 40
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1380.5,
             soil_type: "Loam",
             county_id: 40,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1200.2,
             soil_type: "Loam",
             county_id: 40,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1490.0,
             soil_type: "Loam",
             county_id: 40,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1380.4,
             soil_type: "Loam",
             county_id: 40,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1400.5,
             soil_type: "Loam",
             county_id: 40,
@@ -3450,109 +3450,109 @@ years = Year.create(
 
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1230.0,
             soil_type: "Loam",
             county_id: 41
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1040.2,
             soil_type: "Loam",
             county_id: 41
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1250.0,
             soil_type: "Loam",
             county_id: 41
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 41
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1150.2,
             soil_type: "Loam",
             county_id: 41
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1100.0,
             soil_type: "Loam",
             county_id: 41
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1200.4,
             soil_type: "Loam",
             county_id: 41
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1250.5,
             soil_type: "Loam",
             county_id: 41,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1100.0,
             soil_type: "Loam",
             county_id: 42
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1150.2,
             soil_type: "Loam",
             county_id: 42
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1000.0,
             soil_type: "Loam",
             county_id: 42
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1300.5,
             soil_type: "Loam",
             county_id: 42,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1290.2,
             soil_type: "Loam",
             county_id: 42,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1100.0,
             soil_type: "Loam",
             county_id: 42,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1300.4,
             soil_type: "Loam",
             county_id: 42,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1200.5,
             soil_type: "Loam",
             county_id: 42,
@@ -3560,109 +3560,109 @@ years = Year.create(
 
     
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1150.0,
             soil_type: "Loam",
             county_id: 43
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1100.2,
             soil_type: "Loam",
             county_id: 43,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1200.0,
             soil_type: "Loam",
             county_id: 43
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1300.5,
             soil_type: "Loam",
             county_id: 43,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1100.2,
             soil_type: "Loam",
             county_id: 43,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1290.0,
             soil_type: "Loam",
             county_id: 43,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1100.4,
             soil_type: "Loam",
             county_id: 43,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  900.5,
             soil_type: "Loam",
             county_id: 43,
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1400.0,
             soil_type: "Loam",
             county_id: 44
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1300.2,
             soil_type: "Loam",
             county_id: 44
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1150.0,
             soil_type: "Loam",
             county_id: 44
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1100.5,
             soil_type: "Loam",
             county_id: 44
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1300.2,
             soil_type: "Loam",
             county_id: 44
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1050.0,
             soil_type: "Loam",
             county_id: 44
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1100.4,
             soil_type: "Loam",
             county_id: 43,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1300.5,
             soil_type: "Loam",
             county_id: 44
@@ -3670,109 +3670,109 @@ years = Year.create(
 
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1770.0,
             soil_type: "Loam",
             county_id: 45
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1890.2,
             soil_type: "Loam",
             county_id: 45
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1750.0,
             soil_type: "Loam",
             county_id: 45
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1880.5,
             soil_type: "Loam",
             county_id: 45
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1900.2,
             soil_type: "Loam",
             county_id: 45
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1690.0,
             soil_type: "Loam",
             county_id: 45
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1880.4,
             soil_type: "Loam",
             county_id: 45
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 45
         },
 
         {
-            name: "2018",
+            name: 2018,
             precipitation:  1750.0,
             soil_type: "Loam",
             county_id: 46
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:1800.2,
             soil_type: "Loam",
             county_id: 46
         },
 
         {
-            name: "2020",
+            name: 2020,
             precipitation: 1600.0,
             soil_type: "Loam",
             county_id: 46
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 46,
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  1900.2,
             soil_type: "Loam",
             county_id: 46,
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  1650.0,
             soil_type: "Loam",
             county_id: 46,
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  1600.4,
             soil_type: "Loam",
             county_id: 46,
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  1700.5,
             soil_type: "Loam",
             county_id: 46,
@@ -3780,54 +3780,54 @@ years = Year.create(
 
         
         {
-            name: "2018",
+            name: 2018,
             precipitation:  510.0,
             soil_type: "Loam",
             county_id: 47
         },
         {
-            name: "2019",
+            name: 2019,
             precipitation:520.2,
             soil_type: "Loam",
             county_id: 47,
         },
         {
-            name: "2020",
+            name: 2020,
             precipitation: 740.0,
             soil_type: "Loam",
             county_id: 47
         },
 
         {
-            name: "2021",
+            name: 2021,
             precipitation:  600.5,
             soil_type: "Loam",
             county_id: 47
         },
         
         {
-            name: "2022",
+            name: 2022,
             precipitation:  650.2,
             soil_type: "Loam",
             county_id: 47
         },
 
         {
-            name: "2023",
+            name: 2023,
             precipitation:  655.0,
             soil_type: "Loam",
             county_id: 47
         },
 
         {
-            name: "2024",
+            name: 2024,
             precipitation:  690.4,
             soil_type: "Loam",
             county_id: 47
         },
 
         {
-            name: "2025",
+            name: 2025,
             precipitation:  700.5,
             soil_type: "Loam",
             county_id: 47
