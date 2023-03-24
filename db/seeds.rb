@@ -4604,3 +4604,36 @@ plantable_crops = PlantableCrop.create(
 )
 
 puts "Created #{plantable_crops.count} plantable crops"
+
+puts "Creating users"
+
+users = User.create(
+    [
+        {
+            first_name: "John",
+            last_name: "Doe",
+            national_id: 12345678,
+            role: "farmer",
+            password: "password",
+            password_confirmation: "password",
+        }
+    ]
+)
+
+
+
+puts "Creating selected crops"
+
+
+selected_crops = SelectedCrop.create([
+    {
+        user_id: 1,
+        plantable_crop_id: 1,
+    },
+    {
+        user_id: 1,
+        plantable_crop_id: 2,
+
+    }
+]
+)
