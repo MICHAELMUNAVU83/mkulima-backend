@@ -1,4 +1,4 @@
 class ConstituencySerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :name
   has_one :county
 end

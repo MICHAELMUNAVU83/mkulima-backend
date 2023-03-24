@@ -5,6 +5,11 @@ class CountiesController < ApplicationController
         render json: @counties 
     end
 
+    def show    
+        @county = County.find(params[:id])
+        render json: @county 
+    end
+
     def average_precipitation
         @years = Year.where(county_id: params[:id])
         @average_precipitation = @years.average(:precipitation)
