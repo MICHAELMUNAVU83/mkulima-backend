@@ -25,9 +25,18 @@ class SoldProductsController < ApplicationController
         render json: @sold_products
     end
 
+
+
+    def destroy
+        @sold_product = SoldProduct.find(params[:id])
+        @sold_product.destroy
+        render json: @sold_product
+    end
+    
+
     private
     def sold_product_params
         params.require(:sold_product).permit(:name, :description, :product_image, :crop_for, :price_per_kg, :location, :contact, :user_id)
     end
-    
+
 end
