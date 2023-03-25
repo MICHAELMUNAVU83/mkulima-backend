@@ -4618,8 +4618,16 @@ users = User.create(
         {
             first_name: "John",
             last_name: "Doe",
-            national_id: 12345678,
+            national_id: 12345,
             role: "farmer",
+            password: "password",
+            password_confirmation: "password",
+        },
+        {
+            first_name: "John",
+            last_name: "Kamau",
+            national_id: 123456,
+            role: "supplier",
             password: "password",
             password_confirmation: "password",
         }
@@ -4643,3 +4651,72 @@ selected_crops = SelectedCrop.create([
     }
 ]
 )
+
+
+puts "Created #{selected_crops.count} selected crops"
+
+puts "Creating input supplies"
+
+
+input_supplies = InputSupply.create([
+
+    {
+        name: "Fertilizer",
+        description: "my fertilizer",
+        type_of_supply: "fertilizer",
+        crop_for: "Tomato",
+        location: "Nairobi",
+        contact: "0712345678",
+        price_per_kg: 100,
+        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        user_id: 2,
+
+    },
+    {
+        name: "Seeds",
+        description: "my fertilizer",
+        type_of_supply: "seeds",
+        crop_for: "Tomato",
+        location: "Nairobi",
+        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        contact: "0712345678",
+        price_per_kg: 400,
+        user_id: 2,
+        
+    }
+]
+)
+
+
+puts "Created #{input_supplies.count} input supplies"
+
+
+puts "Creating sold products"
+
+soldproducts = SoldProduct.create([
+    {
+        user_id: 1,
+        name: "Tomato",
+        description: "my tomato",
+        price_per_kg: 100,
+        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        location: "Nairobi",
+        contact: "0712345678",
+
+    },
+    {
+        user_id: 1,
+        name: "Sukuma wiki",
+        description: "my sukuma wiki",
+        price_per_kg: 100,
+        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        location: "Nairobi",
+        contact: "0712345678",
+
+    }
+
+]
+)
+
+        
+

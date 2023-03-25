@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sold_products
   resources :selected_crops
   resources :input_supplies
   resources :years
@@ -10,6 +11,7 @@ Rails.application.routes.draw do
   get "my_selected_crops/:id", to: "selected_crops#my_selected_crops"
    
    get "/my_supplies/:id", to: "input_supplies#my_supplies"
+   get "/my_sold_products/:id", to: "sold_products#my_sold_products"
   # config/routes.rb
   namespace :api do
     namespace :v1 do

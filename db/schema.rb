@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_24_124749) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_25_031127) do
   create_table "constituencies", force: :cascade do |t|
     t.string "name"
     t.integer "county_id", null: false
@@ -36,7 +36,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_124749) do
     t.string "product_image"
     t.string "crop_for"
     t.string "location"
-    t.integer "contact"
+    t.string "contact"
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -78,6 +78,19 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_124749) do
     t.index ["user_id"], name: "index_selected_crops_on_user_id"
   end
 
+  create_table "sold_products", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.integer "price_per_kg"
+    t.string "product_image"
+    t.string "location"
+    t.string "contact"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_sold_products_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -103,5 +116,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_24_124749) do
   add_foreign_key "input_supplies", "users"
   add_foreign_key "selected_crops", "plantable_crops"
   add_foreign_key "selected_crops", "users"
+  add_foreign_key "sold_products", "users"
   add_foreign_key "years", "counties"
 end
