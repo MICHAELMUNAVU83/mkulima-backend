@@ -3,7 +3,7 @@ class User < ApplicationRecord
     
     validates :national_id, uniqueness: true
     validates :password, length: { minimum: 6 }
-    validates :first_name, :last_name, :role , :national_id, :password, presence: true
+    validates :first_name, :last_name, :role , :national_id, :password, :profile_picture, presence: true
     validates  :password_confirmation, presence: true
     
 
