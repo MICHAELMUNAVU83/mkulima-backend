@@ -3975,7 +3975,7 @@ plantable_crops = PlantableCrop.create(
             soil_type_needed:"Loam",
         },
         {
-            name: "Kale/SukumaWIki",
+            name: "Sukumawiki",
             cost_to_produce_kg: 2500,
             extension_officer_phone_number: "0712345678",
             price_per_kg: 3400,
@@ -4101,7 +4101,7 @@ plantable_crops = PlantableCrop.create(
             soil_type_needed:"Loam",
         },
         {
-            name: "Kale/SukumawIki",
+            name: "Sukumawiki",
             cost_to_produce_kg: 1500,
             price_per_kg: 2300,
             extension_officer_phone_number: "0700000000",
@@ -4620,6 +4620,7 @@ users = User.create(
             last_name: "Doe",
             national_id: 12345,
             role: "farmer",
+            profile_picture:"ughjik",
             password: "password",
             password_confirmation: "password",
         },
@@ -4628,6 +4629,7 @@ users = User.create(
             last_name: "Kamau",
             national_id: 123456,
             role: "supplier",
+            profile_picture:"ughjik",
             password: "password",
             password_confirmation: "password",
         }
