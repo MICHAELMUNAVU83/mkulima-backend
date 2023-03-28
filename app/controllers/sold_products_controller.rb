@@ -32,11 +32,11 @@ class SoldProductsController < ApplicationController
         @sold_product.destroy
         render json: @sold_product
     end
-    
+
 
     private
     def sold_product_params
-        params.require(:sold_product).permit(:name, :description, :product_image, :crop_for, :price_per_kg, :location, :contact, :user_id)
+        params.require(:sold_product).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id)
     end
 
 end

@@ -1,5 +1,5 @@
 class AnimalFeedsController < ApplicationController
-
+   skip_before_action :authorized
     def index
        
         @animal_feeds = AnimalFeed.all
@@ -37,7 +37,7 @@ class AnimalFeedsController < ApplicationController
 
     private
     def animal_feed_params
-        params.require(:animal_feed).permit(:name, :description, :product_image, :crop_for, :price_per_kg, :location, :contact, :user_id)
+        params.require(:animal_feed).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id)
     end
      
 
