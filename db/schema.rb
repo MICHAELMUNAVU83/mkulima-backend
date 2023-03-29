@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_27_140342) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
   create_table "animal_feeds", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -39,6 +39,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_140342) do
     t.integer "precipitation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "crops", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.integer "county_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["county_id"], name: "index_crops_on_county_id"
   end
 
   create_table "input_supplies", force: :cascade do |t|
@@ -128,6 +137,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_140342) do
 
   add_foreign_key "animal_feeds", "users"
   add_foreign_key "constituencies", "counties"
+  add_foreign_key "crops", "counties"
   add_foreign_key "input_supplies", "users"
   add_foreign_key "selected_crops", "plantable_crops"
   add_foreign_key "selected_crops", "users"

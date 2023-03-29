@@ -4722,3 +4722,29 @@ soldproducts = SoldProduct.create([
 
         
 
+puts "Creating crops for counties"
+
+crops = Crop.create([
+    {
+        name: "Tomato",
+        description: "my tomato",
+        county_id: 1,
+
+    },
+    {
+        name: "Sukuma wiki",
+        description: "my sukuma wiki",
+        county_id: 1,
+
+    },
+    {
+        name: "Potato",
+        description: "my potato",
+        county_id: 1
+
+    
+    }
+])
+
+
+
