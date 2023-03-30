@@ -4748,3 +4748,18 @@ crops = Crop.create([
 
 
 
+puts "Seeding Admin"
+
+users = User.create(
+    [
+        {
+            first_name: "Administrator",
+            last_name: "Admin",
+            national_id: 12345678,
+            role: "admin",
+            profile_picture:"fvgbhtvybunm",
+            password: "password",
+            password_confirmation: "password",
+        }
+    ]
+)
