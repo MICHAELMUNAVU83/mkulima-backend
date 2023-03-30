@@ -30,6 +30,12 @@ class InputSuppliesController < ApplicationController
     end
     
 
+    def destroy
+        @input_supply = InputSupply.find(params[:id])
+        @input_supply.destroy
+        render json: @input_supply
+    end
+
 
     private
     def input_supply_params
