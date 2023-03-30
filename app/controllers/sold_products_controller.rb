@@ -25,6 +25,15 @@ class SoldProductsController < ApplicationController
         render json: @sold_products
     end
 
+    def top_5_locations_by_price_per_kg
+        @all_sold_products = SoldProduct.all
+        @all_sold_products = @all_sold_products.group_by(&:location)
+        @all_sold_products = @all_sold_products.map { |location, sold_products| { location: location, avg_price_per_kg: sold_products.map(&:price_per_kg).sum / sold_products.count } }
+        @all_sold_products = @all_sold_products.sort_by { |sold_product| sold_product[:avg_price_per_kg] }.reverse.first(5)
+        render json: @all_sold_products
+        
+    end
+
 
 
     def destroy

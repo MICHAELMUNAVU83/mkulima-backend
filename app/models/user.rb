@@ -1,5 +1,7 @@
 class User < ApplicationRecord
     has_secure_password
+    has_many :selected_crops
+    has_many :plantable_crops, through: :selected_crops
     
     validates :national_id, uniqueness: true
     validates :password, length: { minimum: 6 }

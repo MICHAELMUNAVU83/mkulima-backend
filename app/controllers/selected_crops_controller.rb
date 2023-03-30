@@ -21,6 +21,7 @@ class SelectedCropsController < ApplicationController
 
     def my_selected_crops
         @selected_crops = SelectedCrop.where(user_id: params[:id])
+        @selected_crops = @selected_crops.group_by { |sc| sc.plantable_crop.name }.values.map(&:first)
         render json: @selected_crops
     end
 
