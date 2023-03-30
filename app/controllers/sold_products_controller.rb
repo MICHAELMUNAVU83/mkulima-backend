@@ -27,10 +27,12 @@ class SoldProductsController < ApplicationController
 
     def top_5_locations_by_price_per_kg
         @all_sold_products = SoldProduct.all
-        @all_sold_products = @all_sold_products.group_by(&:location)
-        @all_sold_products = @all_sold_products.map { |location, sold_products| { location: location, avg_price_per_kg: sold_products.map(&:price_per_kg).sum / sold_products.count } }
-        @all_sold_products = @all_sold_products.sort_by { |sold_product| sold_product[:avg_price_per_kg] }.reverse.first(5)
-        render json: @all_sold_products
+        @top_locations=  ["Nairobi", "Kiambu", "Mombasa", "Kwale", "Kisumu"].map do |location|
+            { location: location, average_price_per_kg: @all_sold_products.where(location: location).average(:price_per_kg).to_i || 0}
+            
+        end
+
+        render json: @top_locations
         
     end
 

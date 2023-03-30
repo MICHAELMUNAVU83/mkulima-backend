@@ -4101,7 +4101,7 @@ plantable_crops = PlantableCrop.create(
             soil_type_needed:"Loam",
         },
         {
-            name: "Sukumawiki",
+            name: "Beans",
             cost_to_produce_kg: 1500,
             price_per_kg: 2300,
             extension_officer_phone_number: "0700000000",

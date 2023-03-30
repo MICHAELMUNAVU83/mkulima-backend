@@ -6,17 +6,23 @@ class PlantableCropsController < ApplicationController
     end
 
     def top_selected
-        @plantable_crops = PlantableCrop.joins(:selected_crops)
-        .group(:id)
-        .select('plantable_crops.*, COUNT(selected_crops.id) AS selections_count')
-        .order('selections_count DESC')
-        .limit(5)
-      render json: @plantable_crops.as_json(only: [:id, :name, :selections_count])
+      @plantable_crops = PlantableCrop.all
+     @selected_crops = SelectedCrop.all
+     @top_crops = ["Tomato", "Sukumawiki", "Cabbage", "Onion", "Carrot"]
+        @top_crops = @top_crops.map { |crop| { name: crop, count: @selected_crops.select { |sc| sc.plantable_crop.name == crop }.count } }
 
+
+       
+        render json: @top_crops
+        
+    end
+       
+
+     
 
 
         
-      end
+      
 
     def show
         @plantable_crop = PlantableCrop.find(params[:id])

@@ -24,29 +24,62 @@ class InputSuppliesController < ApplicationController
     end
 
     def top_planting_inputs_crops_for 
-        input_supplies = InputSupply.where(type_of_supply: ['fertilizer', 'seed']).group(:crop_for).count
-        top_planting_inputs_crops_for = input_supplies.sort_by { |crop, count| count }.reverse.first(5).to_h.map { |crop, count| { name: crop, count: count } }
-        render json: { top_planting_inputs_crops_for: top_planting_inputs_crops_for }
+    
+       
+        desired_crops = ['Tomato', 'Sukumawiki', 'Potato', 'Maize', 'Banana']
 
+  # Filter by the specified crops and group by crop_for
+       filtered_table = InputSupply.where(crop_for: desired_crops).where(type_of_supply: ['fertilizer', 'seed']).group(:crop_for)
+
+  # Count the number of inputs for each crop
+       grouped_table = filtered_table.count
+
+  # Create an array of hashes with the name of the crop and its count
+     top_crops = desired_crops.map do |crop|
+    { name: crop, count: grouped_table[crop].to_i }
+     end
+
+      render json: top_crops
 
     end
 
     def top_management_inputs_crops_for 
-        input_supplies = InputSupply.where(type_of_supply: ['pesticide', 'herbicide']).group(:crop_for).count
-        top_management_inputs_crops_for = input_supplies.sort_by { |crop, count| count }.reverse.first(5).to_h.map { |crop, count| { name: crop, count: count } }
-        render json: { top_management_inputs_crops_for: top_management_inputs_crops_for }
+        desired_crops = ['Tomato', 'Sukumawiki', 'Potato', 'Maize', 'Banana']
+
+        # Filter by the specified crops and group by crop_for
+             filtered_table = InputSupply.where(crop_for: desired_crops).where(type_of_supply: ['pesticide', 'herbicide']).group(:crop_for)
+      
+        # Count the number of inputs for each crop
+             grouped_table = filtered_table.count
+      
+        # Create an array of hashes with the name of the crop and its count
+           top_crops = desired_crops.map do |crop|
+          { name: crop, count: grouped_table[crop].to_i }
+           end
+      
+            render json: top_crops
 
 
     end
 
 
     def top_5_locations_crop_inputs
-        @top_5_locations_crop_inputs = InputSupply.all
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.where(type_of_supply: ['fertilizer', 'seed'])
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group(:location).count
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |location, count| count }.reverse.first(5).to_h.map { |location, count| { name: location, count: count } }
+       
+        @locations = InputSupply.where(type_of_supply: ['fertilizer', 'seed']).group(:location).count
+      @top_locations = ["Nairobi", "Kiambu", "Mombasa", "Kwale", "Kisumu"].map do |location|
+      { location: location, count: @locations[location] || 0 }
+      end.sort_by { |l| [-l[:count], l[:location]] }.take(5)
+      render json: @top_locations
+    end
 
-        render json: @top_5_locations_crop_inputs
+
+    def top_5_locations_management_inputs
+       
+        @locations = InputSupply.where(type_of_supply: ['herbicide', 'pesticide']).group(:location).count
+      @top_locations = ["Nairobi", "Kiambu", "Mombasa", "Kwale", "Kisumu"].map do |location|
+      { location: location, count: @locations[location] || 0 }
+      end.sort_by { |l| [-l[:count], l[:location]] }.take(5)
+      render json: @top_locations
     end
 
 
@@ -55,14 +88,7 @@ class InputSuppliesController < ApplicationController
        render json: @locations
     end
 
-    def top_5_locations_management_inputs
-        @top_5_locations_crop_inputs = InputSupply.all
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.where(type_of_supply: ['pesticide', 'herbicide'])
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group(:location).count
-
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |location, count| count }.reverse.first(5).to_h.map { |location, count| { name: location, count: count } }
-        render json: @top_5_locations_crop_inputs
-    end
+   
 
 
     def my_supplies
