@@ -3910,8 +3910,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
@@ -4036,8 +4036,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
@@ -4162,8 +4162,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
@@ -4288,8 +4288,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
@@ -4414,8 +4414,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
@@ -4540,8 +4540,8 @@ plantable_crops = PlantableCrop.create(
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery. Transplanting should be done either in the early morning or late in the evening,
-            Make furrows or planting holes depending on the spacing of the specific variety e.g. 100 cm x 50 cm; 75 cm x 50 cm; 70 cm x 45 cm; 60 cm x 45 cm,
+            Transplant seedlings at 3-4 weeks in the nursery, 
+            Make furrows or planting holes depending on the spacing of the specific variety,
             Wider spacing of 100 cm x 50 cm is good,
             Target plant population density 37,000 to 9,300 plants per ha
 
