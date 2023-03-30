@@ -43,19 +43,24 @@ class InputSuppliesController < ApplicationController
     def top_5_locations_crop_inputs
         @top_5_locations_crop_inputs = InputSupply.all
         @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.where(type_of_supply: ['fertilizer', 'seed'])
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group_by(&:location)
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.map { |location, input_supplies| { location: location, avg_price_per_kg: input_supplies.map(&:price_per_kg).sum / input_supplies.count } }
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |input_supply| input_supply[:avg_price_per_kg] }.reverse.first(5)
+        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group(:location).count
+        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |location, count| count }.reverse.first(5).to_h.map { |location, count| { name: location, count: count } }
+
         render json: @top_5_locations_crop_inputs
     end
 
 
+    def counties_with_inputs
+        @locations = InputSupply.distinct.pluck(:location)
+       render json: @locations
+    end
+
     def top_5_locations_management_inputs
         @top_5_locations_crop_inputs = InputSupply.all
         @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.where(type_of_supply: ['pesticide', 'herbicide'])
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group_by(&:location)
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.map { |location, input_supplies| { location: location, avg_price_per_kg: input_supplies.map(&:price_per_kg).sum / input_supplies.count } }
-        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |input_supply| input_supply[:avg_price_per_kg] }.reverse.first(5)
+        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.group(:location).count
+
+        @top_5_locations_crop_inputs = @top_5_locations_crop_inputs.sort_by { |location, count| count }.reverse.first(5).to_h.map { |location, count| { name: location, count: count } }
         render json: @top_5_locations_crop_inputs
     end
 

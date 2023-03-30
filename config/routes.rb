@@ -20,6 +20,7 @@ Rails.application.routes.draw do
     get "/top_5_locations_by_price_per_kg" , to: "sold_products#top_5_locations_by_price_per_kg"
     get "/top_5_locations_crop_inputs" , to: "input_supplies#top_5_locations_crop_inputs"
     get "/top_5_locations_management_inputs" , to: "input_supplies#top_5_locations_management_inputs"
+    get "/counties_with_inputs" , to: "input_supplies#counties_with_inputs"
   # config/routes.rb
   namespace :api do
     namespace :v1 do
