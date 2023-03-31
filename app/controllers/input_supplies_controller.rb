@@ -44,7 +44,7 @@ class InputSuppliesController < ApplicationController
     end
 
     def top_management_inputs_crops_for 
-        desired_crops = ['Tomato', 'Sukumawiki', 'Potato', 'Maize', 'Banana']
+        desired_crops = ["Tomato", "Sukumawiki", "Beans", "Maize", "Onions"]
 
         # Filter by the specified crops and group by crop_for
              filtered_table = InputSupply.where(crop_for: desired_crops).where(type_of_supply: ['pesticide', 'herbicide']).group(:crop_for)
