@@ -10,7 +10,7 @@ class CountiesController < ApplicationController
     def show    
         @county = County.find(params[:id])
         @constituencies = Constituency.where(county_id: params[:id])
-        @crops = Crop.where(county_id: params[:id])
+        @plantable_crops = PlantableCrop.where(county_id: params[:id])
         county_precip_data = Year.where(county_id: params[:id])
 
         # Split the years into two arrays: one for years before 2023 and one for years after 2023
@@ -33,7 +33,7 @@ class CountiesController < ApplicationController
         render json: {
           county: @county,
           constituencies: @constituencies,
-          crops: @crops,
+          crops:  @plantable_crops,
           average_precipitation: @average_precipitation,
           average_precipitation_2023: @average_precipitation_2023,
           avg_precip_before_2023: avg_precip_before_2023,

@@ -3850,6 +3850,7 @@ plantable_crops = PlantableCrop.create(
     [
         {
             name: "Tomato",
+            county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_to_produce_kg: 2000,
             price_per_kg: 3000,
@@ -3976,6 +3977,7 @@ plantable_crops = PlantableCrop.create(
         },
         {
             name: "Sukumawiki",
+            county_id: 1,
             cost_to_produce_kg: 2500,
             extension_officer_phone_number: "0712345678",
             price_per_kg: 3400,
@@ -4104,6 +4106,7 @@ plantable_crops = PlantableCrop.create(
             name: "Beans",
             cost_to_produce_kg: 1500,
             price_per_kg: 2300,
+            county_id: 1,
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 500,
             maturity_period: "4 months",
@@ -4229,6 +4232,7 @@ plantable_crops = PlantableCrop.create(
         {
             name: "Maize",
             cost_to_produce_kg: 2000,
+            county_id: 1,
             price_per_kg: 2500,
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
@@ -4356,6 +4360,7 @@ plantable_crops = PlantableCrop.create(
         {
             name: "Onions",
             cost_to_produce_kg: 3000,
+            county_id: 1,
             price_per_kg: 4000,
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,

@@ -27,6 +27,8 @@ class CreatePlantableCrops < ActiveRecord::Migration[7.0]
       t.string :storage
       t.integer :precipitation_needed
       t.string :soil_type_needed
+      t.references :county, null: false, foreign_key: true
+
      
 
       

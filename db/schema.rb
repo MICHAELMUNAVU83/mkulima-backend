@@ -87,8 +87,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
     t.string "storage"
     t.integer "precipitation_needed"
     t.string "soil_type_needed"
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["county_id"], name: "index_plantable_crops_on_county_id"
   end
 
   create_table "selected_crops", force: :cascade do |t|
@@ -139,6 +141,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
   add_foreign_key "constituencies", "counties"
   add_foreign_key "crops", "counties"
   add_foreign_key "input_supplies", "users"
+  add_foreign_key "plantable_crops", "counties"
   add_foreign_key "selected_crops", "plantable_crops"
   add_foreign_key "selected_crops", "users"
   add_foreign_key "sold_products", "users"
