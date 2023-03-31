@@ -3855,7 +3855,7 @@ plantable_crops = PlantableCrop.create(
             price_per_kg: 3000,
             average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
-            image:"https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
             It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
@@ -3981,7 +3981,7 @@ plantable_crops = PlantableCrop.create(
             price_per_kg: 3400,
             average_fertilizer_cost_per_kg: 1000,
             maturity_period: "5 months",
-            image:"https://images.unsplash.com/photo-1668717066198-53148ca2b11b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a2FsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250970/erda-estremera-eUCdBfO381c-unsplash_evg5ur.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
             It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
@@ -4107,7 +4107,7 @@ plantable_crops = PlantableCrop.create(
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 500,
             maturity_period: "4 months",
-            image:"https://images.unsplash.com/photo-1513868853742-e7fb786265db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fEJlYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250976/shelley-pauls-t4X660oKiYs-unsplash_uzq2qw.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
             It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
@@ -4233,7 +4233,7 @@ plantable_crops = PlantableCrop.create(
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
             maturity_period: "9 months",
-            image:"https://images.unsplash.com/photo-1542994740-3061a3455ae6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fE1haXplfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250981/markus-spiske-CGK2ysT9aOo-unsplash_n7q8ej.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
             It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
@@ -4360,7 +4360,7 @@ plantable_crops = PlantableCrop.create(
             extension_officer_phone_number: "0700000000",
             average_fertilizer_cost_per_kg: 800,
             maturity_period: "10 months",
-            image:"https://images.unsplash.com/photo-1467019972079-a273e1bc9173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9uaW9uc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250978/abhishek-hajare-D9h2-RxM1rE-unsplash_scko1e.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
             It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
