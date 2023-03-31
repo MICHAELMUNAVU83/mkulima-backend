@@ -4550,7 +4550,7 @@ input_supplies = InputSupply.create([
         location: "Nairobi",
         contact: "0712345678",
         price_per_kg: 100,
-        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        product_image: "https://res.cloudinary.com/dakiak4mc/image/upload/v1680267124/Evergrow-Organic-Fertilizer-NPKTE-10Kg_Fertilizers_32294_1-510x510_po3u07.jpg",
         user_id: 2,
 
     },
@@ -4560,7 +4560,7 @@ input_supplies = InputSupply.create([
         type_of_supply: "seeds",
         crop_for: "Tomato",
         location: "Nairobi",
-        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        product_image: "https://res.cloudinary.com/dakiak4mc/image/upload/v1680267125/Prostar-F1-Buy-now-at-Chemsasa_ltklmq.png",
         contact: "0712345678",
         price_per_kg: 400,
         user_id: 2,
