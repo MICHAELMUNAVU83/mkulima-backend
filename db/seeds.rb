@@ -6501,7 +6501,7 @@ plantable_crops = PlantableCrop.create(
             name: "Sorghum",
             variety:"Gadam",
             region: "North Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            description:"sorghum is a popular staple food that is widely consumed, particularly in the western and eastern parts of the country. It is used to make porridge, bread, and a variety of traditional dishes. Sorghum is also an important cash crop for many farmers, as it is used to make commercial products like beer and animal feed.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"45,000 - 50,000",
@@ -6510,64 +6510,54 @@ plantable_crops = PlantableCrop.create(
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
+            site_selection:"Advisory: Sorghum is adapted to a wide range of environments and is able to perform under extreme climatic conditions
+            Altitude range
+            
+            Sorghum requires altitudes of 0-2500 masl and a suitable AEZ e.g. LM1-LM5
+            
+            Soil type and conditions
+            
+            A wide range of soils e.g. clay loam, clay and silt soils but not loamy soil with the soil pH of 4.8-6.0
+            
+            Sorghum nutrient requirements include: N, P, K, Zn, S, Cl, Mg, Ca, Fe, B, Cu, Mn
+            
+            Temperature range
+            
+            The temperatures should be  above 10 oC
+            
+            Rainfall
+            
+            Rainfall should be 250-900 mm p.a
 
 
             ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
-
+            land_preparation:"Advisory: Plough a fallow land, if planted as second season crop one plough is sufficient
+            Steps during land preparation
+            
+            Plough a fallow land, if planted as second season crop one plough is sufficient
+            Practice contour farming technique
+            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
+            Maintain adequate soil health, soil nutrients, soil depth and moisture holding capacity
+            Soil testing and analysis is necessary for tailored soil amendments and nutrient replenishment
 
 
             
             
             ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
-
-
-
+            pre_planting:"Planting materials include seeds or ratoon
             
             ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
-            
+            varieties:"Advisory: The choice of variety depends on locality, consumer and market preferences and disease tolerance
+            Recommended varieties include;
+            Gadam, Serena and Seredo
+            Use certified and local varieties as per the AEZ
             ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
-
+            planting:"Advisory: Plant at the onset of rain and intercropping should be done with an appropriate cover crop
+            Direct planting of seeds is done by sowing directly into furrows as a drillat a spacing of 45 x 60  or 75cm x 20cm for mono-crop and 90 cm x 30 cm for inter-cropwith legume or maize
+            Drill then thin to 12-20 cm between plants in furrows, 3-4 weeks after emergence
+            In dry condition seeds should be placed at 5 cm depth and 2.5-4.0 cm in moist soil
+            Seed rate; 7-12 Kg per Ha and the seed rate vary depending on environmental condition. Very low seed rate is applicable in very dry conditions
+            Traditional plantingbroadcasting can also be applied
             ",
             water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
             Irrigate early in the morning to avoid late blight disease,
@@ -6575,11 +6565,16 @@ plantable_crops = PlantableCrop.create(
             Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
             
             ",
-            weed_management:"Advisory: Timely weeding should be practised,
+            weed_management:"Water demand is crucial at all stages but very critical at grain filling stage
+            Striga weed
             
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
             
+            
+            Rotate crops to break weed cycle, and to avoid weed build-up
+            First weeding is done after 2-3 weeks after emergence
+            Second weeding 2-3 weeks after the first weeding to reduce competition for nutrients and to control pests and diseases
+            Rogue diseased, off types and infected plants to reduce host plants for vectors
+            Ratoon crop stalks are cut and arranged between rows to act as mulch to smoother weeds and retain moisture in the soil
             
             
             ",
@@ -6631,7 +6626,7 @@ plantable_crops = PlantableCrop.create(
             name: "Millet",
             variety:"Bullrush",
             region: "North Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            description:"Millet is a traditional staple food that is grown and consumed by many communities. It is a drought-resistant crop that can thrive in arid environments and is often ground into flour to make porridge, bread, or other dishes. Millet is also an important part of cultural celebrations and ceremonies in the region.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"34,000 - 38,000",
@@ -6640,64 +6635,58 @@ plantable_crops = PlantableCrop.create(
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
+            site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
+            Altitude range
+            Cowpea require an altitudes of 1200 – 1500 (1850) masl.
+            
+            Soil type and conditions
+            Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
+            Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
+            
+            Temperature range 
+            The temperatures should be 20-35oC but it can tolerate shading.
+            
+            Rainfall
+            The rainfall should be 200 – 400 mm p.a. 
+             
 
 
             ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
-
+            land_preparation:"Advisory: Prepare the land early during the dry season
+            When preparing land,deep plough the bed once or twice to a medium tilth.
+             
 
 
             
             
             ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
-
-
+            pre_planting:"Advisory: Planting materials Certified and local seeds
+            Select planting material from healthy plants free of pests and diseases, and from recommended sources.
+            
+            Seeds should be selected from the same colour for desired variety. 
+            
+            During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
+            
+            For grain production, colour and size of seeds are important to consumers depending on their preferences.
 
             
             ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
-            
+            varieties:"Advisory: Ensure the required variety is planted
+            Cowpeas varieties include: Katumani 80 (K80), Ken kunde, Kunde 1, Machakos 66, MTW66,610.
+                        
             ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
-
+            planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
+            Plant the seeds on flat or raised beds.
+            
+            Planting is done at a depth of 2.5-5 cm.
+            
+            Pure stand spacing should be 45-60 cm.
+            
+            Intercropping should be 20-40 cm apart.
+            
+            Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
+            
+            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
             ",
             water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
             Irrigate early in the morning to avoid late blight disease,
@@ -6705,30 +6694,20 @@ plantable_crops = PlantableCrop.create(
             Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
             
             ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
+            weed_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
+            Apply water daily in case of prolonged drought.
             
             
             ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+            soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
+            Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
             ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
-
-            or
-
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
-
+            crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
+            Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
+            
+            Do crop rotation to improve the fertility of the soil.
+            
+            Control soil erosion using an appropriate method.
             
             
             ",
@@ -6742,18 +6721,15 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
-        
+            storage:"Advisory: Dry and treat the cowpea against pest and diseases before storage
+            Store dried cowpeas in hermetic bags, e.g. PICS bags, Agro-Z, etc. 
             ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
-            ",
+            post_harvesting_handling:"Advisory: Minimize damage to grain during threshing as damaged grain is prone to attack by insects and fungi.
+            Dry the leaves in diffuse light aeration (dehydration) for later consumption.
+            Refrigerate green cowpea for later consumption.
+            Dry the pods on the mats or tarpaulins for about 2-3 days to a moisture content of 13%, then thresh and winnow. When cowpea are dry, they make loud, sharp noise when dropped on the ground.
+            Treat the cowpea with dust / ash against storage pest.
+            Post-harvest pest management of Bean Bruchid should be done.",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
         },
@@ -6761,105 +6737,81 @@ plantable_crops = PlantableCrop.create(
             name: "Cowpeas",
             variety:"Kunde",
             region: "North Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            description:"Cowpeas are a type of legume that are drought-tolerant and grow well in hot, humid climates. They have a nutty, earthy flavor and are rich in protein, fiber, and other essential nutrients. Cowpeas can be cooked in a variety of ways and are a staple food in many cultures around the world.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"36,000 - 40,000",
             price_per_kg: 3000,
             average_fertilizer_cost_per_kg: 1000,
-            maturity_period: "3 months",
+            maturity_period: "3-4 weeks",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
+            site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
+            Altitude range
+            Cowpea require an altitudes of 1200 – 1500 (1850) masl.
+            Soil type and conditions
+            Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
+            Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
+            Temperature range 
+            The temperatures should be 20-35oC but it can tolerate shading.
+            Rainfall
+            The rainfall should be 200 – 400 mm p.a. 
             ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
-
+            land_preparation:"Advisory: Prepare the land early during the dry season
+            When preparing land,deep plough the bed once or twice to a medium tilth.
+             
 
 
             
             
             ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
-
-
-
+            pre_planting:"Advisory: Planting materials Certified and local seeds
+            Select planting material from healthy plants free of pests and diseases, and from recommended sources.
             
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
+            Seeds should be selected from the same colour for desired variety. 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
+            
+            For grain production, colour and size of seeds are important to consumers depending on their preferences.
 
             ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
+            varieties:"Advisory: Ensure the required variety is planted
+            Cowpeas varieties include: Katumani 80 (K80), Ken kunde, Kunde 1, Machakos 66, MTW66,610.
             ",
-            weed_management:"Advisory: Timely weeding should be practised,
+            planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
+            Plant the seeds on flat or raised beds.
             
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            Planting is done at a depth of 2.5-5 cm.
             
+            Pure stand spacing should be 45-60 cm.
+            
+            Intercropping should be 20-40 cm apart.
+            
+            Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
+            
+            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
+            ",
+            water_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
+            Apply water daily in case of prolonged drought.
+            ",
+            weed_management:"Advisory: Weeding should be done at the correct time especially during the early stages of growth
+            Weed control at least twice before flowering after which the plant covers the ground and suppresses the weeds
+            
+            Integrated weed management (IWM) strategy should be employed and embraced. 
+             
             
             
             ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
-
-            or
-
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
-
+            soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
+            Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
             
+            ",
+            crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
+            Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
+            
+            Do crop rotation to improve the fertility of the soil.
+            
+            Control soil erosion using an appropriate method.
             
             ",
             harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
