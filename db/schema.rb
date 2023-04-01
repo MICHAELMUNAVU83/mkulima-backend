@@ -75,6 +75,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
     t.string "price_per_kg"
     t.string "average_fertilizer_cost_per_kg"
     t.string "maturity_period"
+    t.string "description"
     t.string "site_selection"
     t.string "land_preparation"
     t.string "pre_planting"

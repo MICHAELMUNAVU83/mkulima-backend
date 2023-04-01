@@ -10,6 +10,7 @@ class CreatePlantableCrops < ActiveRecord::Migration[7.0]
       t.string :price_per_kg
       t.string :average_fertilizer_cost_per_kg
       t.string :maturity_period
+      t.string :description
 
       t.string :site_selection
       t.string :land_preparation
