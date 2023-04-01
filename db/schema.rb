@@ -38,7 +38,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
     t.integer "latitude"
     t.integer "longitude"
     t.integer "precipitation"
-    t.integer "region"
+    t.string "region"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
