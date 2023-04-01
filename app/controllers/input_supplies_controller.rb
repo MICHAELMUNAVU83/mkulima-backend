@@ -95,6 +95,14 @@ class InputSuppliesController < ApplicationController
         @input_supplies = InputSupply.where(user_id: params[:id])
         render json: @input_supplies
     end
+
+    def update
+
+        @input_supply = InputSupply.find(params[:id])
+        @input_supply.update(input_supply_params)
+        render json: @input_supply
+
+    end
     
 
     def destroy

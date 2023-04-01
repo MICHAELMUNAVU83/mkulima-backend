@@ -35,8 +35,12 @@ class CountiesController < ApplicationController
           constituencies: @constituencies,
           crops:  @plantable_crops,
           average_precipitation: @average_precipitation,
+          top_average_precipitation: @average_precipitation + 10,
+            bottom_average_precipitation: @average_precipitation - 10,
           average_precipitation_2023: @average_precipitation_2023,
           avg_precip_before_2023: avg_precip_before_2023,
+          top_average_precipitation_after_2023: avg_precip_after_2023 + 10,
+            bottom_average_precipitation_after_2023: avg_precip_after_2023 - 10,
           avg_precip_after_2023: avg_precip_after_2023
         }
     end

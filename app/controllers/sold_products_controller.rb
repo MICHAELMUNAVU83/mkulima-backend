@@ -38,6 +38,14 @@ class SoldProductsController < ApplicationController
 
 
 
+    def update
+        @sold_product = SoldProduct.find(params[:id])
+        @sold_product.update(sold_product_params)
+        render json: @sold_product
+    end
+
+
+
     def destroy
         @sold_product = SoldProduct.find(params[:id])
         @sold_product.destroy

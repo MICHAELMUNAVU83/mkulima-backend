@@ -24,6 +24,13 @@ class AnimalFeedsController < ApplicationController
         @animal_feeds = AnimalFeed.where(user_id: params[:id])
         render json: @animal_feeds
     end
+
+
+    def update
+        @animal_feed = AnimalFeed.find(params[:id])
+        @animal_feed.update(animal_feed_params)
+        render json: @animal_feed
+    end
      
 
 

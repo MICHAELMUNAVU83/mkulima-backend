@@ -4581,7 +4581,7 @@ soldproducts = SoldProduct.create([
         name: "Tomato",
         description: "my tomato",
         price_per_kg: 100,
-        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        product_image: "https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
         location: "Nairobi",
         contact: "0712345678",
 
@@ -4591,7 +4591,7 @@ soldproducts = SoldProduct.create([
         name: "Sukuma wiki",
         description: "my sukuma wiki",
         price_per_kg: 100,
-        product_image: "https://images.unsplash.com/photo-1556740734-7b7f3a2d3c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        product_image: "https://res.cloudinary.com/dakiak4mc/image/upload/v1680250970/erda-estremera-eUCdBfO381c-unsplash_evg5ur.jpg",
         location: "Nairobi",
         contact: "0712345678",
 
