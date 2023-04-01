@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
     t.string "product_image"
     t.string "location"
     t.string "contact"
+    t.boolean "approved", default: false
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -59,6 +60,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
     t.string "crop_for"
     t.string "location"
     t.string "contact"
+    t.boolean "approved", default: false
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -109,6 +111,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_041840) do
     t.string "product_image"
     t.string "location"
     t.string "contact"
+    t.boolean "approved", default: false
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

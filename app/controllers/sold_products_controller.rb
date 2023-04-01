@@ -47,7 +47,7 @@ class SoldProductsController < ApplicationController
 
     private
     def sold_product_params
-        params.require(:sold_product).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id)
+        params.require(:sold_product).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id, :approved)
     end
 
 end

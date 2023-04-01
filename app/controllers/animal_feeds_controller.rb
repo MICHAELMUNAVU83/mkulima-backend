@@ -37,7 +37,7 @@ class AnimalFeedsController < ApplicationController
 
     private
     def animal_feed_params
-        params.require(:animal_feed).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id)
+        params.require(:animal_feed).permit(:name, :description, :product_image,  :price_per_kg, :location, :contact, :user_id, :approved)
     end
      
 
