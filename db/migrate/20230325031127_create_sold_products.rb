@@ -7,6 +7,7 @@ class CreateSoldProducts < ActiveRecord::Migration[7.0]
       t.string :product_image
       t.string :location
       t.string :contact
+      t.boolean :approved, default: false
       t.references :user, null: false, foreign_key: true
 
       t.timestamps

@@ -9,6 +9,7 @@ class CreateInputSupplies < ActiveRecord::Migration[7.0]
       t.string :crop_for
       t.string :location
       t.string :contact
+      t.boolean :approved, default: false
       t.references :user, null: false, foreign_key: true
 
       t.timestamps
