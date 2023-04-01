@@ -38,6 +38,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
     t.integer "latitude"
     t.integer "longitude"
     t.integer "precipitation"
+    t.integer "region"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -78,7 +79,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
   create_table "plantable_crops", force: :cascade do |t|
     t.string "name"
     t.string "image"
-    t.string "cost_to_produce_kg"
+    t.string "region"
+    t.string "variety"
+    t.string "cost_of_production_per_acre"
     t.string "extension_officer_phone_number"
     t.string "price_per_kg"
     t.string "average_fertilizer_cost_per_kg"

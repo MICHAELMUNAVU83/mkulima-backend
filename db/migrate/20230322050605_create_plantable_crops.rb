@@ -3,8 +3,11 @@ class CreatePlantableCrops < ActiveRecord::Migration[7.0]
     create_table :plantable_crops do |t|
       t.string :name
       t.string :image
+      t.string :region
+      t.string :variety
+
      
-      t.string :cost_to_produce_kg
+      t.string :cost_of_production_per_acre
       t.string :extension_officer_phone_number
 
       t.string :price_per_kg
