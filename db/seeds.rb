@@ -4218,6 +4218,7 @@ plantable_crops = PlantableCrop.create(
         },
         {
             name: "Beans",
+
             variety:"Mwitemania",
             region: "Central",
             description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
@@ -6918,7 +6919,7 @@ messages = Message.create([
         user_id: 2,
         community_id: 1,
         text:"You can use a different fertilizer for tomatoes",
-        
+
     },
 
 ])
