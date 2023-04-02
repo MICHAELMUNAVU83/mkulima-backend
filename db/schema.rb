@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
   create_table "animal_feeds", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -23,6 +23,13 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_animal_feeds_on_user_id"
+  end
+
+  create_table "communities", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "constituencies", force: :cascade do |t|
@@ -68,12 +75,31 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
     t.index ["user_id"], name: "index_input_supplies_on_user_id"
   end
 
+  create_table "market_prices", force: :cascade do |t|
+    t.integer "retail_price"
+    t.integer "wholesale_price"
+    t.integer "plantable_crop_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["plantable_crop_id"], name: "index_market_prices_on_plantable_crop_id"
+  end
+
   create_table "markets", force: :cascade do |t|
     t.string "name"
     t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_markets_on_county_id"
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.string "text"
+    t.integer "user_id", null: false
+    t.integer "community_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["community_id"], name: "index_messages_on_community_id"
+    t.index ["user_id"], name: "index_messages_on_user_id"
   end
 
   create_table "plantable_crops", force: :cascade do |t|
@@ -83,21 +109,31 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
     t.string "variety"
     t.string "cost_of_production_per_acre"
     t.string "extension_officer_phone_number"
-    t.string "price_per_kg"
-    t.string "average_fertilizer_cost_per_kg"
     t.string "maturity_period"
     t.string "description"
     t.string "site_selection"
     t.string "land_preparation"
     t.string "pre_planting"
-    t.string "varieties"
     t.string "planting"
     t.string "water_management"
     t.string "weed_management"
     t.string "soil_fertility"
     t.string "crop_management"
     t.string "harvesting"
-    t.string "post_harvesting_handling"
+    t.string "jina"
+    t.string "aina_ya_mbegu"
+    t.string "maelezo"
+    t.string "kipindi_cha_ukomavu"
+    t.string "uteuzi_wa_tovuti"
+    t.string "maandalizi_ya_ardhi"
+    t.string "upandaji_wa_kabla"
+    t.string "kupanda"
+    t.string "usimamizi_wa_maji"
+    t.string "usimamizi_wa_magugu"
+    t.string "udongo_wajadi"
+    t.string "usimamizi_wa_mazao"
+    t.string "uvunaji"
+    t.string "uhifadhi"
     t.string "storage"
     t.integer "precipitation_needed"
     t.string "soil_type_needed"
@@ -156,7 +192,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_113831) do
   add_foreign_key "constituencies", "counties"
   add_foreign_key "crops", "counties"
   add_foreign_key "input_supplies", "users"
+  add_foreign_key "market_prices", "plantable_crops"
   add_foreign_key "markets", "counties"
+  add_foreign_key "messages", "communities"
+  add_foreign_key "messages", "users"
   add_foreign_key "plantable_crops", "counties"
   add_foreign_key "selected_crops", "plantable_crops"
   add_foreign_key "selected_crops", "users"

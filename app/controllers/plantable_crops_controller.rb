@@ -2,7 +2,7 @@ class PlantableCropsController < ApplicationController
     skip_before_action :authorized
     def index
         @plantable_crops = PlantableCrop.all
-        render json: @plantable_crops
+        render json: @plantable_crops , include: [:market_prices]
     end
 
     def top_selected
@@ -26,7 +26,7 @@ class PlantableCropsController < ApplicationController
 
     def show
         @plantable_crop = PlantableCrop.find(params[:id])
-        render json: @plantable_crop
+        render json: @plantable_crop, include: [:market_prices]
     end
     def first_three
         @plantable_crops = PlantableCrop.first(3)
