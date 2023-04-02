@@ -7196,63 +7196,63 @@ puts "Maize"
 
 maize_prices = MarketPrice.create([
     {
-      retail_price: 100,
-        wholesale_price: 90,
+      retail_price: 70,
+        wholesale_price: 46,
       plantable_crop_id: 1,
     },
     {
-        retail_price: 90,   
-        wholesale_price: 80,
+        retail_price: 100,   
+        wholesale_price: 52,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 100,
-        wholesale_price: 80,
+        retail_price: 124,
+        wholesale_price: 113,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 120,
-        wholesale_price: 80,
+        retail_price: 184,
+        wholesale_price: 66,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 150,
-        wholesale_price: 110,
+        retail_price: 84,
+        wholesale_price: 70,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 150,
-        wholesale_price: 90,
+        retail_price: 67,
+        wholesale_price: 65,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 190,
-        wholesale_price: 170,
+        retail_price: 77,
+        wholesale_price: 64,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 200,
-        wholesale_price: 160,
+        retail_price: 87,
+        wholesale_price: 71,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 230,
-        wholesale_price: 200,
+        retail_price: 70,
+        wholesale_price: 55,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 240,
-        wholesale_price: 190,
+        retail_price: 70,
+        wholesale_price: 62,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 300,
-        wholesale_price: 200,
+        retail_price: 81,
+        wholesale_price: 65,
         plantable_crop_id: 1,
       },
       {
-        retail_price: 350,
-        wholesale_price: 300,
+        retail_price: 135,
+        wholesale_price: 71,
         plantable_crop_id: 1,
       }
 
