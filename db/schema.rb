@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_02_041639) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
   create_table "animal_feeds", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -73,6 +73,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_041639) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_input_supplies_on_user_id"
+  end
+
+  create_table "market_prices", force: :cascade do |t|
+    t.integer "retail_price"
+    t.integer "wholesale_price"
+    t.integer "plantable_crop_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["plantable_crop_id"], name: "index_market_prices_on_plantable_crop_id"
   end
 
   create_table "markets", force: :cascade do |t|
@@ -183,6 +192,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_041639) do
   add_foreign_key "constituencies", "counties"
   add_foreign_key "crops", "counties"
   add_foreign_key "input_supplies", "users"
+  add_foreign_key "market_prices", "plantable_crops"
   add_foreign_key "markets", "counties"
   add_foreign_key "messages", "communities"
   add_foreign_key "messages", "users"

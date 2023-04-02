@@ -6860,7 +6860,7 @@ input_supplies = InputSupply.create([
     },
     {
         name: "Simlaw Seed Tomato Rio Grande Vf 10g",
-        description: "Emerald F1 is well adapted to most ecological zones. In Kenya, the variety has shown good results in ALL tomato-growing areas"
+        description: "Emerald F1 is well adapted to most ecological zones. In Kenya, the variety has shown good results in ALL tomato-growing areas",
         type_of_supply: "seed",
         crop_for: "Tomato",
         location: "Nairobi",
@@ -6909,7 +6909,7 @@ input_supplies = InputSupply.create([
     },
     {
         name: "SC Sungura 301 Maize Seed ",
-        description: "Sc Sungura 301 is an Ultra early maturing variety that takes 72-80 days to physical maturity. It is an excellent alternative to Sorghum and Millet cropping. This variety is tolerant to weather challenges, with wide regional adaptation under marginal conditions. It has semi flint grain texture with good tip cover. Just like the animal, Sc Sungura 301 is cunning and escapes the ravages of weather to sustain a yield of 25-30kgs (90) kg bags per acre within 72-80 days."
+        description: "Sc Sungura 301 is an Ultra early maturing variety that takes 72-80 days to physical maturity. It is an excellent alternative to Sorghum and Millet cropping. This variety is tolerant to weather challenges, with wide regional adaptation under marginal conditions. It has semi flint grain texture with good tip cover. Just like the animal, Sc Sungura 301 is cunning and escapes the ravages of weather to sustain a yield of 25-30kgs (90) kg bags per acre within 72-80 days.",
         type_of_supply: "seed",
         crop_for: "Maize",
         location: "Nairobi",
@@ -6945,7 +6945,7 @@ input_supplies = InputSupply.create([
 
       {
         name: "glp 92, Mwitemania",
-        description: "Cream seeds with black-brown spots. Has a spreading growth habbit nearly flat pods which contain oval seeds Prefers the medium altitude and is tolerant to drought"
+        description: "Cream seeds with black-brown spots. Has a spreading growth habbit nearly flat pods which contain oval seeds Prefers the medium altitude and is tolerant to drought",
         type_of_supply: "seed",
         crop_for: "Beans",
         location: "Nairobi",
@@ -6957,7 +6957,7 @@ input_supplies = InputSupply.create([
     },
     {
         name: "Evergrow Organic Fertilizer NPK+TE 10Kg",
-        description: "The best fertilizer for tomato plants has macronutrients such as nitrogen, phosphorous, and potassium, as well as essential micronutrients such as magnesium, calcium, boron, and zinc"
+        description: "The best fertilizer for tomato plants has macronutrients such as nitrogen, phosphorous, and potassium, as well as essential micronutrients such as magnesium, calcium, boron, and zinc",
         type_of_supply: "fertilizer",
         crop_for: "Beans",
         location: "Nairobi",
@@ -6988,56 +6988,56 @@ input_supplies = InputSupply.create([
         product_image: "https://copia.co.ke/wp-content/uploads/2021/05/KL295_2089-33.jpg",
         user_id: 2,
 
-    },
+    }
 ]
 )
 
-markets = Market.create([
-    {
-        name: "Githurai Market",
-        county_id: 22,
-},
-    {
-        name: "Jamhuri Market",
-        county_id: 22,
-},
-    {
-        name: "Kamwangi Market",
-        county_id: 22,
-},
-    {
-        name: "Wangige Market",
-        county_id: 22,
-},
-    {
-        name: "Soko mjinga Kiambu",
-        county_id: 22,
-},
-    {
-        name: "Limuru Rongai Market",
-        county_id: 22,
-},
-{
-        name: "Juja Market",
-        county_id: 22,
-},
-{
-        name: "Kikuyu Market",
-        county_id: 22,
-},
-{
-        name: "Kabete Market",
-        county_id: 22,
-},
-{
-        name: "Kahawa Sukari Market",
-        county_id: 22,
-},
-{
-        name: "Thika Market",
-        county_id: 22,
+# markets = Market.create([
+#     {
+#         name: "Githurai Market",
+#         county_id: 22,
+# },
+#     {
+#         name: "Jamhuri Market",
+#         county_id: 22,
+# },
+#     {
+#         name: "Kamwangi Market",
+#         county_id: 22,
+# },
+#     {
+#         name: "Wangige Market",
+#         county_id: 22,
+# },
+#     {
+#         name: "Soko mjinga Kiambu",
+#         county_id: 22,
+# },
+#     {
+#         name: "Limuru Rongai Market",
+#         county_id: 22,
+# },
+# {
+#         name: "Juja Market",
+#         county_id: 22,
+# },
+# {
+#         name: "Kikuyu Market",
+#         county_id: 22,
+# },
+# {
+#         name: "Kabete Market",
+#         county_id: 22,
+# },
+# {
+#         name: "Kahawa Sukari Market",
+#         county_id: 22,
+# },
+# {
+#         name: "Thika Market",
+#         county_id: 22,
         
-}
+# }
 
 
 
@@ -7186,4 +7186,210 @@ messages = Message.create([
 ])
 
 puts "Seeding community members"
+
+
+
+
+puts "Market prices"
+
+puts "Maize"
+
+maize_prices = MarketPrice.create([
+    {
+      retail_price: 100,
+        wholesale_price: 90,
+      plantable_crop_id: 1,
+    },
+    {
+        retail_price: 90,   
+        wholesale_price: 80,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 100,
+        wholesale_price: 80,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 120,
+        wholesale_price: 80,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 150,
+        wholesale_price: 110,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 150,
+        wholesale_price: 90,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 190,
+        wholesale_price: 170,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 200,
+        wholesale_price: 160,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 230,
+        wholesale_price: 200,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 240,
+        wholesale_price: 190,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 300,
+        wholesale_price: 200,
+        plantable_crop_id: 1,
+      },
+      {
+        retail_price: 350,
+        wholesale_price: 300,
+        plantable_crop_id: 1,
+      }
+
+])
+
+   
+
+puts "Tomato"
+tomato_prices = MarketPrice.create([
+    {
+        retail_price: 100,
+          wholesale_price: 90,
+        plantable_crop_id: 2,
+      },
+      {
+          retail_price: 90,   
+          wholesale_price: 80,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 100,
+          wholesale_price: 80,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 120,
+          wholesale_price: 80,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 150,
+          wholesale_price: 110,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 150,
+          wholesale_price: 90,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 190,
+          wholesale_price: 170,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 200,
+          wholesale_price: 160,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 230,
+          wholesale_price: 200,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 240,
+          wholesale_price: 190,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 300,
+          wholesale_price: 200,
+          plantable_crop_id: 2,
+        },
+        {
+          retail_price: 350,
+          wholesale_price: 300,
+          plantable_crop_id: 2,
+        }
+])
+
+
+
+puts "Beans"
+beans_prices = MarketPrice.create([
+    {
+        retail_price: 100,
+          wholesale_price: 90,
+        plantable_crop_id: 3,
+      },
+      {
+          retail_price: 90,   
+          wholesale_price: 80,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 100,
+          wholesale_price: 80,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 120,
+          wholesale_price: 80,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 150,
+          wholesale_price: 110,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 150,
+          wholesale_price: 90,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 190,
+          wholesale_price: 170,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 200,
+          wholesale_price: 160,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 230,
+          wholesale_price: 200,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 240,
+          wholesale_price: 190,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 300,
+          wholesale_price: 200,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 350,
+          wholesale_price: 300,
+          plantable_crop_id: 3,
+        }
+
+])
+
+
 
