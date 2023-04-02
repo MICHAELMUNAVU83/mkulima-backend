@@ -3901,212 +3901,238 @@ plantable_crops = PlantableCrop.create(
             variety:"H614",
             aina_ya_mbegu:"H614",
             region: "Central",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            maelezo:"Nyanya ni mboga maarufu ambayo inaweza kupandwa karibu na bustani yoyote. Kwanza, chagua eneo lenye jua nyingi na mchanga wenye unyevu mzuri ulio na vitu vya kikaboni. Mimea ya nyanya inahitaji angalau masaa 6-8 ya jua moja kwa moja kila siku kukua vizuri. Mara tu ukichagua eneo hilo, panda miche ya nyanya karibu futi 2-3 kando ya mchanga, ukizika hadi seti ya kwanza ya majani. Maji mimea vizuri na mulch kuzunguka msingi kusaidia kuhifadhi unyevu kwenye mchanga. Nyanya zinahitaji kumwagilia mara kwa mara na mbolea kukua, kwa hivyo hakikisha kuzitia kwa undani na kuzi mbolea yenye mbolea kila wiki chache. Mimea inapokua, waunge mkono na vijiti au mabwawa ili kuwaweka sawa na kuzuia matunda kugusa ardhi. Mwishowe, vunja nyanya wakati zimeiva, kawaida wakati wamegeuka nyekundu kabisa na ni laini kidogo kwa kugusa.",
+            "eneo": "Kati",
+            description:"Maize is the third world’s most important cereal crop after wheat and rice that is widely grown throughout the temperate zones and in higher altitude zones in tropical regions. It is grown as fodder and grain. Maize grain is used in a variety of ways by human beings. In Kenya, maize is the most important crop. More than 40% of the arable land is planted with maize and with consumption of more than 100 kg of maize per capita, it is the most important staple food for Kenyans.",
+            maelezo:"Mahindi ni zao la tatu la nafaka muhimu zaidi duniani baada ya ngano na mchele ambalo hulimwa sana katika maeneo yenye halijoto na katika maeneo ya mwinuko wa juu zaidi katika maeneo ya tropiki. Hukuzwa kama lishe na nafaka. Nafaka ya mahindi hutumiwa kwa njia mbalimbali na wanadamu. Nchini Kenya, mahindi ni zao muhimu zaidi. Zaidi ya asilimia 40 ya ardhi inayolimwa hupandwa mahindi na kwa matumizi ya zaidi ya kilo 100 za mahindi kwa kila mtu, ni chakula kikuu muhimu kwa Wakenya.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
+            "simu_ya_mtaalamu_wa_mimea": "0712345678",
             cost_of_production_per_acre:"20,000 - 30,000",
-            maturity_period: "3 months",
-            kipindi_cha_ukomavu:"Miezi 3",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+            gharama_ya_kuzalisha_kwa_hekari:"20,000 - 30,000",
+            maturity_period: "3 months-8 months depending on the variety",
+            kipindi_cha_ukomavu:"Miezi 3 - 8 kulingana na aina",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680423482/photo-1649251037566-6881b4956615_oj75tm.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
+            site_selection:"Advisory: Select a site away from shade to allow for sufficient sunshine and should be at least 10 meters away from the road to prevent dust and vehicle fumes
+            Altitude range
+
+            Maize require an altitude of 0-2200 masl Highlands; Midlands; Lowlands depending on variety.
+
+            Soil type and conditions
+
+            It requires deep, well drained, fertile alluvial or loam soils with good water holding capacity and high organic matter
+
+            The pH should be 5.5-7.5. Maize nutrient requirements include; N, P, K, Mg, Ca, S, Fe, Zn, Mn, B, Cu, Mo, Cl.
+
+            Temperature range
+
+            The optimal temperatures should be 25-30 oC
+
+            Rainfall
+
+            Maize require rainfall of 400 – 1200 mm p.a
 
 
 
             ",
-            uteuzi_wa_tovuti:"Ushauri: Chagua ardhi inayofaa na yenye maji vizuri kulingana na hitaji la kiikolojia la mazao, anuwai ya urefu, Nyanya zinahitaji mwinuko wa 0 - 2000 masl, aina ya mchanga na masharti,Vifuniko vyenye rutuba na vilivyo na mchanga vyenye utajiri wa kikaboni,
-            Inahitaji pH: 5.0 - 7.0 Zn Mn na Fe kuwa na upungufu na chini ya 4.5 kutoa matunda sour,
-            Mahitaji ya virutubishi vya nyanya ni pamoja na: N P K Mg Ca S Mn Mo Zn Bo Cu Fe ,
-            Kiwango cha joto,
-            Joto linapaswa kuwa 18 - 29 oC ,
-            Mvua,
-            Mvua ya mvua ya mm 600 ni muhimu wakati wa uzalishaji",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+            uteuzi_wa_tovuti:"Ushauri: Chagua eneo lililo mbali na kivuli ili kuruhusu jua la kutosha na iwe angalau mita 10 kutoka barabarani ili kuzuia vumbi na moshi wa gari.
+             Kiwango cha mwinuko
+
+             Mahindi yanahitaji mwinuko wa 0-2200 masl Nyanda za Juu; Midlands; Nyanda za chini kulingana na aina.
+
+             Aina na masharti ya udongo
+
+             Inahitaji udongo wenye kina kirefu, usiotuamisha maji, wenye rutuba ya aluvial au tifutifu na wenye uwezo mzuri wa kuhifadhi maji na viumbe hai vingi.
+
+             pH inapaswa kuwa 5.5-7.5. Mahitaji ya virutubisho vya mahindi ni pamoja na; N, P, K, Mg, Ca, S, Fe, Zn, Mn, B, Cu, Mo, Cl.
+
+             Kiwango cha joto
+
+             Joto bora linapaswa kuwa 25-30 oC
+
+             Mvua
+
+             Mahindi yanahitaji mvua ya 400 - 1200 mm p.a",
+            land_preparation:"Advisory: Add manure and fertilizer with recommendations from soil testing and analysis
+            Steps during land preparation
+
+            Consider minimum tillage to reduce cost and to conserve soil, water and nutrients and to reduce workload
+            Slash and plant using appropriate tools e.g. rippers, jab planters, dibbler, oxen drawn equipment e.g. the ripper, tractor drawn no till planter
+            Ploughing of the soil should be done using chisel ploughs to avoid fine tilths. Hoes and oxen drawn implements can also be used
+            Contour farming technique recommended
+            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
 
 
 
             
             
             ",
-            maandalizi_ya_ardhi:"Ushauri: Andaa uwanja kuu wiki 1-2 kabla ya kupandikiza kuunda hali nzuri ya uanzishwaji wa shamba ,
-            Hatua wakati wa kuandaa ardhi,
-            Andaa uwanja kuu wiki 1-2 kabla ya kupandikiza,
-            Plow na harrow kwa tilth inayofaa,
-            Omba mbolea na mbolea ya msingi kulingana na matokeo ya uchambuzi wa mchanga na mapendekezo",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
+            maandalizi_ya_ardhi:"Ushauri: Ongeza samadi na mbolea kwa mapendekezo kutoka kwa upimaji na uchambuzi wa udongo
+            Hatua za maandalizi ya ardhi
 
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
+            Zingatia kiwango cha chini cha kulima ili kupunguza gharama na kuhifadhi udongo, maji na rutuba na kupunguza mzigo wa kazi
+            Kufyeka na kupanda kwa kutumia zana zinazofaa k.m. rippers, jab planter, dibbler, vifaa vya kukokotwa na ng'ombe n.k. chombo cha kukata mashine, trekta inayotolewa bila kulima
+            Kulima kwa udongo kunapaswa kufanywa kwa kutumia jembe la patasi ili kuepuka kulima vizuri. Majembe na zana za kukokotwa na ng'ombe pia zinaweza kutumika
+            Mbinu ya kilimo cha contour inapendekezwa
+            Ongeza samadi na mbolea kwenye udongo kwa viwango vinavyofaa ili kutoa virutubishi vinavyohitajika vya mmea kwa ukuaji mkubwa wa mazao",
+            pre_planting:"Advisory: Common planting materials include certified seeds and farmer saved seeds
+            Common planting materials
 
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
+            Seeds
 
-          Mulch and water regularly until the seedlings emerge,
+            Select seed grains situated at the middle of the cob and discard grains at the base and the tip of the cob
 
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
+            Seeds should be obtained from reliable sources
 
-           Keep the nursery weed-free and scout for pests and diseases
-
-
-
-
-
-            
+            Farmer saved seeds are alternatives where certified seeds aren’t available or the seed can be bought from the market
             ",
-            upandaji_wa_kabla:"Ushauri: Chagua vifaa vya upandaji kutoka kwa vyanzo vya kuaminika / mazao ya agro ambayo ni ya mapema ya kumaliza shina fupi na inayopendelea katika soko,
-            Upandaji wa moja kwa moja unaweza kufanywa au miche inaweza kukuzwa katika kitalu na:,
-            Kuunda vitanda vya kitalu vilivyoinuliwa au jua kwa upana wa 1 m kwa urefu unaohitajika
+            upandaji_wa_kabla:"Ushauri: Ushauri: Nyenzo za upanzi za kawaida ni pamoja na mbegu zilizoidhinishwa na mbegu zilizohifadhiwa na mkulima
+            Vifaa vya kawaida vya kupanda
 
-            Ingiza kilo 5 ya mbolea iliyoharibika vizuri au mbolea / m2 ndani ya mbegu
+            Mbegu
 
-            Punguza kitanda cha kitalu na matibabu ya maji moto yanayowaka jua au utumiaji wa dawa inayofaa ya wadudu,
-            Panda mbegu kwenye mito 20cm iliyowekwa kwa 2.5cm na funika kidogo na mchanga
+            Chagua nafaka za mbegu zilizo katikati ya masea na utupe nafaka kwenye msingi na ncha ya masuke.
 
-          Mulch na maji mara kwa mara hadi miche itakapoibuka,
+            Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika
 
-          Baada ya kuibuka kwa miche huondoa mulch kutoka vitanda na kujenga kivuli kilichoinuliwa ( karibu 1 m ),
-          Omba maji ya kutosha mara kwa mara ili kudumisha ukuaji mzuri, wenye afya wa miche
-
-           Weka kitalu kisicho na magugu na skauti kwa wadudu na magonjwa
-
-
+            Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au zinaweza kununuliwa sokoni.
 
 ",
 
 
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            planting:"Advisory: Plant at the onset of rains at a spacing of 75cm x 25 or 30cm, 1 seed per hole 5 cm deep
+            Plant at the onset of rains e.g. 4 continuous days of sufficient rain – to take advantage of nitrogen flush
 
+            Plant along the contours or across the slope
+
+            Conduct germination test before planting
+
+            Plant when the soil is moist and plant certified maize varieties tolerant to striga weed IR- Coated Maize Varieties e.g. Ua Kayongo
+
+            Maize pure stand: 75cm x 25 or 30cm, 1 seed per hole, 5 cm deep and 2.5-5 cm for moist planting
+
+            Fill gaps one to two weeks after planting when plants have emerged
             ",
-            kupanda:"Ushauri: Upandaji wa moja kwa moja au kupandikiza kunaweza kufanywa,
-            Kupanda ,
-            Maji kitalu kwa kiwango cha kueneza masaa 12 kabla ya kupandikiza,
-            Kupandikiza miche kwa wiki 3-4 kwenye kitalu, 
-            Tengeneza manyoya au shimo za kupanda kulingana na nafasi ya aina maalum,,
-            Nafasi kubwa ya cm 100 x 50 cm ni nzuri,
-            Lengo la idadi ya watu wenye miti 37,000 hadi mimea 9,300 kwa ha
+            kupanda:"Ushauri: Panda mwanzo wa mvua kwa nafasi ya 75cm x 25 au 30cm, mbegu 1 kwa kila shimo 5 cm.
+            Panda mwanzoni mwa mvua k.m. Siku 4 mfululizo za mvua ya kutosha - kuchukua fursa ya kuvuta nitrojeni
 
+            Panda kando ya mtaro au kwenye mteremko
+
+            Fanya mtihani wa kuota kabla ya kupanda
+
+            Panda udongo ukiwa na unyevunyevu na panda aina za mahindi zilizoidhinishwa zinazostahimili magugu ya striga IR-Coated Maize Varieties k.m. Ua Kayongo
+
+            Stendi safi ya mahindi: 75cm x 25 au 30cm, mbegu 1 kwa shimo, 5 cm kwa kina na 2.5-5 cm kwa kupanda unyevu.
+
+            Jaza mapengo wiki moja hadi mbili baada ya kupanda wakati mimea imetokea
 
 ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            water_management:"Advisory: Establish on-farm water harvesting capability and water storage capacity, ditches, mulch and higher organic matter content
+            Maize is rain fed and irrigated if necessary, by adopting more efficient micro-irrigation methods such as drip
+
+            Irrigating the fields early in the morning, late in the evening or at night but never during full sunshine
             
             ",
-            usimamizi_wa_maji:"Usimamizi: Irrigate mara kwa mara haswa wakati wa vipindi muhimu kama kitalu, mpangilio wa maua na maendeleo ya matunda na wakati wa Spell kavu,
-            Irrigate mapema asubuhi ili kuzuia ugonjwa wa blight marehemu,
-            Punguza kumwagilia mwisho wa ukomavu wa mazao,
-            Kumwagilia mara kwa mara maua ya maua ya maua huhakikisha ukuaji wa matunda sawa huzuia kugawanyika kwa matunda kunapunguza hatari ya scorch ya jua huongeza ukuaji wa matunda na huongeza saizi na idadi ya matunda",
+            usimamizi_wa_maji:"Ushauri: Weka uwezo wa kuvuna maji shambani na uwezo wa kuhifadhi maji, mitaro, matandazo na maudhui ya juu ya viumbe hai.
+            Mahindi hulishwa kwa mvua na kumwagilia ikiwa ni lazima, kwa kutumia mbinu bora zaidi za umwagiliaji mdogo kama vile matone.
 
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
+            Kumwagilia mashamba mapema asubuhi, jioni au usiku lakini sio wakati wa jua kali",
+
+            weed_management:"Advisory: 1st weeding is done 3-4 weeks after germination and 2nd weeding done just before topdressing
+            Maize; 1st topdressing is applied when the maize crop is knee high at 30-45 cm high
+
+            2nd topdressing is applied when maize crop is almost tussling and usually when there is enough moisture in the soil
             
             ",
-            usimamizi_wa_magugu:"Usimamizi: Kupunguza kwa wakati kunapaswa kufanywa,
-            
-            Kuteremka hufanywa kupitia kuvuta mulching au matumizi ya mimea ya mimea,
-            Fanya kilimo kisicho na kina sio karibu sana na mmea ili kuzuia uharibifu wa mimea",
+            usimamizi_wa_magugu:"Ushauri: Palizi ya 1 hufanywa wiki 3-4 baada ya kuota na palizi ya 2 kabla ya kuweka juu.
+            Mahindi; Mchanganyiko wa kwanza huwekwa wakati zao la mahindi liko juu ya goti kwa urefu wa cm 30-45
 
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+            Mchanganyiko wa pili huwekwa wakati zao la mahindi linakaribia kugongana na kwa kawaida wakati kuna unyevu wa kutosha kwenye udongo.",
+
+            soil_fertility:"Advisory: Apply only deficient nutrients and conservation farming approaches
+            Maintain soil health for good production and income
+
+            Test soils first to guide application of manure and fertilizer
+
+            Practice conservation farming approaches, minimum soil disturbance, permanent soil cover, crop rotation and soil conservation measures
             ",
-            udongo_wajadi:"Ushauri: Omba virutubishi vinavyohitajika kulingana na matokeo ya uchambuzi wa mtihani wa mchanga na mahitaji ya virutubishi vya mmea,
-            Omba mbolea ya mavazi ya juu kama vile CAN katika mgawanyiko 2 kwa 100kg kwa ha ( 5g au ½ kijiko kwa kila mmea ) na 200kg kwa ha kwa wiki 4 na 8 mtawaliwa baada ya kupandikiza",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+            rutuba_ya_udongo:"Ushauri: Tumia virutubisho duni tu na mbinu za kilimo hifadhi
+            Dumisha afya ya udongo kwa uzalishaji bora na mapato
 
-            or
+            Pima udongo kwanza ili kuongoza uwekaji samadi na mbolea
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+            Tumia mbinu za kilimo hifadhi, usumbufu mdogo wa udongo, kufunika udongo wa kudumu, mzunguko wa mazao na hatua za kuhifadhi udongo.",
 
-            
+            crop_management:"Advisory: Top dress at knee height, irrigate if necessary, control weeds timely and intercrop with fodder such as Desmodium uncinatum
+            Thinning, remove weak plants under moist soil conditions 14 days after emergence
+
+            Apply IPM principles for increased use of biophysical methods and reduced use of agrochemical methods
+
+            Intercrop maize with desmodium fodder (Desmodium uncinatum) push-pull technology to trigger suicidal germination of Striga
             
             ",
-            usimamizi_wa_mazao:"Usimamizi: Prune kuacha shina kuu 1 hadi 2 na kuweka nje nyuma wakati wanakua kila wiki,
-            Kaa ikiwa ni lazima kulingana na aina,
-            Mwongozo wa mmea kando ya kamba ya kukanyaga au waya,
-            Weka fimbo ya 2m ardhini kwa kila mmea wa nyanya na funga shina kwa urahisi wakati mmea unakua
+                usimamizi_wa_mazao:"Ushauri: Vazi la juu kwenye urefu wa goti, mwagilia ikihitajika, dhibiti magugu kwa wakati na mseto kwa malisho kama vile Desmodium uncinatum.
+                Kukonda, kuondoa mimea dhaifu chini ya hali ya udongo unyevu siku 14 baada ya kuota
 
-            au
+                Tumia kanuni za IPM kwa ongezeko la matumizi ya mbinu za kibiofizikia na kupunguza matumizi ya mbinu za kemikali za kilimo
 
-            Weka pole ya stout ardhini kwa kila waya 4m na 2 zinazoendesha moja kwa 2m na nyingine kwa 0.15m juu ya ardhi,
-            Funga kamba kali kati ya waya mbili nyuma ya kila mmea wa nyanya,
-            Piga mimea kwa uangalifu karibu na kamba wanapokua,
-            Anza kukwama kama wiki mbili baada ya kupandikiza,
-            Pruning inafanywa kwa kuondoa majani ya chini ya kukomaa na kuangalia uwepo wa wadudu na magonjwa
+                Mahindi ya mseto na lishe ya desmodium (Desmodium uncinatum) teknolojia ya kusukuma-kuvuta ili kuchochea uotaji wa kujiua wa Striga.
 ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+            harvesting:"Advisory: Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
+            Harvesting is done when the crop reaches harvest maturity 10 to 15 days after physiological maturity
+
+            Harvesting is done by cutting and stalking to enhance drying, make it easy to harvest and to prevent pathogen infestation
+
+            Harvest by de-husking.
 
 
             ",
-            uvunaji:"Usimamizi: Mavuno hufanywa kwa hatua tofauti kulingana na hitaji la soko na umbali wa soko,
-            Mavuno hufanywa kwa mkono kwa kupotosha na kugeuka hadi matunda yatakapotoa mzabibu,
-            Mavuno yanapaswa kufanywa mapema asubuhi wakati joto ni baridi,
-            Weka matunda yaliyovunwa kwenye vyombo vyenye ( ndoo za plastiki ),
-            Matunda yaliyovunwa huwekwa mahali pazuri n.k. kwenye kivuli,
-            Mavuno yanapaswa kufanywa mapema asubuhi au marehemu jioni kwani hii ndio wakati mmea unajaa,
-            Nyanya itatoa tani 25-100 kwa ha na usimamizi sahihi",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+            uvunaji:"Ushauri: Kuvuna kwa kukata na kuvizia ili kuimarisha ukaushaji na kuzuia uvamizi wa vimelea vya magonjwa
+            Uvunaji hufanyika wakati mazao yanafikia ukomavu wa mavuno siku 10 hadi 15 baada ya kukomaa kisaikolojia.
+
+            Uvunaji hufanywa kwa kukata na kuvizia ili kuimarisha ukaushaji, kurahisisha kuvuna na kuzuia uvamizi wa vimelea vya magonjwa.
+
+            Vuna kwa kuondoa maganda.",
+            storage:"Advisory: Store in airtight bags or metallic silos and minimize use of pesticides
+            Transport maize from the field to the place of shelling using clean transport equipment
+
+            Dry before shelling
+
+            Winnow to remove dust and chaff
+
+            Control weevils and grain borers by drying the maize to 13-14% moisture content to avoid grain attack by fungal infections such as aflatoxin
         
             ",
-            uhifadhi:"Usimamizi: Dumisha mnyororo wa baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,  
-            Nyanya huwekwa kwenye makombo ya plastiki au ya mbao kwenye shamba hadi kusafirishwa kwenye soko,
-            Usafiri hufanywa na malori ya kuchukua na pikipiki,
-            Nyanya zimejaa mifuko ya mazingira ya canvass ya mazingira 1-1.5kg inauzwa katika kiwango cha rejareja,
-            Sehemu zingine za rejareja ni pamoja na vyombo vya plastiki vikapu vya jadi 2-5kg 2-5kg na chungu matunda 3-5,
-            Nyanya zinauzwa katika masoko mapya ya kuuza maduka makubwa ya rejareja taasisi za mikahawa na viwanda vya usindikaji wa chakula",
+            uhifadhi:"Ushauri: Hifadhi kwenye mifuko isiyopitisha hewa au maghala ya metali na upunguze matumizi ya viuatilifu
+            Safisha mahindi kutoka shambani hadi sehemu ya kukoboa kwa kutumia vyombo safi vya usafiri
+
+            Kavu kabla ya kupiga makombora
+
+            Peta ili kuondoa vumbi na makapi
+
+            Dhibiti wadudu wadudu na vipekecha nafaka kwa kukausha mahindi hadi kufikia unyevunyevu wa 13-14% ili kuepuka kushambuliwa na magonjwa ya ukungu kama vile aflatoxin.",
             precipitation_needed: 200,
+            "mvua_inayohitajika": 200,
             soil_type_needed:"Loam",
+            "aina_ya_udongo_inayohitajika": "Loam",
         },
         {
             name: "Tomato",
+            jina: "Nyanya",
             variety:"Money maker",
+            aina_ya_mbegu:"Money maker",
             region: "Central",
+            eneo: "Kati",
             description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            maelezo:"Nyanya ni mboga maarufu ambayo inaweza kupandwa karibu na bustani yoyote. Kwanza, chagua eneo lenye jua nyingi na mchanga wenye unyevu mzuri ulio na vitu vya kikaboni. Mimea ya nyanya inahitaji angalau masaa 6-8 ya jua moja kwa moja kila siku kukua vizuri. Mara tu ukichagua eneo hilo, panda miche ya nyanya karibu futi 2-3 kando ya mchanga, ukizika hadi seti ya kwanza ya majani. Maji mimea vizuri na mulch kuzunguka msingi kusaidia kuhifadhi unyevu kwenye mchanga. Nyanya zinahitaji kumwagilia mara kwa mara na mbolea kukua, kwa hivyo hakikisha kuzitia kwa undani na kuzi mbolea yenye mbolea kila wiki chache. Mimea inapokua, waunge mkono na vijiti au mabwawa ili kuwaweka sawa na kuzuia matunda kugusa ardhi. Mwishowe, vunja nyanya wakati zimeiva, kawaida wakati wamegeuka nyekundu kabisa na ni laini kidogo kwa kugusa.",
             county_id: 1,
+            
             extension_officer_phone_number: "0712345678",
+            "simu_ya_mtaalamu_wa_mifugo": "0712345678",
             cost_of_production_per_acre:"20,000 - 180,000",
+            gharama_ya_kuzalisha_kwa_hekari:"20,000 - 180,000",
             maturity_period: "3 months",
+            "kipindi_cha_ukomavu":"Miezi 3",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
@@ -4120,6 +4146,13 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
+            "chaguo_la_eneo_la_kupanda":"Ushauri: Chagua ardhi inayofaa na isiyo na maji mengi kulingana na mahitaji ya kilimo ya ikolojia ya zao, safu ya mwinuko, Nyanya huhitaji mwinuko wa 0 - 2000 masl, aina na hali ya udongo, udongo wenye rutuba wenye kina kirefu na usiotuamisha maji kwa wingi wa viumbe hai,
+             Inahitaji pH: 5.0 - 7.0 Zn Mn na Fe hupungukiwa na chini ya 4.5 kutoa matunda chachu;
+             Mahitaji ya virutubisho vya nyanya ni pamoja na: N P K Mg Ca S Mn Mo Zn Bo Cu Fe ,
+             Kiwango cha joto,
+             Joto linapaswa kuwa 18-29 oC;
+             Mvua,
+             Mvua ya mm 600 ni muhimu wakati wa uzalishaji",
             land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
             Steps during land preparation,
             Prepare the main field 1-2 weeks before transplanting,
@@ -4131,6 +4164,11 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
+            "tayarisho_la_eneo_la_kupanda":"Ushauri: Andaa shamba kuu wiki 1-2 kabla ya kupandikiza ili kuunda hali nzuri ya kuanzishwa kwa shamba.
+             Hatua za maandalizi ya ardhi,
+             Tayarisha shamba kuu wiki 1-2 kabla ya kupanda,
+             Lima na kulima kwa shamba linalofaa;
+             Weka mbolea na mbolea ya msingi kulingana na matokeo ya uchambuzi wa udongo na mapendekezo",
             pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
             Direct planting can be done or seedlings can be raised in a nursery by:,
             Constructing raised or sunken nursery beds at 1 m width by desired length
@@ -4153,6 +4191,21 @@ plantable_crops = PlantableCrop.create(
 
             
             ",
+            "kabla_ya_kupanda":"Ushauri: Chagua nyenzo za upanzi kutoka kwa vyanzo vya kuaminika/vets za kilimo ambazo zinakomaa mapema na kupendelewa sokoni;
+             Kupanda moja kwa moja kunaweza kufanywa au miche inaweza kukuzwa kwenye kitalu kwa:,
+             Kujenga vitalu vya kitalu vilivyoinuliwa au vilivyozama kwa upana wa m 1 kwa urefu unaohitajika
+
+             Weka kilo 5 za mboji iliyooza vizuri au samadi/m2 kwenye kitalu cha mbegu.
+
+             Safisha kitalu kwa uchomaji wa jua kwa matibabu ya maji ya moto au uwekaji wa dawa inayofaa,
+             Panda mbegu kwenye mifereji yenye umbali wa sentimita 20 kwa nafasi ya 2.5cm na funika kwa udongo kidogo
+
+           tandaza na kumwagilia maji mara kwa mara hadi miche itokee;
+
+           Baada ya miche kuota, toa matandazo kutoka kwenye vitanda na ujenge kivuli kilichoinuliwa (kama mita 1).
+           Weka maji ya kutosha mara kwa mara ili kudumisha ukuaji mzuri, wenye afya wa miche
+
+            Weka kitalu bila magugu na chunguza wadudu na magonjwa",
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
@@ -4162,16 +4215,24 @@ plantable_crops = PlantableCrop.create(
             Target plant population density 37,000 to 9,300 plants per ha
 
             ",
+            "kupanda":"Ushauri: Kupanda au kupandikiza moja kwa moja kunaweza kufanywa,
+             Kupanda,
+             Mwagilia kitalu hadi kueneza masaa 12 kabla ya kupandikiza,
+             Pandikiza miche kwa wiki 3-4 kwenye kitalu,
+             Tengeneza mifereji au mashimo ya kupandia kulingana na nafasi ya aina maalum,
+             Nafasi pana ya cm 100 x 50 ni nzuri,
+             Msongamano wa mimea inayolengwa kati ya mimea 37,000 hadi 9,300 kwa hekta",
             water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
             Irrigate early in the morning to avoid late blight disease,
             Reduce watering at the end of crop maturity,
             Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
             
             ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+
+            "maji":"Ushauri: Mwagilia maji mara kwa mara hasa katika vipindi muhimu kama vile kitalu, maua na ukuzaji wa matunda na wakati wa kiangazi;
+             Mwagilia maji mapema asubuhi ili kuepusha ugonjwa wa baa,
+             Kupunguza kumwagilia mwishoni mwa ukomavu wa mazao,
+             Kumwagilia maji mara kwa mara hupunguza kuoza kwa maua huhakikisha ukuaji wa matunda sawa na kuzuia mgawanyiko wa matunda hupunguza hatari ya kuchomwa na jua huongeza ukuaji wa matunda na huongeza saizi na idadi ya matunda.
             
             
             
@@ -4179,6 +4240,9 @@ plantable_crops = PlantableCrop.create(
             soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
             Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
             ",
+
+            "rutuba_ya_udongo":"Weka virutubisho vinavyohitajika kulingana na matokeo ya uchunguzi wa udongo na mahitaji ya virutubishi vya mimea;
+             Weka mbolea ya kuongeza kiwango cha juu kama vile CAN katika vipande 2 vya kilo 100 kwa hekta (5g au ½ kijiko kidogo cha chai kwa kila mmea) na kilo 200 kwa hekta kwa wiki 4 na 8 mtawalia baada ya kupandikiza.",
             crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
             Stake if necessary depending on the varieties,
             Guide plant along the trellising string or wire,
@@ -4195,6 +4259,18 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
+            "usimamizi_wa_mazao":"Ushauri: Pogoa ili kuacha shina kuu 1 hadi 2 na uondoe kando kando inapokua kila wiki;
+             Shika ikiwa ni lazima kulingana na aina,
+             Elekeza mmea kando ya uzi au waya,
+             Weka kijiti cha mita 2 ardhini kwa kila mmea na funga mashina huku mmea ukikua.
+
+             au
+
+             Weka nguzo ngumu ardhini kwa kila mita 4 na waya 2 zinazokimbia moja kwa 2m na nyingine kwa 0.15m juu ya ardhi;
+             Funga kamba kali kati ya nyaya mbili nyuma ya kila mmea wa nyanya,
+             Pindua mimea kwa uangalifu karibu na nyuzi inapokua,
+             Anza kuota wiki mbili baada ya kupandikiza,
+             Kupogoa hufanywa kwa kuondoa majani yaliyokomaa chini na kuangalia uwepo wa wadudu na magonjwa",
             harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
             Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
             Harvesting should preferably done early in the morning when temperatures are cool,
@@ -4205,6 +4281,13 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
+            "kuvuna":"Ushauri: Mavuno hufanywa kwa hatua tofauti kulingana na mahitaji ya soko na umbali wa soko.
+             Uvunaji hufanywa kwa mikono kwa kupindisha na kugeuza hadi matunda kung'oa mzabibu;
+             Uvunaji unapaswa kufanywa mapema asubuhi wakati hali ya joto iko baridi.
+             Weka matunda yaliyovunwa kwenye vyombo vya kuhifadhia (ndoo za plastiki),
+             Matunda yaliyovunwa huwekwa mahali pa baridi k.m. kwenye kivuli,
+             Uvunaji unapaswa kufanywa mapema asubuhi au jioni, kwa sababu wakati huu mmea unakuwa shwari.
+             Nyanya itazalisha tani 25-100 kwa hekta kwa usimamizi mzuri",
             storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
             Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
             Transportation is done by pick-ups lorries and motorbikes,
@@ -4213,32 +4296,68 @@ plantable_crops = PlantableCrop.create(
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
             ",
+            "uhifadhi":"Ushauri: Dumisha mnyororo baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,
+             Nyanya huwekwa kwenye kreti za plastiki au mbao shambani hadi zisafirishwe sokoni;
+             Usafiri unafanywa na magari ya mizigo na pikipiki,
+             Nyanya zimepakiwa kwenye mifuko ya turubai ambayo ni rafiki kwa mazingira ya kilo 1-1.5 kwa ajili ya kuuzwa kwa reja reja,
+             Vitengo vingine vya rejareja ni pamoja na vyombo vya plastiki vikapu 2-5kg vya kiasili kilo 2-5 na lundo la matunda 3-5;
+             Nyanya zinauzwa katika soko la mazao mapya maduka makubwa maduka ya reja reja hoteli migahawa taasisi na viwanda vya usindikaji wa chakula.",
             precipitation_needed: 200,
+            ""
             soil_type_needed:"Loam",
         },
         {
             name: "Beans",
+            jina:"Maharage",
 
             variety:"Mwitemania",
+            aina:"Mwitemania",
             region: "Central",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            eneo:"Kati",
+            description:"Bean belongs to the legume family (Fabaceae). These include bush beans, common beans, dry beans, dwarf beans, field beans, French beans, garden beans, green beans, haricot beans, kidney beans, pole beans, snap beans or string beans.  Beans are considered a warm-season crop, sensitive to temperature extremes. Low temperatures slow down plant growth while high temperatures accelerate it. Most types of bean require a frost-free growing season of 85 to 120 days.",
+            maelezo:"Maharage (Phaseolus vulgaris L.) ni ya familia ya mikunde (Fabaceae). Hizi ni pamoja na maharagwe ya msituni, maharagwe ya kawaida, maharagwe makavu, maharagwe ya majani, maharagwe ya shamba, maharagwe ya Kifaransa, maharagwe ya bustani, maharagwe ya kijani, maharagwe ya haricot, maharagwe ya figo, maharagwe ya pole, maharagwe ya snap au maharagwe ya kamba. Maharage huchukuliwa kuwa zao la msimu wa joto, nyeti kwa hali ya joto kali. Halijoto ya chini hupunguza ukuaji wa mmea huku halijoto ya juu ikiharakisha. Aina nyingi za maharagwe huhitaji msimu wa kukua bila baridi wa siku 85 hadi 120."
             county_id: 1,
             extension_officer_phone_number: "0712345678",
+            simu_ya_mtaalamu_wa_mimea: "0712345678",
             cost_of_production_per_acre:"35,000 - 50,000",
+            gharama_za_kuzalisha_kwa_ekari:"35,000 - 50,000",
             maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+            muda_wa_kuvuna: "3 mwezi",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680417088/photo-1679146656308-ec92afe7b0c1_rgdzpr.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
+            site_selection:"Advisory: Select a site away from shade to allow for sufficient sunshine and should be at least 10 meters away from the road to prevent dust and vehicle fumes
+            Altitude range
 
+            Beans require altitudes of altitude of 1000 – 2000 mabove sea level.
 
+            Soil type and conditions
 
+            Well-drained soils with a soil pH: 6.0 – 7.0.
+
+            Temperature range
+
+            The temperatures should be 20 – 30 oC optimal.
+
+            Rainfall
+
+            The rainfall should be 750 – 4000 mm p.a.
             ",
+            uteuzi_wa_tovuti:"Ushauri: Chagua eneo lililo mbali na kivuli ili kuruhusu jua la kutosha na iwe angalau mita 10 kutoka barabarani ili kuzuia vumbi na moshi wa gari.
+            Kiwango cha mwinuko
+
+            Maharage yanahitaji mwinuko wa 1000 - 2000 usawa wa bahari ya mabove.
+
+            Aina na masharti ya udongo
+
+            Udongo usio na maji na pH ya udongo: 6.0 - 7.0.
+
+            Kiwango cha joto
+
+            Joto linapaswa kuwa 20 - 30 oC mojawapo.
+
+            Mvua
+
+            Mvua inapaswa kuwa 750 - 4000 mm p.a."
             land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
             Steps during land preparation,
             Prepare the main field 1-2 weeks before transplanting,
@@ -4250,90 +4369,106 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
+            pre_planting:"Advisory: Planting materials Certified seed Farmer saved seeds
+Common planting materials
 
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
-
-
-
+Seeds should be obtained from reliable sources. Farmer saved seeds are alternatives where certified seeds aren’t available or the seed can be bought from the market.
             
             ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            kabla_ya_kupanda:"Ushauri: Nyenzo za upandaji Mbegu zilizothibitishwa Mkulima alihifadhi mbegu
+            Vifaa vya kawaida vya kupanda
+
+            Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika. Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au mbegu zinaweza kununuliwa sokoni."
+            planting:"Advisory: Plant along the contour at the onset of rains and when the soil is moist.
+                                                    
+
+         Geminating seed                                                                                                           Germinating seedlings
+            Plant at the onset of rainse.g. 4 continuous days of sufficient rain to take advantage of nitrogen flush.
+            Plant along the contours or across the slope and when the soil is moist.
+            Fill gaps one to two weeks after planting when plants have emerged.
+            Thin to remove weak plants under moist soil conditions 14 days after emergence.
+            Beans pure stand; seed rate 23kgs per acre; 2-3 seeds per hole at 25 by 60 cm or 15 by 25 cm depending on variety.
+            Sort out good seeds to ensure that they are free from insects, disease infestation and weed seeds.
+            Do not use damaged or wrinkled seeds, or seeds with holes.
+            Planting bush beans in a monoculture on a flatbed is done by planting in rows which are 50 cm apart.
+            Within a row, plant seeds at 8-10 cm apart (1 seed per stand) or 15-20 cm apart (2 seeds per stand) planting.
+                
+
+            Planting climbing beans: Plant climbing bean in rows which are 75 cm apart. Within a row, sow seeds 15 cm apart (1 seed per stand) or 25-30 cm apart (2 seeds per stand).
 
             ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            kupanda:"Ushauri: Panda kando ya kontua mwanzoni mwa mvua na wakati udongo una unyevu.
+                                                    
+
+          Kuota mbegu Kuota miche
+
+        Panda mwanzoni mwa mvua.g. Siku 4 mfululizo za mvua za kutosha kuchukua fursa ya kumwaga nitrojeni.
+        Panda kando ya mtaro au kwenye mteremko na wakati udongo una unyevu.
+        Jaza mapengo wiki moja hadi mbili baada ya kupanda wakati mimea imetokea.
+        Nyembamba ili kuondoa mimea dhaifu chini ya hali ya udongo unyevu siku 14 baada ya kuota.
+        Maharage safi kusimama; kiwango cha mbegu 23kgs kwa ekari; Mbegu 2-3 kwa kila shimo kwa cm 25 kwa 60 au 15 kwa 25 cm kulingana na aina.
+        Chambua mbegu bora ili kuhakikisha kuwa hazina wadudu, magonjwa na mbegu za magugu.
+        Usitumie mbegu zilizoharibika au zilizokunjamana, au mbegu zilizo na mashimo.
+        Kupanda maharagwe ya kichaka katika kilimo cha monoculture kwenye flatbed hufanywa kwa kupanda kwa mistari ambayo ni 50 cm mbali.
+        Ndani ya mstari, panda mbegu kwa umbali wa sm 8-10 (mbegu 1 kwa kila kisima) au sm 15-20 kutoka kwa kila mmoja (mbegu 2 kwa kila kisima).
+            
+
+        Kupanda maharagwe ya kupanda: Panda maharagwe ya kupanda kwa mistari ambayo iko umbali wa sm 75. Ndani ya mstari, panda mbegu kwa umbali wa sm 15 (mbegu 1 kwa kila kisima) au 25-30 cm kutoka kwa kila mmoja (mbegu 2 kwa kila kisima)."
+            water_management:"Advisory: Irrigate if necessary and control weeds timely
+Apply water directly if necessary, to where it is consumed.
+Use drip irrigation, bottle solution for small fields.
             
             ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+            "usimamizi wa maji":"Ushauri: Mwagilia ikiwa ni lazima na udhibiti magugu kwa wakati
+            Omba maji moja kwa moja ikiwa ni lazima, mahali ambapo hutumiwa.
+            Tumia umwagiliaji kwa njia ya matone, suluhisho la chupa kwa mashamba madogo."
 
-            or
-
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
-
+            weed_management:"Advisory: Control weeds timely
+            1st weeding is done 3-4 weeks after germination.
+            2nd weeding is done just before topdressing.
             
             
             ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+            usimamizi_wa_magugu:"Ushauri: Dhibiti magugu kwa wakati
+            Palizi ya kwanza hufanywa wiki 3-4 baada ya kuota.
+            Palizi ya pili hufanywa kabla tu ya kuweka mavazi ya juu."
+            soil_fertility:"Advisory: Add manure and fertilizer with recommendations from soil testing and analysis
+            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
+            Manure is to be applied based on soil test results at planting and at top dress. Use only non-acidifying fertilizers.
+            Note; Beans top dressing is not recommended given that it’s a leguminous crop that utilizes its fixed nitrogen in the soil.
+            Only refill nutrients that test results show are needed for the right balance.
+            ",
+            rutuba_ya_udongo:"Ushauri: Ongeza samadi na mbolea kwa mapendekezo kutoka kwa upimaji na uchambuzi wa udongo
+            Ongeza samadi na mbolea kwenye udongo kwa viwango vinavyofaa ili kutoa virutubishi vinavyohitajika vya mmea kwa ukuaji mkubwa wa mazao.
+            Mbolea itawekwa kulingana na matokeo ya mtihani wa udongo wakati wa kupanda na mavazi ya juu. Tumia mbolea zisizo na asidi tu.
+            Kumbuka; Uvaaji wa juu wa maharagwe haupendekezwi ikizingatiwa kuwa ni zao la jamii ya kunde ambalo hutumia nitrojeni yake isiyobadilika kwenye udongo.
+            Virutubisho vya kujaza tena ambavyo matokeo ya majaribio yanaonyesha vinahitajika kwa usawa sahihi."
+            crop_management:"Advisory: Gapping and thinning should be done after 14 days of seed emergence.
+            Apply intergrated pest management (IPM) principles for increased use of biophysical methods and reduced use of  agrochemical methods to control weeds.
+            Apply manure/boost soil fertility and also crop rotation.
+            
+            
+            ",
+            usimamizi_wa_mazao:"Ushauri: Kupunguza pengo na kukonda kunapaswa kufanywa baada ya siku 14 za kuota kwa mbegu.
+            Tumia kanuni za usimamizi wa wadudu (IPM) kwa kuongezeka kwa matumizi ya mbinu za kibiofizikia na kupunguza matumizi ya mbinu za agrochemical kudhibiti magugu.
+            Weka samadi/ongeza rutuba ya udongo na pia mzunguko wa mazao."
+            harvesting:"Advisory: Bean will produce up to 1.0–2.8 tons per ha
+            Dry pods in the sun, thresh and winnow to remove chaff and dust, re-dry to attain storage moisture content level.
 
 
             ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+            uvunaji:"Ushauri: Maharage yatazalisha hadi tani 1.0–2.8 kwa hekta
+            Kausha maganda kwenye jua, saga na pepeta ili kuondoa makapi na vumbi, kausha tena ili kufikia kiwango cha unyevu wa hifadhi."
+            storage:"Advisory: Store in airtight bags or metallic silos to minimize use of pesticides
+            Use insecticides to preserve beans, store it in sisal or jute bags, on raised pallets to protect from rodents.
         
             ",
+            uhifadhi:"Ushauri: Hifadhi kwenye mifuko isiyopitisha hewa au maghala ya metali ili kupunguza matumizi ya viuatilifu
+            Tumia dawa za kuua wadudu kuhifadhi maharagwe, zihifadhi kwenye mifuko ya mkonge au jute, kwenye pallet zilizoinuliwa ili kulinda dhidi ya panya."
             precipitation_needed: 200,
+            "mvua_inayohitajika": 200,
             soil_type_needed:"Loam",
+            "aina_ya_udongo_inayohitajika": "Loam",
         },
         {
             name: "Cabbage",
