@@ -7329,63 +7329,63 @@ tomato_prices = MarketPrice.create([
 puts "Beans"
 beans_prices = MarketPrice.create([
     {
-        retail_price: 100,
-          wholesale_price: 90,
+        retail_price: 117,
+          wholesale_price: 91,
         plantable_crop_id: 3,
       },
       {
-          retail_price: 90,   
-          wholesale_price: 80,
+          retail_price: 125,   
+          wholesale_price: 112,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 100,
-          wholesale_price: 80,
+          retail_price: 114,
+          wholesale_price: 94,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 120,
-          wholesale_price: 80,
+          retail_price: 128,
+          wholesale_price: 101,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 150,
-          wholesale_price: 110,
+          retail_price: 126,
+          wholesale_price: 104,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 150,
-          wholesale_price: 90,
+          retail_price: 122,
+          wholesale_price: 102,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 190,
-          wholesale_price: 170,
+          retail_price: 142,
+          wholesale_price: 108,
           plantable_crop_id: 3,
         },
         {
-          retail_price: 200,
-          wholesale_price: 160,
+          retail_price: 149,
+          wholesale_price: 136,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 127,
+          wholesale_price: 107,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 138,
+          wholesale_price: 119,
+          plantable_crop_id: 3,
+        },
+        {
+          retail_price: 166,
+          wholesale_price: 129,
           plantable_crop_id: 3,
         },
         {
           retail_price: 230,
-          wholesale_price: 200,
-          plantable_crop_id: 3,
-        },
-        {
-          retail_price: 240,
-          wholesale_price: 190,
-          plantable_crop_id: 3,
-        },
-        {
-          retail_price: 300,
-          wholesale_price: 200,
-          plantable_crop_id: 3,
-        },
-        {
-          retail_price: 350,
-          wholesale_price: 300,
+          wholesale_price: 187,
           plantable_crop_id: 3,
         }
 
