@@ -6992,6 +6992,54 @@ input_supplies = InputSupply.create([
 ]
 )
 
+markets = Market.create([
+    {
+        name: "Githurai Market",
+        county_id: 22,
+},
+    {
+        name: "Jamhuri Market",
+        county_id: 22,
+},
+    {
+        name: "Kamwangi Market",
+        county_id: 22,
+},
+    {
+        name: "Wangige Market",
+        county_id: 22,
+},
+    {
+        name: "Soko mjinga Kiambu",
+        county_id: 22,
+},
+    {
+        name: "Limuru Rongai Market",
+        county_id: 22,
+},
+{
+        name: "Juja Market",
+        county_id: 22,
+},
+{
+        name: "Kikuyu Market",
+        county_id: 22,
+},
+{
+        name: "Kabete Market",
+        county_id: 22,
+},
+{
+        name: "Kahawa Sukari Market",
+        county_id: 22,
+},
+{
+        name: "Thika Market",
+        county_id: 22,
+        
+}
+
+
 
 puts "Created #{input_supplies.count} input supplies"
 
