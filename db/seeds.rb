@@ -6679,9 +6679,18 @@ users = User.create(
             password_confirmation: "password",
         },
         {
-            first_name: "John",
-            last_name: "Kamau",
+            first_name: "Jane",
+            last_name: "Doe",
             national_id: 123456,
+            role: "farmer",
+            profile_picture:"ughjik",
+            password: "password",
+            password_confirmation: "password",
+        },
+        {
+            first_name: "Supplier",
+            last_name: "Kamau",
+            national_id: 1234567,
             role: "supplier",
             profile_picture:"ughjik",
             password: "password",
@@ -6875,3 +6884,43 @@ users = User.create(
         }
     ]
 )
+
+
+puts "Seeding Planting Communities"
+
+
+communities = Community.create([
+    {
+        name: "Tomato Farmers",
+        description: "This is a community for tomato farmers",
+    },
+    {   
+        name: "Sukuma wiki Farmers",
+        description: "This is a community for sukuma wiki farmers",
+
+    },
+    {
+        name: "Potato Farmers",
+        description: "This is a community for potato farmers",
+    }
+])
+
+
+puts "Seeding community messages"
+
+messages = Message.create([
+    {
+        user_id: 1,
+        community_id: 1,
+        text:"This is a message from the tomato farmers community",
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"This is a message from the tomato farmers community",
+    },
+
+])
+
+puts "Seeding community members"
+
