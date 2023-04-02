@@ -3901,14 +3901,11 @@ plantable_crops = PlantableCrop.create(
             variety:"H614",
             aina_ya_mbegu:"H614",
             region: "Central",
-            "eneo": "Kati",
-            description:"Maize is the third world’s most important cereal crop after wheat and rice that is widely grown throughout the temperate zones and in higher altitude zones in tropical regions. It is grown as fodder and grain. Maize grain is used in a variety of ways by human beings. In Kenya, maize is the most important crop. More than 40% of the arable land is planted with maize and with consumption of more than 100 kg of maize per capita, it is the most important staple food for Kenyans.",
+            description:"Maize is the third world's most important cereal crop after wheat and rice that is widely grown throughout the temperate zones and in higher altitude zones in tropical regions. It is grown as fodder and grain. Maize grain is used in a variety of ways by human beings. In Kenya, maize is the most important crop. More than 40% of the arable land is planted with maize and with consumption of more than 100 kg of maize per capita, it is the most important staple food for Kenyans.",
             maelezo:"Mahindi ni zao la tatu la nafaka muhimu zaidi duniani baada ya ngano na mchele ambalo hulimwa sana katika maeneo yenye halijoto na katika maeneo ya mwinuko wa juu zaidi katika maeneo ya tropiki. Hukuzwa kama lishe na nafaka. Nafaka ya mahindi hutumiwa kwa njia mbalimbali na wanadamu. Nchini Kenya, mahindi ni zao muhimu zaidi. Zaidi ya asilimia 40 ya ardhi inayolimwa hupandwa mahindi na kwa matumizi ya zaidi ya kilo 100 za mahindi kwa kila mtu, ni chakula kikuu muhimu kwa Wakenya.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
-            "simu_ya_mtaalamu_wa_mimea": "0712345678",
             cost_of_production_per_acre:"20,000 - 30,000",
-            gharama_ya_kuzalisha_kwa_hekari:"20,000 - 30,000",
             maturity_period: "3 months-8 months depending on the variety",
             kipindi_cha_ukomavu:"Miezi 3 - 8 kulingana na aina",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680423482/photo-1649251037566-6881b4956615_oj75tm.jpg",
@@ -3995,9 +3992,7 @@ plantable_crops = PlantableCrop.create(
 
             Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika
 
-            Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au zinaweza kununuliwa sokoni.
-
-",
+            Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au zinaweza kununuliwa sokoni.",
 
 
             planting:"Advisory: Plant at the onset of rains at a spacing of 75cm x 25 or 30cm, 1 seed per hole 5 cm deep
@@ -4024,9 +4019,7 @@ plantable_crops = PlantableCrop.create(
 
             Stendi safi ya mahindi: 75cm x 25 au 30cm, mbegu 1 kwa shimo, 5 cm kwa kina na 2.5-5 cm kwa kupanda unyevu.
 
-            Jaza mapengo wiki moja hadi mbili baada ya kupanda wakati mimea imetokea
-
-",
+            Jaza mapengo wiki moja hadi mbili baada ya kupanda wakati mimea imetokea",
             water_management:"Advisory: Establish on-farm water harvesting capability and water storage capacity, ditches, mulch and higher organic matter content
             Maize is rain fed and irrigated if necessary, by adopting more efficient micro-irrigation methods such as drip
 
@@ -4056,7 +4049,7 @@ plantable_crops = PlantableCrop.create(
 
             Practice conservation farming approaches, minimum soil disturbance, permanent soil cover, crop rotation and soil conservation measures
             ",
-            rutuba_ya_udongo:"Ushauri: Tumia virutubisho duni tu na mbinu za kilimo hifadhi
+            udongo_wajadi:"Ushauri: Tumia virutubisho duni tu na mbinu za kilimo hifadhi
             Dumisha afya ya udongo kwa uzalishaji bora na mapato
 
             Pima udongo kwanza ili kuongoza uwekaji samadi na mbolea
@@ -4076,8 +4069,7 @@ plantable_crops = PlantableCrop.create(
 
                 Tumia kanuni za IPM kwa ongezeko la matumizi ya mbinu za kibiofizikia na kupunguza matumizi ya mbinu za kemikali za kilimo
 
-                Mahindi ya mseto na lishe ya desmodium (Desmodium uncinatum) teknolojia ya kusukuma-kuvuta ili kuchochea uotaji wa kujiua wa Striga.
-",
+                Mahindi ya mseto na lishe ya desmodium (Desmodium uncinatum) teknolojia ya kusukuma-kuvuta ili kuchochea uotaji wa kujiua wa Striga.",
             harvesting:"Advisory: Harvesting by cutting and stalking to enhance drying and prevent pathogen infestation
             Harvesting is done when the crop reaches harvest maturity 10 to 15 days after physiological maturity
 
@@ -4112,27 +4104,27 @@ plantable_crops = PlantableCrop.create(
 
             Dhibiti wadudu wadudu na vipekecha nafaka kwa kukausha mahindi hadi kufikia unyevunyevu wa 13-14% ili kuepuka kushambuliwa na magonjwa ya ukungu kama vile aflatoxin.",
             precipitation_needed: 200,
-            "mvua_inayohitajika": 200,
+            
             soil_type_needed:"Loam",
-            "aina_ya_udongo_inayohitajika": "Loam",
+            
         },
         {
             name: "Tomato",
             jina: "Nyanya",
             variety:"Money maker",
-            aina_ya_mbegu:"Money maker",
+          
             region: "Central",
-            eneo: "Kati",
+            
             description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
             maelezo:"Nyanya ni mboga maarufu ambayo inaweza kupandwa karibu na bustani yoyote. Kwanza, chagua eneo lenye jua nyingi na mchanga wenye unyevu mzuri ulio na vitu vya kikaboni. Mimea ya nyanya inahitaji angalau masaa 6-8 ya jua moja kwa moja kila siku kukua vizuri. Mara tu ukichagua eneo hilo, panda miche ya nyanya karibu futi 2-3 kando ya mchanga, ukizika hadi seti ya kwanza ya majani. Maji mimea vizuri na mulch kuzunguka msingi kusaidia kuhifadhi unyevu kwenye mchanga. Nyanya zinahitaji kumwagilia mara kwa mara na mbolea kukua, kwa hivyo hakikisha kuzitia kwa undani na kuzi mbolea yenye mbolea kila wiki chache. Mimea inapokua, waunge mkono na vijiti au mabwawa ili kuwaweka sawa na kuzuia matunda kugusa ardhi. Mwishowe, vunja nyanya wakati zimeiva, kawaida wakati wamegeuka nyekundu kabisa na ni laini kidogo kwa kugusa.",
             county_id: 1,
             
             extension_officer_phone_number: "0712345678",
-            "simu_ya_mtaalamu_wa_mifugo": "0712345678",
+           
             cost_of_production_per_acre:"20,000 - 180,000",
-            gharama_ya_kuzalisha_kwa_hekari:"20,000 - 180,000",
+          
             maturity_period: "3 months",
-            "kipindi_cha_ukomavu":"Miezi 3",
+            kipindi_cha_ukomavu:"Miezi 3",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
@@ -4146,7 +4138,7 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
-            "chaguo_la_eneo_la_kupanda":"Ushauri: Chagua ardhi inayofaa na isiyo na maji mengi kulingana na mahitaji ya kilimo ya ikolojia ya zao, safu ya mwinuko, Nyanya huhitaji mwinuko wa 0 - 2000 masl, aina na hali ya udongo, udongo wenye rutuba wenye kina kirefu na usiotuamisha maji kwa wingi wa viumbe hai,
+            uteuzi_wa_tovuti:"Ushauri: Chagua ardhi inayofaa na isiyo na maji mengi kulingana na mahitaji ya kilimo ya ikolojia ya zao, safu ya mwinuko, Nyanya huhitaji mwinuko wa 0 - 2000 masl, aina na hali ya udongo, udongo wenye rutuba wenye kina kirefu na usiotuamisha maji kwa wingi wa viumbe hai,
              Inahitaji pH: 5.0 - 7.0 Zn Mn na Fe hupungukiwa na chini ya 4.5 kutoa matunda chachu;
              Mahitaji ya virutubisho vya nyanya ni pamoja na: N P K Mg Ca S Mn Mo Zn Bo Cu Fe ,
              Kiwango cha joto,
@@ -4164,7 +4156,7 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
-            "tayarisho_la_eneo_la_kupanda":"Ushauri: Andaa shamba kuu wiki 1-2 kabla ya kupandikiza ili kuunda hali nzuri ya kuanzishwa kwa shamba.
+            maandalizi_ya_ardhi:"Ushauri: Andaa shamba kuu wiki 1-2 kabla ya kupandikiza ili kuunda hali nzuri ya kuanzishwa kwa shamba.
              Hatua za maandalizi ya ardhi,
              Tayarisha shamba kuu wiki 1-2 kabla ya kupanda,
              Lima na kulima kwa shamba linalofaa;
@@ -4191,7 +4183,7 @@ plantable_crops = PlantableCrop.create(
 
             
             ",
-            "kabla_ya_kupanda":"Ushauri: Chagua nyenzo za upanzi kutoka kwa vyanzo vya kuaminika/vets za kilimo ambazo zinakomaa mapema na kupendelewa sokoni;
+            upandaji_wa_kabla:"Ushauri: Chagua nyenzo za upanzi kutoka kwa vyanzo vya kuaminika/vets za kilimo ambazo zinakomaa mapema na kupendelewa sokoni;
              Kupanda moja kwa moja kunaweza kufanywa au miche inaweza kukuzwa kwenye kitalu kwa:,
              Kujenga vitalu vya kitalu vilivyoinuliwa au vilivyozama kwa upana wa m 1 kwa urefu unaohitajika
 
@@ -4215,7 +4207,7 @@ plantable_crops = PlantableCrop.create(
             Target plant population density 37,000 to 9,300 plants per ha
 
             ",
-            "kupanda":"Ushauri: Kupanda au kupandikiza moja kwa moja kunaweza kufanywa,
+            kupanda:"Ushauri: Kupanda au kupandikiza moja kwa moja kunaweza kufanywa,
              Kupanda,
              Mwagilia kitalu hadi kueneza masaa 12 kabla ya kupandikiza,
              Pandikiza miche kwa wiki 3-4 kwenye kitalu,
@@ -4229,7 +4221,7 @@ plantable_crops = PlantableCrop.create(
             
             ",
 
-            "maji":"Ushauri: Mwagilia maji mara kwa mara hasa katika vipindi muhimu kama vile kitalu, maua na ukuzaji wa matunda na wakati wa kiangazi;
+            usimamizi_wa_maji:"Ushauri: Mwagilia maji mara kwa mara hasa katika vipindi muhimu kama vile kitalu, maua na ukuzaji wa matunda na wakati wa kiangazi;
              Mwagilia maji mapema asubuhi ili kuepusha ugonjwa wa baa,
              Kupunguza kumwagilia mwishoni mwa ukomavu wa mazao,
              Kumwagilia maji mara kwa mara hupunguza kuoza kwa maua huhakikisha ukuaji wa matunda sawa na kuzuia mgawanyiko wa matunda hupunguza hatari ya kuchomwa na jua huongeza ukuaji wa matunda na huongeza saizi na idadi ya matunda.
@@ -4241,7 +4233,7 @@ plantable_crops = PlantableCrop.create(
             Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
             ",
 
-            "rutuba_ya_udongo":"Weka virutubisho vinavyohitajika kulingana na matokeo ya uchunguzi wa udongo na mahitaji ya virutubishi vya mimea;
+            udongo_wajadi:"Weka virutubisho vinavyohitajika kulingana na matokeo ya uchunguzi wa udongo na mahitaji ya virutubishi vya mimea;
              Weka mbolea ya kuongeza kiwango cha juu kama vile CAN katika vipande 2 vya kilo 100 kwa hekta (5g au ½ kijiko kidogo cha chai kwa kila mmea) na kilo 200 kwa hekta kwa wiki 4 na 8 mtawalia baada ya kupandikiza.",
             crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
             Stake if necessary depending on the varieties,
@@ -4259,7 +4251,7 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
-            "usimamizi_wa_mazao":"Ushauri: Pogoa ili kuacha shina kuu 1 hadi 2 na uondoe kando kando inapokua kila wiki;
+            usimamizi_wa_mazao:"Ushauri: Pogoa ili kuacha shina kuu 1 hadi 2 na uondoe kando kando inapokua kila wiki;
              Shika ikiwa ni lazima kulingana na aina,
              Elekeza mmea kando ya uzi au waya,
              Weka kijiti cha mita 2 ardhini kwa kila mmea na funga mashina huku mmea ukikua.
@@ -4281,7 +4273,7 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
-            "kuvuna":"Ushauri: Mavuno hufanywa kwa hatua tofauti kulingana na mahitaji ya soko na umbali wa soko.
+            uvunaji:"Ushauri: Mavuno hufanywa kwa hatua tofauti kulingana na mahitaji ya soko na umbali wa soko.
              Uvunaji hufanywa kwa mikono kwa kupindisha na kugeuza hadi matunda kung'oa mzabibu;
              Uvunaji unapaswa kufanywa mapema asubuhi wakati hali ya joto iko baridi.
              Weka matunda yaliyovunwa kwenye vyombo vya kuhifadhia (ndoo za plastiki),
@@ -4296,33 +4288,27 @@ plantable_crops = PlantableCrop.create(
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
             ",
-            "uhifadhi":"Ushauri: Dumisha mnyororo baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,
+            uhifadhi:"Ushauri: Dumisha mnyororo baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,
              Nyanya huwekwa kwenye kreti za plastiki au mbao shambani hadi zisafirishwe sokoni;
              Usafiri unafanywa na magari ya mizigo na pikipiki,
              Nyanya zimepakiwa kwenye mifuko ya turubai ambayo ni rafiki kwa mazingira ya kilo 1-1.5 kwa ajili ya kuuzwa kwa reja reja,
              Vitengo vingine vya rejareja ni pamoja na vyombo vya plastiki vikapu 2-5kg vya kiasili kilo 2-5 na lundo la matunda 3-5;
              Nyanya zinauzwa katika soko la mazao mapya maduka makubwa maduka ya reja reja hoteli migahawa taasisi na viwanda vya usindikaji wa chakula.",
             precipitation_needed: 200,
-            ""
+            
             soil_type_needed:"Loam",
         },
         {
             name: "Beans",
             jina:"Maharage",
-
             variety:"Mwitemania",
-            aina:"Mwitemania",
             region: "Central",
-            eneo:"Kati",
             description:"Bean belongs to the legume family (Fabaceae). These include bush beans, common beans, dry beans, dwarf beans, field beans, French beans, garden beans, green beans, haricot beans, kidney beans, pole beans, snap beans or string beans.  Beans are considered a warm-season crop, sensitive to temperature extremes. Low temperatures slow down plant growth while high temperatures accelerate it. Most types of bean require a frost-free growing season of 85 to 120 days.",
-            maelezo:"Maharage (Phaseolus vulgaris L.) ni ya familia ya mikunde (Fabaceae). Hizi ni pamoja na maharagwe ya msituni, maharagwe ya kawaida, maharagwe makavu, maharagwe ya majani, maharagwe ya shamba, maharagwe ya Kifaransa, maharagwe ya bustani, maharagwe ya kijani, maharagwe ya haricot, maharagwe ya figo, maharagwe ya pole, maharagwe ya snap au maharagwe ya kamba. Maharage huchukuliwa kuwa zao la msimu wa joto, nyeti kwa hali ya joto kali. Halijoto ya chini hupunguza ukuaji wa mmea huku halijoto ya juu ikiharakisha. Aina nyingi za maharagwe huhitaji msimu wa kukua bila baridi wa siku 85 hadi 120."
+            maelezo:"Maharage (Phaseolus vulgaris L.) ni ya familia ya mikunde (Fabaceae). Hizi ni pamoja na maharagwe ya msituni, maharagwe ya kawaida, maharagwe makavu, maharagwe ya majani, maharagwe ya shamba, maharagwe ya Kifaransa, maharagwe ya bustani, maharagwe ya kijani, maharagwe ya haricot, maharagwe ya figo, maharagwe ya pole, maharagwe ya snap au maharagwe ya kamba. Maharage huchukuliwa kuwa zao la msimu wa joto, nyeti kwa hali ya joto kali. Halijoto ya chini hupunguza ukuaji wa mmea huku halijoto ya juu ikiharakisha. Aina nyingi za maharagwe huhitaji msimu wa kukua bila baridi wa siku 85 hadi 120.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
-            simu_ya_mtaalamu_wa_mimea: "0712345678",
             cost_of_production_per_acre:"35,000 - 50,000",
-            gharama_za_kuzalisha_kwa_ekari:"35,000 - 50,000",
             maturity_period: "3 months",
-            muda_wa_kuvuna: "3 mwezi",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680417088/photo-1679146656308-ec92afe7b0c1_rgdzpr.jpg",
 
             site_selection:"Advisory: Select a site away from shade to allow for sufficient sunshine and should be at least 10 meters away from the road to prevent dust and vehicle fumes
@@ -4357,7 +4343,7 @@ plantable_crops = PlantableCrop.create(
 
             Mvua
 
-            Mvua inapaswa kuwa 750 - 4000 mm p.a."
+            Mvua inapaswa kuwa 750 - 4000 mm p.a.",
             land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
             Steps during land preparation,
             Prepare the main field 1-2 weeks before transplanting,
@@ -4375,10 +4361,10 @@ Common planting materials
 Seeds should be obtained from reliable sources. Farmer saved seeds are alternatives where certified seeds aren’t available or the seed can be bought from the market.
             
             ",
-            kabla_ya_kupanda:"Ushauri: Nyenzo za upandaji Mbegu zilizothibitishwa Mkulima alihifadhi mbegu
+            upandaji_wa_kabla:"Ushauri: Nyenzo za upandaji Mbegu zilizothibitishwa Mkulima alihifadhi mbegu
             Vifaa vya kawaida vya kupanda
 
-            Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika. Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au mbegu zinaweza kununuliwa sokoni."
+            Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika. Mbegu zilizohifadhiwa na mkulima ni njia mbadala ambapo mbegu zilizoidhinishwa hazipatikani au mbegu zinaweza kununuliwa sokoni.",
             planting:"Advisory: Plant along the contour at the onset of rains and when the soil is moist.
                                                     
 
@@ -4413,15 +4399,15 @@ Seeds should be obtained from reliable sources. Farmer saved seeds are alternati
         Ndani ya mstari, panda mbegu kwa umbali wa sm 8-10 (mbegu 1 kwa kila kisima) au sm 15-20 kutoka kwa kila mmoja (mbegu 2 kwa kila kisima).
             
 
-        Kupanda maharagwe ya kupanda: Panda maharagwe ya kupanda kwa mistari ambayo iko umbali wa sm 75. Ndani ya mstari, panda mbegu kwa umbali wa sm 15 (mbegu 1 kwa kila kisima) au 25-30 cm kutoka kwa kila mmoja (mbegu 2 kwa kila kisima)."
+        Kupanda maharagwe ya kupanda: Panda maharagwe ya kupanda kwa mistari ambayo iko umbali wa sm 75. Ndani ya mstari, panda mbegu kwa umbali wa sm 15 (mbegu 1 kwa kila kisima) au 25-30 cm kutoka kwa kila mmoja (mbegu 2 kwa kila kisima).",
             water_management:"Advisory: Irrigate if necessary and control weeds timely
 Apply water directly if necessary, to where it is consumed.
 Use drip irrigation, bottle solution for small fields.
             
             ",
-            "usimamizi wa maji":"Ushauri: Mwagilia ikiwa ni lazima na udhibiti magugu kwa wakati
+            usimamizi_wa_maji:"Ushauri: Mwagilia ikiwa ni lazima na udhibiti magugu kwa wakati
             Omba maji moja kwa moja ikiwa ni lazima, mahali ambapo hutumiwa.
-            Tumia umwagiliaji kwa njia ya matone, suluhisho la chupa kwa mashamba madogo."
+            Tumia umwagiliaji kwa njia ya matone, suluhisho la chupa kwa mashamba madogo.",
 
             weed_management:"Advisory: Control weeds timely
             1st weeding is done 3-4 weeks after germination.
@@ -4431,18 +4417,18 @@ Use drip irrigation, bottle solution for small fields.
             ",
             usimamizi_wa_magugu:"Ushauri: Dhibiti magugu kwa wakati
             Palizi ya kwanza hufanywa wiki 3-4 baada ya kuota.
-            Palizi ya pili hufanywa kabla tu ya kuweka mavazi ya juu."
+            Palizi ya pili hufanywa kabla tu ya kuweka mavazi ya juu.",
             soil_fertility:"Advisory: Add manure and fertilizer with recommendations from soil testing and analysis
             Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
             Manure is to be applied based on soil test results at planting and at top dress. Use only non-acidifying fertilizers.
             Note; Beans top dressing is not recommended given that it’s a leguminous crop that utilizes its fixed nitrogen in the soil.
             Only refill nutrients that test results show are needed for the right balance.
             ",
-            rutuba_ya_udongo:"Ushauri: Ongeza samadi na mbolea kwa mapendekezo kutoka kwa upimaji na uchambuzi wa udongo
+            udongo_wajadi:"Ushauri: Ongeza samadi na mbolea kwa mapendekezo kutoka kwa upimaji na uchambuzi wa udongo
             Ongeza samadi na mbolea kwenye udongo kwa viwango vinavyofaa ili kutoa virutubishi vinavyohitajika vya mmea kwa ukuaji mkubwa wa mazao.
             Mbolea itawekwa kulingana na matokeo ya mtihani wa udongo wakati wa kupanda na mavazi ya juu. Tumia mbolea zisizo na asidi tu.
             Kumbuka; Uvaaji wa juu wa maharagwe haupendekezwi ikizingatiwa kuwa ni zao la jamii ya kunde ambalo hutumia nitrojeni yake isiyobadilika kwenye udongo.
-            Virutubisho vya kujaza tena ambavyo matokeo ya majaribio yanaonyesha vinahitajika kwa usawa sahihi."
+            Virutubisho vya kujaza tena ambavyo matokeo ya majaribio yanaonyesha vinahitajika kwa usawa sahihi.",
             crop_management:"Advisory: Gapping and thinning should be done after 14 days of seed emergence.
             Apply intergrated pest management (IPM) principles for increased use of biophysical methods and reduced use of  agrochemical methods to control weeds.
             Apply manure/boost soil fertility and also crop rotation.
@@ -4451,2343 +4437,2342 @@ Use drip irrigation, bottle solution for small fields.
             ",
             usimamizi_wa_mazao:"Ushauri: Kupunguza pengo na kukonda kunapaswa kufanywa baada ya siku 14 za kuota kwa mbegu.
             Tumia kanuni za usimamizi wa wadudu (IPM) kwa kuongezeka kwa matumizi ya mbinu za kibiofizikia na kupunguza matumizi ya mbinu za agrochemical kudhibiti magugu.
-            Weka samadi/ongeza rutuba ya udongo na pia mzunguko wa mazao."
+            Weka samadi/ongeza rutuba ya udongo na pia mzunguko wa mazao.",
             harvesting:"Advisory: Bean will produce up to 1.0–2.8 tons per ha
             Dry pods in the sun, thresh and winnow to remove chaff and dust, re-dry to attain storage moisture content level.
 
 
             ",
             uvunaji:"Ushauri: Maharage yatazalisha hadi tani 1.0–2.8 kwa hekta
-            Kausha maganda kwenye jua, saga na pepeta ili kuondoa makapi na vumbi, kausha tena ili kufikia kiwango cha unyevu wa hifadhi."
+            Kausha maganda kwenye jua, saga na pepeta ili kuondoa makapi na vumbi, kausha tena ili kufikia kiwango cha unyevu wa hifadhi.",
             storage:"Advisory: Store in airtight bags or metallic silos to minimize use of pesticides
             Use insecticides to preserve beans, store it in sisal or jute bags, on raised pallets to protect from rodents.
         
             ",
             uhifadhi:"Ushauri: Hifadhi kwenye mifuko isiyopitisha hewa au maghala ya metali ili kupunguza matumizi ya viuatilifu
-            Tumia dawa za kuua wadudu kuhifadhi maharagwe, zihifadhi kwenye mifuko ya mkonge au jute, kwenye pallet zilizoinuliwa ili kulinda dhidi ya panya."
+            Tumia dawa za kuua wadudu kuhifadhi maharagwe, zihifadhi kwenye mifuko ya mkonge au jute, kwenye pallet zilizoinuliwa ili kulinda dhidi ya panya.",
             precipitation_needed: 200,
-            "mvua_inayohitajika": 200,
             soil_type_needed:"Loam",
-            "aina_ya_udongo_inayohitajika": "Loam",
-        },
-        {
-            name: "Cabbage",
-            variety:"Gloria F1",
-            region: "Nairobi",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"200,000 - 250,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
+        }
+        # {
+        #     name: "Cabbage",
+        #     variety:"Gloria F1",
+        #     region: "Nairobi",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"200,000 - 250,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Green grams",
-            variety:"KAT B1",
-            region: "Nairobi",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"30,000 - 50,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Green grams",
+        #     variety:"KAT B1",
+        #     region: "Nairobi",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"30,000 - 50,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Onions",
-            variety:"Red Pinnoy",
-            region: "Nairobi",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"250,000 - 300,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Onions",
+        #     variety:"Red Pinnoy",
+        #     region: "Nairobi",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"250,000 - 300,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Sorghum",
-            variety:"Gadam",
-            region: "Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"20,000 - 30,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Sorghum",
+        #     variety:"Gadam",
+        #     region: "Eastern",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"20,000 - 30,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Beans",
-            variety:"Rose Coco",
-            region: "Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"28,000 - 35,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Beans",
+        #     variety:"Rose Coco",
+        #     region: "Eastern",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"28,000 - 35,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Green Grams",
-            variety:"KAT B1",
-            region: "Eastern",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"30,000 - 40,000	",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Green Grams",
+        #     variety:"KAT B1",
+        #     region: "Eastern",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"30,000 - 40,000	",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Maize",
-            variety:"H6213",
-            region: "Rift Valley",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"18,000 - 28,000	",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Maize",
+        #     variety:"H6213",
+        #     region: "Rift Valley",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"18,000 - 28,000	",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Wheat",
-            variety:"Robin",
-            region: "Rift Valley",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"50,000 - 70,000		",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Wheat",
+        #     variety:"Robin",
+        #     region: "Rift Valley",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"50,000 - 70,000		",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Potatoes",
-            variety:"Dutch Robinj",
-            region: "Rift Valley",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"80,000 - 100,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Potatoes",
+        #     variety:"Dutch Robinj",
+        #     region: "Rift Valley",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"80,000 - 100,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Sugar Cane",
-            variety:"KEN83-737",
-            region: "Western",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"125,000  - 150,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Sugar Cane",
+        #     variety:"KEN83-737",
+        #     region: "Western",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"125,000  - 150,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Bananas",
-            variety:"FHIA 17",
-            region: "Western",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"100,000  - 130,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Bananas",
+        #     variety:"FHIA 17",
+        #     region: "Western",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"100,000  - 130,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Maize",
-            variety:"H614",
-            region: "Western",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"20,000  - 30,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Maize",
+        #     variety:"H614",
+        #     region: "Western",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"20,000  - 30,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
 
-        {
-            name: "Maize",
-            variety:"H614",
-            region: "Nyanza",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"20,000  - 30,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        # {
+        #     name: "Maize",
+        #     variety:"H614",
+        #     region: "Nyanza",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"20,000  - 30,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
 
-        {
-            name: "Beans",
-            variety:"Rosecoco",
-            region: "Nyanza",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"16,000 - 35,000 ",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        # {
+        #     name: "Beans",
+        #     variety:"Rosecoco",
+        #     region: "Nyanza",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"16,000 - 35,000 ",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Groundnuts",
-            variety:"Red Valencia",
-            region: "Nyanza",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"100,000 - 120,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Groundnuts",
+        #     variety:"Red Valencia",
+        #     region: "Nyanza",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"100,000 - 120,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Coconut",
-            variety:"Kappadam",
-            region: "Coast",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"73,000 - 105,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Coconut",
+        #     variety:"Kappadam",
+        #     region: "Coast",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"73,000 - 105,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Sesame",
-            variety:"Simit",
-            region: "Coast",
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"85,000 - 95,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Sesame",
+        #     variety:"Simit",
+        #     region: "Coast",
+        #     description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"85,000 - 95,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
-
-
-
-            ",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+        #     site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
+        #     It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
+        #     Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
+        #     Temperature range,
+        #     The temperatures should be 18 - 29 oC ,
+        #     Rainfall,
+        #     Rainfall of 600 mm is essential during production period
 
 
 
-            
-            
-            ",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
-
-
+        #     ",
+        #     land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
+        #     Steps during land preparation,
+        #     Prepare the main field 1-2 weeks before transplanting,
+        #     Plough and harrow to appropriate tilth,
+        #     Apply manure and basic fertilizer according to soil analysis results and recommendations
 
 
 
             
-            ",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            
+        #     ",
+        #     pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
+        #     Direct planting can be done or seedlings can be raised in a nursery by:,
+        #     Constructing raised or sunken nursery beds at 1 m width by desired length
 
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Timely weeding should be practised,
-            
-            Weeding is done through hoeing mulching or use of herbicides,
-            Do shallow cultivation not too close to the plant in order to prevent damage of the plants
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+        #     Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
 
-            or
+        #     Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
+        #     Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
 
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+        #   Mulch and water regularly until the seedlings emerge,
 
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #   After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
+        #   Apply adequate water regularly to sustain good, healthy growth of the seedlings
+
+        #    Keep the nursery weed-free and scout for pests and diseases
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+
+
+
+            
+        #     ",
+        #     planting:"Advisory: Direct planting or transplanting can be practiced,
+        #     Planting ,
+        #     Water the nursery to saturation point 12 hours before transplanting,
+        #     Transplant seedlings at 3-4 weeks in the nursery, 
+        #     Make furrows or planting holes depending on the spacing of the specific variety,,
+        #     Wider spacing of 100 cm x 50 cm is good,
+        #     Target plant population density 37,000 to 9,300 plants per ha
+
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Timely weeding should be practised,
+            
+        #     Weeding is done through hoeing mulching or use of herbicides,
+        #     Do shallow cultivation not too close to the plant in order to prevent damage of the plants
+            
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Sorghum",
-            variety:"Gadam",
-            region: "North Eastern",
-            description:"sorghum is a popular staple food that is widely consumed, particularly in the western and eastern parts of the country. It is used to make porridge, bread, and a variety of traditional dishes. Sorghum is also an important cash crop for many farmers, as it is used to make commercial products like beer and animal feed.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"45,000 - 50,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Sorghum",
+        #     variety:"Gadam",
+        #     region: "North Eastern",
+        #     description:"sorghum is a popular staple food that is widely consumed, particularly in the western and eastern parts of the country. It is used to make porridge, bread, and a variety of traditional dishes. Sorghum is also an important cash crop for many farmers, as it is used to make commercial products like beer and animal feed.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"45,000 - 50,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Sorghum is adapted to a wide range of environments and is able to perform under extreme climatic conditions
-            Altitude range
+        #     site_selection:"Advisory: Sorghum is adapted to a wide range of environments and is able to perform under extreme climatic conditions
+        #     Altitude range
             
-            Sorghum requires altitudes of 0-2500 masl and a suitable AEZ e.g. LM1-LM5
+        #     Sorghum requires altitudes of 0-2500 masl and a suitable AEZ e.g. LM1-LM5
             
-            Soil type and conditions
+        #     Soil type and conditions
             
-            A wide range of soils e.g. clay loam, clay and silt soils but not loamy soil with the soil pH of 4.8-6.0
+        #     A wide range of soils e.g. clay loam, clay and silt soils but not loamy soil with the soil pH of 4.8-6.0
             
-            Sorghum nutrient requirements include: N, P, K, Zn, S, Cl, Mg, Ca, Fe, B, Cu, Mn
+        #     Sorghum nutrient requirements include: N, P, K, Zn, S, Cl, Mg, Ca, Fe, B, Cu, Mn
             
-            Temperature range
+        #     Temperature range
             
-            The temperatures should be  above 10 oC
+        #     The temperatures should be  above 10 oC
             
-            Rainfall
+        #     Rainfall
             
-            Rainfall should be 250-900 mm p.a
-
-
-            ",
-            land_preparation:"Advisory: Plough a fallow land, if planted as second season crop one plough is sufficient
-            Steps during land preparation
-            
-            Plough a fallow land, if planted as second season crop one plough is sufficient
-            Practice contour farming technique
-            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
-            Maintain adequate soil health, soil nutrients, soil depth and moisture holding capacity
-            Soil testing and analysis is necessary for tailored soil amendments and nutrient replenishment
+        #     Rainfall should be 250-900 mm p.a
 
 
+        #     ",
+        #     land_preparation:"Advisory: Plough a fallow land, if planted as second season crop one plough is sufficient
+        #     Steps during land preparation
             
-            
-            ",
-            pre_planting:"Planting materials include seeds or ratoon
-            
-            ",
-            planting:"Advisory: Plant at the onset of rain and intercropping should be done with an appropriate cover crop
-            Direct planting of seeds is done by sowing directly into furrows as a drillat a spacing of 45 x 60  or 75cm x 20cm for mono-crop and 90 cm x 30 cm for inter-cropwith legume or maize
-            Drill then thin to 12-20 cm between plants in furrows, 3-4 weeks after emergence
-            In dry condition seeds should be placed at 5 cm depth and 2.5-4.0 cm in moist soil
-            Seed rate; 7-12 Kg per Ha and the seed rate vary depending on environmental condition. Very low seed rate is applicable in very dry conditions
-            Traditional plantingbroadcasting can also be applied
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Water demand is crucial at all stages but very critical at grain filling stage
-            Striga weed
-            
-            
-            
-            Rotate crops to break weed cycle, and to avoid weed build-up
-            First weeding is done after 2-3 weeks after emergence
-            Second weeding 2-3 weeks after the first weeding to reduce competition for nutrients and to control pests and diseases
-            Rogue diseased, off types and infected plants to reduce host plants for vectors
-            Ratoon crop stalks are cut and arranged between rows to act as mulch to smoother weeds and retain moisture in the soil
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
-
-            or
-
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
-
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #     Plough a fallow land, if planted as second season crop one plough is sufficient
+        #     Practice contour farming technique
+        #     Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth
+        #     Maintain adequate soil health, soil nutrients, soil depth and moisture holding capacity
+        #     Soil testing and analysis is necessary for tailored soil amendments and nutrient replenishment
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+            
+            
+        #     ",
+        #     pre_planting:"Planting materials include seeds or ratoon
+            
+        #     ",
+        #     planting:"Advisory: Plant at the onset of rain and intercropping should be done with an appropriate cover crop
+        #     Direct planting of seeds is done by sowing directly into furrows as a drillat a spacing of 45 x 60  or 75cm x 20cm for mono-crop and 90 cm x 30 cm for inter-cropwith legume or maize
+        #     Drill then thin to 12-20 cm between plants in furrows, 3-4 weeks after emergence
+        #     In dry condition seeds should be placed at 5 cm depth and 2.5-4.0 cm in moist soil
+        #     Seed rate; 7-12 Kg per Ha and the seed rate vary depending on environmental condition. Very low seed rate is applicable in very dry conditions
+        #     Traditional plantingbroadcasting can also be applied
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Water demand is crucial at all stages but very critical at grain filling stage
+        #     Striga weed
+            
+            
+            
+        #     Rotate crops to break weed cycle, and to avoid weed build-up
+        #     First weeding is done after 2-3 weeks after emergence
+        #     Second weeding 2-3 weeks after the first weeding to reduce competition for nutrients and to control pests and diseases
+        #     Rogue diseased, off types and infected plants to reduce host plants for vectors
+        #     Ratoon crop stalks are cut and arranged between rows to act as mulch to smoother weeds and retain moisture in the soil
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
+        #     Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
+        #     ",
+        #     crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
+        #     Stake if necessary depending on the varieties,
+        #     Guide plant along the trellising string or wire,
+        #     Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
+
+        #     or
+
+        #     Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
+        #     Tie a strong string between the two wires behind each tomato plant,
+        #     Twist the plants carefully around the strings as they grow,
+        #     Start staking about two weeks after transplanting,
+        #     Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
+
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Millet",
-            variety:"Bullrush",
-            region: "North Eastern",
-            description:"Millet is a traditional staple food that is grown and consumed by many communities. It is a drought-resistant crop that can thrive in arid environments and is often ground into flour to make porridge, bread, or other dishes. Millet is also an important part of cultural celebrations and ceremonies in the region.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"34,000 - 38,000",
-            maturity_period: "3 months",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Millet",
+        #     variety:"Bullrush",
+        #     region: "North Eastern",
+        #     description:"Millet is a traditional staple food that is grown and consumed by many communities. It is a drought-resistant crop that can thrive in arid environments and is often ground into flour to make porridge, bread, or other dishes. Millet is also an important part of cultural celebrations and ceremonies in the region.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"34,000 - 38,000",
+        #     maturity_period: "3 months",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
-            Altitude range
-            Cowpea require an altitudes of 1200 – 1500 (1850) masl.
+        #     site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
+        #     Altitude range
+        #     Cowpea require an altitudes of 1200 – 1500 (1850) masl.
             
-            Soil type and conditions
-            Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
-            Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
+        #     Soil type and conditions
+        #     Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
+        #     Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
             
-            Temperature range 
-            The temperatures should be 20-35oC but it can tolerate shading.
+        #     Temperature range 
+        #     The temperatures should be 20-35oC but it can tolerate shading.
             
-            Rainfall
-            The rainfall should be 200 – 400 mm p.a. 
+        #     Rainfall
+        #     The rainfall should be 200 – 400 mm p.a. 
              
 
 
-            ",
-            land_preparation:"Advisory: Prepare the land early during the dry season
-            When preparing land,deep plough the bed once or twice to a medium tilth.
-             
-
-
-            
-            
-            ",
-            pre_planting:"Advisory: Planting materials Certified and local seeds
-            Select planting material from healthy plants free of pests and diseases, and from recommended sources.
-            
-            Seeds should be selected from the same colour for desired variety. 
-            
-            During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
-            
-            For grain production, colour and size of seeds are important to consumers depending on their preferences.
-
-            
-            ",
-            planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
-            Plant the seeds on flat or raised beds.
-            
-            Planting is done at a depth of 2.5-5 cm.
-            
-            Pure stand spacing should be 45-60 cm.
-            
-            Intercropping should be 20-40 cm apart.
-            
-            Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
-            
-            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
-            ",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
-            
-            ",
-            weed_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
-            Apply water daily in case of prolonged drought.
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
-            Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
-            ",
-            crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
-            Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
-            
-            Do crop rotation to improve the fertility of the soil.
-            
-            Control soil erosion using an appropriate method.
-            
-            
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
-
-
-            ",
-            storage:"Advisory: Dry and treat the cowpea against pest and diseases before storage
-            Store dried cowpeas in hermetic bags, e.g. PICS bags, Agro-Z, etc. 
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
-        {
-            name: "Cowpeas",
-            variety:"Kunde",
-            region: "North Eastern",
-            description:"Cowpeas are a type of legume that are drought-tolerant and grow well in hot, humid climates. They have a nutty, earthy flavor and are rich in protein, fiber, and other essential nutrients. Cowpeas can be cooked in a variety of ways and are a staple food in many cultures around the world.",
-            county_id: 1,
-            extension_officer_phone_number: "0712345678",
-            cost_of_production_per_acre:"36,000 - 40,000",
-            maturity_period: "3-4 weeks",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
-
-            site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
-            Altitude range
-            Cowpea require an altitudes of 1200 – 1500 (1850) masl.
-            Soil type and conditions
-            Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
-            Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
-            Temperature range 
-            The temperatures should be 20-35oC but it can tolerate shading.
-            Rainfall
-            The rainfall should be 200 – 400 mm p.a. 
-            ",
-            land_preparation:"Advisory: Prepare the land early during the dry season
-            When preparing land,deep plough the bed once or twice to a medium tilth.
+        #     ",
+        #     land_preparation:"Advisory: Prepare the land early during the dry season
+        #     When preparing land,deep plough the bed once or twice to a medium tilth.
              
 
 
             
             
-            ",
-            pre_planting:"Advisory: Planting materials Certified and local seeds
-            Select planting material from healthy plants free of pests and diseases, and from recommended sources.
+        #     ",
+        #     pre_planting:"Advisory: Planting materials Certified and local seeds
+        #     Select planting material from healthy plants free of pests and diseases, and from recommended sources.
             
-            Seeds should be selected from the same colour for desired variety. 
+        #     Seeds should be selected from the same colour for desired variety. 
             
-            During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
+        #     During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
             
-            For grain production, colour and size of seeds are important to consumers depending on their preferences.
+        #     For grain production, colour and size of seeds are important to consumers depending on their preferences.
 
-            ",
-            planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
-            Plant the seeds on flat or raised beds.
             
-            Planting is done at a depth of 2.5-5 cm.
+        #     ",
+        #     planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
+        #     Plant the seeds on flat or raised beds.
             
-            Pure stand spacing should be 45-60 cm.
+        #     Planting is done at a depth of 2.5-5 cm.
             
-            Intercropping should be 20-40 cm apart.
+        #     Pure stand spacing should be 45-60 cm.
             
-            Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
+        #     Intercropping should be 20-40 cm apart.
             
-            Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
-            ",
-            water_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
-            Apply water daily in case of prolonged drought.
-            ",
-            weed_management:"Advisory: Weeding should be done at the correct time especially during the early stages of growth
-            Weed control at least twice before flowering after which the plant covers the ground and suppresses the weeds
+        #     Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
             
-            Integrated weed management (IWM) strategy should be employed and embraced. 
+        #     Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
+        #     ",
+        #     water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
+        #     Irrigate early in the morning to avoid late blight disease,
+        #     Reduce watering at the end of crop maturity,
+        #     Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            
+        #     ",
+        #     weed_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
+        #     Apply water daily in case of prolonged drought.
+            
+            
+        #     ",
+        #     soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
+        #     Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
+        #     ",
+        #     crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
+        #     Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
+            
+        #     Do crop rotation to improve the fertility of the soil.
+            
+        #     Control soil erosion using an appropriate method.
+            
+            
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
+
+
+        #     ",
+        #     storage:"Advisory: Dry and treat the cowpea against pest and diseases before storage
+        #     Store dried cowpeas in hermetic bags, e.g. PICS bags, Agro-Z, etc. 
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
+        # {
+        #     name: "Cowpeas",
+        #     variety:"Kunde",
+        #     region: "North Eastern",
+        #     description:"Cowpeas are a type of legume that are drought-tolerant and grow well in hot, humid climates. They have a nutty, earthy flavor and are rich in protein, fiber, and other essential nutrients. Cowpeas can be cooked in a variety of ways and are a staple food in many cultures around the world.",
+        #     county_id: 1,
+        #     extension_officer_phone_number: "0712345678",
+        #     cost_of_production_per_acre:"36,000 - 40,000",
+        #     maturity_period: "3-4 weeks",
+        #     image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+
+        #     site_selection:"Advisory: Select a suitable site within the correct agro ecological conditions
+        #     Altitude range
+        #     Cowpea require an altitudes of 1200 – 1500 (1850) masl.
+        #     Soil type and conditions
+        #     Well-drained, light and fairly fertile sandy soils and it can tolerate a wide range of soil conditions including low fertility and acidic soils but it is sensitive to water logging. It does well within a pH range of 5.6-6.0 (6.5). 
+        #     Cowpea nutrient requirements include: N, P, K, Mg, Ca, S, B, Cu, Fe, Mn, Mo, Zn.
+        #     Temperature range 
+        #     The temperatures should be 20-35oC but it can tolerate shading.
+        #     Rainfall
+        #     The rainfall should be 200 – 400 mm p.a. 
+        #     ",
+        #     land_preparation:"Advisory: Prepare the land early during the dry season
+        #     When preparing land,deep plough the bed once or twice to a medium tilth.
+             
+
+
+            
+            
+        #     ",
+        #     pre_planting:"Advisory: Planting materials Certified and local seeds
+        #     Select planting material from healthy plants free of pests and diseases, and from recommended sources.
+            
+        #     Seeds should be selected from the same colour for desired variety. 
+            
+        #     During selection growth habit (climbing, erect, spreading), flower colour, maturity period and seed type should be considered. 
+            
+        #     For grain production, colour and size of seeds are important to consumers depending on their preferences.
+
+        #     ",
+        #     planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
+        #     Plant the seeds on flat or raised beds.
+            
+        #     Planting is done at a depth of 2.5-5 cm.
+            
+        #     Pure stand spacing should be 45-60 cm.
+            
+        #     Intercropping should be 20-40 cm apart.
+            
+        #     Seed rate is 17-25kg/ha (2-3 seeds/hole) when sown in rows and the seed-rate when broadcasting is done is 10-40 kg/ha.
+            
+        #     Add manure and fertilizers to the soil in the right amounts to provide the required plant nutrients for vigorous crop growth.
+        #     ",
+        #     water_management:"Advisory: Cowpea is drought tolerant and will do well even under minimal rainfall
+        #     Apply water daily in case of prolonged drought.
+        #     ",
+        #     weed_management:"Advisory: Weeding should be done at the correct time especially during the early stages of growth
+        #     Weed control at least twice before flowering after which the plant covers the ground and suppresses the weeds
+            
+        #     Integrated weed management (IWM) strategy should be employed and embraced. 
              
             
             
-            ",
-            soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
-            Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
+        #     ",
+        #     soil_fertility:"Advisory: Apply manure and fertilizer based on soil sampling, testing and analysis’ results.
+        #     Add right amounts of manure and fertilizers to the soil to provide the required plant nutrients for vigorous crop growth.
             
-            ",
-            crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
-            Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
+        #     ",
+        #     crop_management:"Advisory: For seed production thinning should be done to the right plant population or as per variety requirement
+        #     Thin to 1 seedling/hole 2 weeks after emergence to 10-20 cm between plants.
             
-            Do crop rotation to improve the fertility of the soil.
+        #     Do crop rotation to improve the fertility of the soil.
             
-            Control soil erosion using an appropriate method.
+        #     Control soil erosion using an appropriate method.
             
-            ",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+        #     ",
+        #     harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
+        #     Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
+        #     Harvesting should preferably done early in the morning when temperatures are cool,
+        #     Put the harvested fruits into holding containers (plastic buckets),
+        #     The harvested fruits are put in a cool place e.g. in a shade,
+        #     Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
+        #     Tomato will produce 25-100 tons per ha with proper management
 
 
-            ",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+        #     ",
+        #     storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
+        #     Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
+        #     Transportation is done by pick-ups lorries and motorbikes,
+        #     Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
+        #     Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
+        #     Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            precipitation_needed: 200,
-            soil_type_needed:"Loam",
-        },
+        #     ",
+        #     precipitation_needed: 200,
+        #     soil_type_needed:"Loam",
+        # },
 
 
 
