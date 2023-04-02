@@ -3897,15 +3897,17 @@ plantable_crops = PlantableCrop.create(
     [
         {
             name: "Maize",
+            jina:"Mahindi",
             variety:"H614",
+            aina_ya_mbegu:"H614",
             region: "Central",
             description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
+            maelezo:"Nyanya ni mboga maarufu ambayo inaweza kupandwa karibu na bustani yoyote. Kwanza, chagua eneo lenye jua nyingi na mchanga wenye unyevu mzuri ulio na vitu vya kikaboni. Mimea ya nyanya inahitaji angalau masaa 6-8 ya jua moja kwa moja kila siku kukua vizuri. Mara tu ukichagua eneo hilo, panda miche ya nyanya karibu futi 2-3 kando ya mchanga, ukizika hadi seti ya kwanza ya majani. Maji mimea vizuri na mulch kuzunguka msingi kusaidia kuhifadhi unyevu kwenye mchanga. Nyanya zinahitaji kumwagilia mara kwa mara na mbolea kukua, kwa hivyo hakikisha kuzitia kwa undani na kuzi mbolea yenye mbolea kila wiki chache. Mimea inapokua, waunge mkono na vijiti au mabwawa ili kuwaweka sawa na kuzuia matunda kugusa ardhi. Mwishowe, vunja nyanya wakati zimeiva, kawaida wakati wamegeuka nyekundu kabisa na ni laini kidogo kwa kugusa.",
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000 - 30,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
+            kipindi_cha_ukomavu:"Miezi 3",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
@@ -3919,6 +3921,13 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
+            uteuzi_wa_tovuti:"Ushauri: Chagua ardhi inayofaa na yenye maji vizuri kulingana na hitaji la kiikolojia la mazao, anuwai ya urefu, Nyanya zinahitaji mwinuko wa 0 - 2000 masl, aina ya mchanga na masharti,Vifuniko vyenye rutuba na vilivyo na mchanga vyenye utajiri wa kikaboni,
+            Inahitaji pH: 5.0 - 7.0 Zn Mn na Fe kuwa na upungufu na chini ya 4.5 kutoa matunda sour,
+            Mahitaji ya virutubishi vya nyanya ni pamoja na: N P K Mg Ca S Mn Mo Zn Bo Cu Fe ,
+            Kiwango cha joto,
+            Joto linapaswa kuwa 18 - 29 oC ,
+            Mvua,
+            Mvua ya mvua ya mm 600 ni muhimu wakati wa uzalishaji",
             land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
             Steps during land preparation,
             Prepare the main field 1-2 weeks before transplanting,
@@ -3930,6 +3939,11 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
+            maandalizi_ya_ardhi:"Ushauri: Andaa uwanja kuu wiki 1-2 kabla ya kupandikiza kuunda hali nzuri ya uanzishwaji wa shamba ,
+            Hatua wakati wa kuandaa ardhi,
+            Andaa uwanja kuu wiki 1-2 kabla ya kupandikiza,
+            Plow na harrow kwa tilth inayofaa,
+            Omba mbolea na mbolea ya msingi kulingana na matokeo ya uchambuzi wa mchanga na mapendekezo",
             pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
             Direct planting can be done or seedlings can be raised in a nursery by:,
             Constructing raised or sunken nursery beds at 1 m width by desired length
@@ -3952,12 +3966,27 @@ plantable_crops = PlantableCrop.create(
 
             
             ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
-            
-            ",
+            upandaji_wa_kabla:"Ushauri: Chagua vifaa vya upandaji kutoka kwa vyanzo vya kuaminika / mazao ya agro ambayo ni ya mapema ya kumaliza shina fupi na inayopendelea katika soko,
+            Upandaji wa moja kwa moja unaweza kufanywa au miche inaweza kukuzwa katika kitalu na:,
+            Kuunda vitanda vya kitalu vilivyoinuliwa au jua kwa upana wa 1 m kwa urefu unaohitajika
+
+            Ingiza kilo 5 ya mbolea iliyoharibika vizuri au mbolea / m2 ndani ya mbegu
+
+            Punguza kitanda cha kitalu na matibabu ya maji moto yanayowaka jua au utumiaji wa dawa inayofaa ya wadudu,
+            Panda mbegu kwenye mito 20cm iliyowekwa kwa 2.5cm na funika kidogo na mchanga
+
+          Mulch na maji mara kwa mara hadi miche itakapoibuka,
+
+          Baada ya kuibuka kwa miche huondoa mulch kutoka vitanda na kujenga kivuli kilichoinuliwa ( karibu 1 m ),
+          Omba maji ya kutosha mara kwa mara ili kudumisha ukuaji mzuri, wenye afya wa miche
+
+           Weka kitalu kisicho na magugu na skauti kwa wadudu na magonjwa
+
+
+
+",
+
+
             planting:"Advisory: Direct planting or transplanting can be practiced,
             Planting ,
             Water the nursery to saturation point 12 hours before transplanting,
@@ -3967,12 +3996,27 @@ plantable_crops = PlantableCrop.create(
             Target plant population density 37,000 to 9,300 plants per ha
 
             ",
+            kupanda:"Ushauri: Upandaji wa moja kwa moja au kupandikiza kunaweza kufanywa,
+            Kupanda ,
+            Maji kitalu kwa kiwango cha kueneza masaa 12 kabla ya kupandikiza,
+            Kupandikiza miche kwa wiki 3-4 kwenye kitalu, 
+            Tengeneza manyoya au shimo za kupanda kulingana na nafasi ya aina maalum,,
+            Nafasi kubwa ya cm 100 x 50 cm ni nzuri,
+            Lengo la idadi ya watu wenye miti 37,000 hadi mimea 9,300 kwa ha
+
+
+",
             water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
             Irrigate early in the morning to avoid late blight disease,
             Reduce watering at the end of crop maturity,
             Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
             
             ",
+            usimamizi_wa_maji:"Usimamizi: Irrigate mara kwa mara haswa wakati wa vipindi muhimu kama kitalu, mpangilio wa maua na maendeleo ya matunda na wakati wa Spell kavu,
+            Irrigate mapema asubuhi ili kuzuia ugonjwa wa blight marehemu,
+            Punguza kumwagilia mwisho wa ukomavu wa mazao,
+            Kumwagilia mara kwa mara maua ya maua ya maua huhakikisha ukuaji wa matunda sawa huzuia kugawanyika kwa matunda kunapunguza hatari ya scorch ya jua huongeza ukuaji wa matunda na huongeza saizi na idadi ya matunda",
+
             weed_management:"Advisory: Timely weeding should be practised,
             
             Weeding is done through hoeing mulching or use of herbicides,
@@ -3981,9 +4025,16 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
+            usimamizi_wa_magugu:"Usimamizi: Kupunguza kwa wakati kunapaswa kufanywa,
+            
+            Kuteremka hufanywa kupitia kuvuta mulching au matumizi ya mimea ya mimea,
+            Fanya kilimo kisicho na kina sio karibu sana na mmea ili kuzuia uharibifu wa mimea",
+
             soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
             Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
             ",
+            udongo_wajadi:"Ushauri: Omba virutubishi vinavyohitajika kulingana na matokeo ya uchambuzi wa mtihani wa mchanga na mahitaji ya virutubishi vya mmea,
+            Omba mbolea ya mavazi ya juu kama vile CAN katika mgawanyiko 2 kwa 100kg kwa ha ( 5g au ½ kijiko kwa kila mmea ) na 200kg kwa ha kwa wiki 4 na 8 mtawaliwa baada ya kupandikiza",
             crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
             Stake if necessary depending on the varieties,
             Guide plant along the trellising string or wire,
@@ -4000,6 +4051,19 @@ plantable_crops = PlantableCrop.create(
             
             
             ",
+            usimamizi_wa_mazao:"Usimamizi: Prune kuacha shina kuu 1 hadi 2 na kuweka nje nyuma wakati wanakua kila wiki,
+            Kaa ikiwa ni lazima kulingana na aina,
+            Mwongozo wa mmea kando ya kamba ya kukanyaga au waya,
+            Weka fimbo ya 2m ardhini kwa kila mmea wa nyanya na funga shina kwa urahisi wakati mmea unakua
+
+            au
+
+            Weka pole ya stout ardhini kwa kila waya 4m na 2 zinazoendesha moja kwa 2m na nyingine kwa 0.15m juu ya ardhi,
+            Funga kamba kali kati ya waya mbili nyuma ya kila mmea wa nyanya,
+            Piga mimea kwa uangalifu karibu na kamba wanapokua,
+            Anza kukwama kama wiki mbili baada ya kupandikiza,
+            Pruning inafanywa kwa kuondoa majani ya chini ya kukomaa na kuangalia uwepo wa wadudu na magonjwa
+",
             harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
             Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
             Harvesting should preferably done early in the morning when temperatures are cool,
@@ -4010,6 +4074,13 @@ plantable_crops = PlantableCrop.create(
 
 
             ",
+            uvunaji:"Usimamizi: Mavuno hufanywa kwa hatua tofauti kulingana na hitaji la soko na umbali wa soko,
+            Mavuno hufanywa kwa mkono kwa kupotosha na kugeuka hadi matunda yatakapotoa mzabibu,
+            Mavuno yanapaswa kufanywa mapema asubuhi wakati joto ni baridi,
+            Weka matunda yaliyovunwa kwenye vyombo vyenye ( ndoo za plastiki ),
+            Matunda yaliyovunwa huwekwa mahali pazuri n.k. kwenye kivuli,
+            Mavuno yanapaswa kufanywa mapema asubuhi au marehemu jioni kwani hii ndio wakati mmea unajaa,
+            Nyanya itatoa tani 25-100 kwa ha na usimamizi sahihi",
             storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
             Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
             Transportation is done by pick-ups lorries and motorbikes,
@@ -4018,10 +4089,12 @@ plantable_crops = PlantableCrop.create(
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
             ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
-            ",
+            uhifadhi:"Usimamizi: Dumisha mnyororo wa baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,  
+            Nyanya huwekwa kwenye makombo ya plastiki au ya mbao kwenye shamba hadi kusafirishwa kwenye soko,
+            Usafiri hufanywa na malori ya kuchukua na pikipiki,
+            Nyanya zimejaa mifuko ya mazingira ya canvass ya mazingira 1-1.5kg inauzwa katika kiwango cha rejareja,
+            Sehemu zingine za rejareja ni pamoja na vyombo vya plastiki vikapu vya jadi 2-5kg 2-5kg na chungu matunda 3-5,
+            Nyanya zinauzwa katika masoko mapya ya kuuza maduka makubwa ya rejareja taasisi za mikahawa na viwanda vya usindikaji wa chakula",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
         },
@@ -4033,8 +4106,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000 - 180,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4080,12 +4151,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4147,10 +4212,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4163,8 +4224,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"35,000 - 50,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4210,12 +4269,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4277,10 +4330,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4293,8 +4342,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"200,000 - 250,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4340,12 +4387,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4407,10 +4448,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4423,8 +4460,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"30,000 - 50,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4470,12 +4505,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4537,10 +4566,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4553,8 +4578,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"250,000 - 300,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4600,12 +4623,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4667,10 +4684,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4683,8 +4696,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000 - 30,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4730,12 +4741,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4797,10 +4802,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4813,8 +4814,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"28,000 - 35,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4860,12 +4859,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -4927,10 +4920,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -4943,8 +4932,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"30,000 - 40,000	",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -4990,12 +4977,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5057,10 +5038,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5073,8 +5050,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"18,000 - 28,000	",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5120,12 +5095,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5187,10 +5156,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5203,8 +5168,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"50,000 - 70,000		",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5250,12 +5213,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5317,10 +5274,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5333,8 +5286,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"80,000 - 100,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5380,12 +5331,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5447,10 +5392,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5463,8 +5404,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"125,000  - 150,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5510,12 +5449,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5577,10 +5510,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5593,8 +5522,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"100,000  - 130,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5640,12 +5567,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5707,10 +5628,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5723,8 +5640,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000  - 30,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5770,12 +5685,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5837,10 +5746,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5854,8 +5759,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000  - 30,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -5901,12 +5804,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -5968,10 +5865,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -5985,8 +5878,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"16,000 - 35,000 ",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6032,12 +5923,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -6099,10 +5984,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -6115,8 +5996,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"100,000 - 120,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6162,12 +6041,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -6229,10 +6102,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -6245,8 +6114,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"73,000 - 105,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6292,12 +6159,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -6359,10 +6220,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
@@ -6375,8 +6232,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"85,000 - 95,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6422,12 +6277,6 @@ plantable_crops = PlantableCrop.create(
 
 
 
-            
-            ",
-            varieties:"Advisory: Ensure the required and recommended varieties that is adapted to the ecological conditions,
-            Varieties include;,
-            Fresh market; Money Make Elgon Ndume Marmande Rio Grande,
-            Processing; Cal-J -Determinate M-82 Roma VF Bush tomato,
             
             ",
             planting:"Advisory: Direct planting or transplanting can be practiced,
@@ -6490,10 +6339,6 @@ plantable_crops = PlantableCrop.create(
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
             ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
-            ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
         },
@@ -6505,8 +6350,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"45,000 - 50,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6546,11 +6389,6 @@ plantable_crops = PlantableCrop.create(
             ",
             pre_planting:"Planting materials include seeds or ratoon
             
-            ",
-            varieties:"Advisory: The choice of variety depends on locality, consumer and market preferences and disease tolerance
-            Recommended varieties include;
-            Gadam, Serena and Seredo
-            Use certified and local varieties as per the AEZ
             ",
             planting:"Advisory: Plant at the onset of rain and intercropping should be done with an appropriate cover crop
             Direct planting of seeds is done by sowing directly into furrows as a drillat a spacing of 45 x 60  or 75cm x 20cm for mono-crop and 90 cm x 30 cm for inter-cropwith legume or maize
@@ -6615,10 +6453,6 @@ plantable_crops = PlantableCrop.create(
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
             ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
-            ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
         },
@@ -6630,8 +6464,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"34,000 - 38,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3 months",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6670,10 +6502,6 @@ plantable_crops = PlantableCrop.create(
             For grain production, colour and size of seeds are important to consumers depending on their preferences.
 
             
-            ",
-            varieties:"Advisory: Ensure the required variety is planted
-            Cowpeas varieties include: Katumani 80 (K80), Ken kunde, Kunde 1, Machakos 66, MTW66,610.
-                        
             ",
             planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
             Plant the seeds on flat or raised beds.
@@ -6724,12 +6552,6 @@ plantable_crops = PlantableCrop.create(
             storage:"Advisory: Dry and treat the cowpea against pest and diseases before storage
             Store dried cowpeas in hermetic bags, e.g. PICS bags, Agro-Z, etc. 
             ",
-            post_harvesting_handling:"Advisory: Minimize damage to grain during threshing as damaged grain is prone to attack by insects and fungi.
-            Dry the leaves in diffuse light aeration (dehydration) for later consumption.
-            Refrigerate green cowpea for later consumption.
-            Dry the pods on the mats or tarpaulins for about 2-3 days to a moisture content of 13%, then thresh and winnow. When cowpea are dry, they make loud, sharp noise when dropped on the ground.
-            Treat the cowpea with dust / ash against storage pest.
-            Post-harvest pest management of Bean Bruchid should be done.",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
         },
@@ -6741,8 +6563,6 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"36,000 - 40,000",
-            price_per_kg: 3000,
-            average_fertilizer_cost_per_kg: 1000,
             maturity_period: "3-4 weeks",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
@@ -6774,9 +6594,6 @@ plantable_crops = PlantableCrop.create(
             
             For grain production, colour and size of seeds are important to consumers depending on their preferences.
 
-            ",
-            varieties:"Advisory: Ensure the required variety is planted
-            Cowpeas varieties include: Katumani 80 (K80), Ken kunde, Kunde 1, Machakos 66, MTW66,610.
             ",
             planting:"Advisory: Planting should be done during off peak to fetch higher prices in the market. Cowpea is commonly grown as intercrop but can also be grown in as a mono crop.
             Plant the seeds on flat or raised beds.
@@ -6831,10 +6648,6 @@ plantable_crops = PlantableCrop.create(
             Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
             Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
         
-            ",
-            post_harvesting_handling:"Advisory: Transportation from farm to the market should be done early in the morning when temperatures are cool and care should be taken to avoid damaging the tomatoes,
-            Sorting is done to remove rotten damaged cracked and diseased fruits and debris. Sorting limits spread of infection to healthy fruits during post-harvest handling,
-            Grading is categorization of fruits on the basis of color size and stage of maturity / degree of ripening
             ",
             precipitation_needed: 200,
             soil_type_needed:"Loam",
