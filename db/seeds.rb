@@ -6674,7 +6674,7 @@ users = User.create(
             last_name: "Doe",
             national_id: 12345,
             role: "farmer",
-            profile_picture:"ughjik",
+            profile_picture:"https://res.cloudinary.com/dakiak4mc/image/upload/v1679022116/n4tru5ypfgilf6j6o5remgk9wrbx.png",
             password: "password",
             password_confirmation: "password",
         },
@@ -6683,7 +6683,7 @@ users = User.create(
             last_name: "Doe",
             national_id: 123456,
             role: "farmer",
-            profile_picture:"ughjik",
+            profile_picture:"https://res.cloudinary.com/dakiak4mc/image/upload/v1679720195/nqvjstm3kdutb1nd0trb.png",
             password: "password",
             password_confirmation: "password",
         },
@@ -6912,12 +6912,13 @@ messages = Message.create([
     {
         user_id: 1,
         community_id: 1,
-        text:"This is a message from the tomato farmers community",
+        text:"How can I plant tomatoes on a field that has been used for potatoes?",
     },
     {
         user_id: 2,
         community_id: 1,
-        text:"This is a message from the tomato farmers community",
+        text:"You can use a different fertilizer for tomatoes",
+        
     },
 
 ])
