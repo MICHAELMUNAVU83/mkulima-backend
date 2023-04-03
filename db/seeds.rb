@@ -6849,10 +6849,11 @@ input_supplies = InputSupply.create([
     {
         name: "Evergrow Organic Fertilizer NPK+TE 10Kg",
         description: "The best fertilizer for tomato plants has macronutrients such as nitrogen, phosphorous, and potassium, as well as essential micronutrients such as magnesium, calcium, boron, and zinc. However, tomatoes need different ratios of these nutrients during each growth cycle",
-        type_of_supply: "fertilizer",
+        type_of_supply: "planting_inputs",
         crop_for: "Tomato",
         location: "Nairobi",
         contact: "0712345678",
+        approved: true,
         price_per_kg: 440,
         product_image: "https://copia.co.ke/wp-content/uploads/2023/03/Evergrow-Organic-Fertilizer-NPKTE-10Kg_Fertilizers_32294_1.jpeg",
         user_id: 2,
@@ -6861,8 +6862,9 @@ input_supplies = InputSupply.create([
     {
         name: "Simlaw Seed Tomato Rio Grande Vf 10g",
         description: "Emerald F1 is well adapted to most ecological zones. In Kenya, the variety has shown good results in ALL tomato-growing areas",
-        type_of_supply: "seed",
+        type_of_supply: "planting_inputs",
         crop_for: "Tomato",
+        approved: true,
         location: "Nairobi",
         product_image: "https://copia.co.ke/wp-content/uploads/2022/06/KL485_9158-1.jpg",
         contact: "0712345678",
@@ -6873,8 +6875,9 @@ input_supplies = InputSupply.create([
     {
         name: "Nitralin/Trifularin",
         description: "This type of herbicide is always recommended to be used at ten weeks to planting. It is a selective herbicide and has rated to be promising and effective for a range of sub-tropical, tropical and temperate crops. It is mostly used on tomato, cotton, sorghum, tobacco and many other crops",
-        type_of_supply: "herbicide",
+        type_of_supply: "management_inputs",
         crop_for: "Tomato",
+        approved: true,
         location: "Nairobi",
         contact: "0712345678",
         price_per_kg: 150,
@@ -6885,7 +6888,8 @@ input_supplies = InputSupply.create([
     {
         name: "Pesticides",
         description: "my pesticides",
-        type_of_supply: "pesticide",
+        type_of_supply: "management_inputs",
+        approved: true,
         crop_for: "Tomato",
         location: "Nairobi",
         contact: "0712345678",
@@ -6898,8 +6902,9 @@ input_supplies = InputSupply.create([
      {
         name: "Evergrow Organic Fertilizer NPK+TE 10Kg",
         description: "The best fertilizer for tomato plants has macronutrients such as nitrogen, phosphorous, and potassium, as well as essential micronutrients such as magnesium, calcium, boron, and zinc.",
-        type_of_supply: "fertilizer",
+        type_of_supply: "planting_inputs",
         crop_for: "Maize",
+        approved: true,
         location: "Nairobi",
         contact: "0712345678",
         price_per_kg: 440,
@@ -6910,9 +6915,10 @@ input_supplies = InputSupply.create([
     {
         name: "SC Sungura 301 Maize Seed ",
         description: "Sc Sungura 301 is an Ultra early maturing variety that takes 72-80 days to physical maturity. It is an excellent alternative to Sorghum and Millet cropping. This variety is tolerant to weather challenges, with wide regional adaptation under marginal conditions. It has semi flint grain texture with good tip cover. Just like the animal, Sc Sungura 301 is cunning and escapes the ravages of weather to sustain a yield of 25-30kgs (90) kg bags per acre within 72-80 days.",
-        type_of_supply: "seed",
+        type_of_supply: "planting_inputs",
         crop_for: "Maize",
         location: "Nairobi",
+        approved: true,
         product_image: "https://copia.co.ke/wp-content/uploads/2022/07/KL657_9374.jpg",
         contact: "0712345678",
         price_per_kg: 305,
@@ -6922,9 +6928,10 @@ input_supplies = InputSupply.create([
     {
         name: "Governor® 580SE",
         description: "applied when the maize and weeds have germinated. They selectively kill broad-leaved weeds, allowing the maize crop to grow without competition. This herbicide should be sprayed when the maize crop is at knee-high stage, about 30cm high",
-        type_of_supply: "herbicide",
+        type_of_supply: "management_inputs",
         crop_for: "Maize",
         location: "Nairobi",
+        approved: true,
         contact: "0712345678",
         price_per_kg: 2800,
         product_image: "https://i0.wp.com/imaginecare.co.ke/wp-content/uploads/2021/02/buy-Governor-580-SE-in-kenya.jpg?fit=1772%2C1772&ssl=1",
@@ -6935,6 +6942,8 @@ input_supplies = InputSupply.create([
         name: "DMBL Ruiru CAN 26",
         description: "Maisha Rahisi – Shop for this DMBL Ruiru CAN 26% Fertilizer 25kg on Kenya’s largest online store. For All your Quality Assured Trusted Brands. . The DMBL Ruiru CAN 26% Fertilizer 25kg is ideal for pre-planting or as a top dressing application. High quality, high grade fertilizer",
         crop_for: "Maize",
+        approved: true,
+        type_of_supply: "planting_inputs",
         location: "Nairobi",
         contact: "0712345678",
         price_per_kg: 3200,
@@ -6946,8 +6955,9 @@ input_supplies = InputSupply.create([
       {
         name: "glp 92, Mwitemania",
         description: "Cream seeds with black-brown spots. Has a spreading growth habbit nearly flat pods which contain oval seeds Prefers the medium altitude and is tolerant to drought",
-        type_of_supply: "seed",
+        type_of_supply: "planting_inputs",
         crop_for: "Beans",
+        approved: true,
         location: "Nairobi",
         contact: "0712345678",
         price_per_kg: 440,
@@ -6958,12 +6968,13 @@ input_supplies = InputSupply.create([
     {
         name: "Evergrow Organic Fertilizer NPK+TE 10Kg",
         description: "The best fertilizer for tomato plants has macronutrients such as nitrogen, phosphorous, and potassium, as well as essential micronutrients such as magnesium, calcium, boron, and zinc",
-        type_of_supply: "fertilizer",
+        type_of_supply: "planting_inputs",
         crop_for: "Beans",
         location: "Nairobi",
         product_image: "https://copia.co.ke/wp-content/uploads/2021/05/KL243_3573-19.jpg",
         contact: "0712345678",
         price_per_kg: 305,
+        approved: true,
         user_id: 2,
         
     },
@@ -6972,6 +6983,8 @@ input_supplies = InputSupply.create([
         description: "Beanscl an 480 SL is a broad spectrum selective herbicide that controls grass and broad-leaved weeds in bean fields. It is recommended for use when the crop is at the 2-5 leaf stage.",
         crop_for: "Beans",
         location: "Nairobi",
+        type_of_supply: "management_inputs",
+        approved: true,
         contact: "0712345678",
         price_per_kg: 700,
         product_image: "https://copia.co.ke/wp-content/uploads/2023/01/Osho-Kick-Out-480-SL-1l_Agro-chemicals_26798_1.png",
@@ -6983,6 +6996,8 @@ input_supplies = InputSupply.create([
         description: "Baraka Msingi Top Dressing Fertilizer has you covered for all your fertilizer needs. Our products are crop specific to ensure you get maximum yield.",
         crop_for: "Beans",
         location: "Nairobi",
+        type_of_supply: "planting_inputs",
+        approved: true,
         contact: "0712345678",
         price_per_kg: 3039,
         product_image: "https://copia.co.ke/wp-content/uploads/2021/05/KL295_2089-33.jpg",
@@ -7105,29 +7120,7 @@ animalfeeds = AnimalFeed.create([
 
         
 
-puts "Creating crops for counties"
 
-crops = Crop.create([
-    {
-        name: "Tomato",
-        description: "my tomato",
-        county_id: 1,
-
-    },
-    {
-        name: "Sukuma wiki",
-        description: "my sukuma wiki",
-        county_id: 1,
-
-    },
-    {
-        name: "Potato",
-        description: "my potato",
-        county_id: 1
-
-    
-    }
-])
 
 
 
