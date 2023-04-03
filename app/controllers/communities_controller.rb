@@ -2,12 +2,25 @@ class CommunitiesController < ApplicationController
     skip_before_action :authorized
     def index
         @communities = Community.all
+        
+
   response = @communities.map do |community|
     {
       name: community.name,
       id: community.id,
       description: community.description,
-      total_users: community.messages.distinct.count(:user_id)
+      total_users: community.messages.distinct.count(:user_id),
+     users: community.users.uniq.map do |user|
+
+        {
+          name: user.first_name,
+          profile_picture: user.profile_picture,
+        }
+      end
+
+
+
+    
     }
     end
 

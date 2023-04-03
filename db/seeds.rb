@@ -3906,7 +3906,7 @@ plantable_crops = PlantableCrop.create(
             county_id: 1,
             extension_officer_phone_number: "0712345678",
             cost_of_production_per_acre:"20,000 - 30,000",
-            maturity_period: "3 months-8 months depending on the variety",
+            maturity_period: "3 months-8 months ",
             kipindi_cha_ukomavu:"Miezi 3 - 8 kulingana na aina",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680423482/photo-1649251037566-6881b4956615_oj75tm.jpg",
 
@@ -7318,7 +7318,7 @@ tomato_prices = MarketPrice.create([
           plantable_crop_id: 2,
         },
         {
-          retail_price: 95,
+          retail_price: 103,
           wholesale_price: 66,
           plantable_crop_id: 2,
         }
