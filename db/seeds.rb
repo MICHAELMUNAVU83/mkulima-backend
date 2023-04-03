@@ -7186,9 +7186,108 @@ messages = Message.create([
 
     },
     {
+        user_id: 1,
+        community_id: 1,
+        text:"Hello, I'm facing some issues with my tomato crops. There are some white spots on the leaves of my tomatoes. The leaves of the tomatoes eventually turn red and fall off",
 
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"I have had such a problem before. The leaves are turning color because of something called blight.",
 
-    }
+    },
+    {
+        user_id: 1,
+        community_id: 1,
+        text:"Nawezatumia nini ndiyo hiyo blight iishe kwa nyanya yangu?",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"Nimesikia kwamba foliar spray inawezasaidia. Ni dawa ya kufyonzwa kwenye maji ya kunyunyizia majani.",
+
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"Ukitumia foliar spray ama any other pesticide unafaa kuhakikisha unatumia dawa salama kwa ajili ya wakulima na wanyama.",
+        text:"Njia yenye nilitumia kuzuia blight na ilisaidia ni kumix maji ya baking soda na sunflower oil. Then hiyo mixture nikayunyizia kwenye majani ya nyanya",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"Hiyo ni njia nzuri pia, lakini unahitaji kufanya hivyo mara kwa mara ili kuzuia ugonjwa.",
+
+    },
+    {
+        user_id: 1,
+        community_id: 1,
+        text:"Asante sana kwa ushauri wenu.  Nitajaribu zote mbili na kuona ni ipi inafanya kazi vizuri zaidi.",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"Halafu pia unawezaondoa majani yote yaliyoathiriwa na blight na kuyatupa nje ya shamba lako ili kuzuia maambukizi zaidi",
+
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"Niko na shida pia. Shida yangu ni wakati mwingine nyanya zangu huwa hazikui vizuri na hazifiki ukubwa unaotakiwa.",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"Huenda uko na shida na udongo wako. Umewahi jaribu kupima soil pH ya shamba yako?",
+
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"Hapana. Huwa nafikiria ni expensive kupima soil pH.",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"Siyo expensive vile. You can test your soil pH using a regular soil tester. Ni around 1100 shillings. Na baadaye mazao yako inawezaongezeka zaidi.",
+
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"Kumbe bei yake haiko juu sana. Acha nitaenda kununua siku napeleka sukuma wiki nilipanda kwa soko.",
+
+    },
+    {
+        user_id: 1,
+        community_id: 1,
+        text:"Hata mimi naona nitajaribu kutest soil pH nijue kama hiyo pia ndiyo husababisha mazao mabaya kwa hii shamba yangu hata baada ya kuweka mbolea ya kutosha.",
+
+    },
+    {
+        user_id: 2,
+        community_id: 1,
+        text:"Asante sana James. Tunajifunza mengi kutokana na ushauri wako.",
+
+    },
+    {
+        user_id: 4,
+        community_id: 1,
+        text:"You're welcome. We're together in this. Nikiwa na shida pia sitasita kuwauliza.",
+
+    },
+    {
+        user_id: 1,
+        community_id: 1,
+        text:"Tutashirikiana pamoja. Asante, na muwe na siku njema.",
+
+    },
 
 ])
 
