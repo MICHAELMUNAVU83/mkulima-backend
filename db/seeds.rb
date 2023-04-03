@@ -6816,6 +6816,15 @@ users = User.create(
             profile_picture:"ughjik",
             password: "password",
             password_confirmation: "password",
+        },
+        {
+            first_name: "Supplier",
+            last_name: "Kamau",
+            national_id: 1234567,
+            role: "farmer",
+            profile_picture:"https://res.cloudinary.com/dakiak4mc/image/upload/v1678989565/1k7h5zx9qji624zwfnararltsiij.jpg",
+            password: "password",
+            password_confirmation: "password",
         }
     ]
 )
@@ -7175,6 +7184,10 @@ messages = Message.create([
         text:"You can use a different fertilizer for tomatoes",
 
     },
+    {
+
+
+    }
 
 ])
 
