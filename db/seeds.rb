@@ -6819,9 +6819,9 @@ users = User.create(
             password_confirmation: "password",
         },
         {
-            first_name: "Supplier",
+            first_name: "David",
             last_name: "Kamau",
-            national_id: 1234567,
+            national_id: 123456789,
             role: "farmer",
             profile_picture:"https://res.cloudinary.com/dakiak4mc/image/upload/v1678989565/1k7h5zx9qji624zwfnararltsiij.jpg",
             password: "password",
