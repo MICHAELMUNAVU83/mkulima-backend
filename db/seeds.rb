@@ -7160,8 +7160,8 @@ communities = Community.create([
         description: "This is a community for tomato farmers",
     },
     {   
-        name: "Sukuma wiki Farmers",
-        description: "This is a community for sukuma wiki farmers",
+        name: "Maize farmers",
+        description: "This is a community for maize farmers",
 
     },
     {
@@ -7176,36 +7176,36 @@ puts "Seeding community messages"
 messages = Message.create([
     {
         user_id: 1,
-        community_id: 1,
-        text:"How can I plant tomatoes on a field that has been used for potatoes?",
+        community_id: 2,
+        text:"How can I plant maize on a field that has been used for potatoes?",
     },
     {
         user_id: 2,
-        community_id: 1,
-        text:"You can use a different fertilizer for tomatoes",
+        community_id: 2,
+        text:"You can use a different fertilizer for maize",
 
     },
     {
         user_id: 1,
-        community_id: 1,
-        text:"Hello, I'm facing some issues with my tomato crops. There are some white spots on the leaves of my tomatoes. The leaves of the tomatoes eventually turn red and fall off",
+        community_id: 2,
+        text:"Hello, I'm facing some issues with my maize crops. There are some white spots on the leaves of my maize. The leaves of the maize eventually turn red and fall off",
 
     },
     {
         user_id: 2,
         community_id: 1,
-        text:"I have had such a problem before. The leaves are turning color because of something called blight.",
+        text:"I have had such a problem before. The leaves are turning color because of something called smut.",
 
     },
     {
         user_id: 1,
-        community_id: 1,
+        community_id: 2,
         text:"Nawezatumia nini ndiyo hiyo blight iishe kwa nyanya yangu?",
 
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"Nimesikia kwamba foliar spray inawezasaidia. Ni dawa ya kufyonzwa kwenye maji ya kunyunyizia majani.",
 
     },
@@ -7218,13 +7218,13 @@ messages = Message.create([
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"Hiyo ni njia nzuri pia, lakini unahitaji kufanya hivyo mara kwa mara ili kuzuia ugonjwa.",
 
     },
     {
         user_id: 1,
-        community_id: 1,
+        community_id: 2,
         text:"Asante sana kwa ushauri wenu.  Nitajaribu zote mbili na kuona ni ipi inafanya kazi vizuri zaidi.",
 
     },
