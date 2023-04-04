@@ -7236,55 +7236,55 @@ messages = Message.create([
     },
     {
         user_id: 2,
-        community_id: 1,
+        community_id: 2,
         text:"Niko na shida pia. Shida yangu ni wakati mwingine nyanya zangu huwa hazikui vizuri na hazifiki ukubwa unaotakiwa.",
 
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"Huenda uko na shida na udongo wako. Umewahi jaribu kupima soil pH ya shamba yako?",
 
     },
     {
         user_id: 2,
-        community_id: 1,
+        community_id: 2,
         text:"Hapana. Huwa nafikiria ni expensive kupima soil pH.",
 
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"Siyo expensive vile. You can test your soil pH using a regular soil tester. Ni around 1100 shillings. Na baadaye mazao yako inawezaongezeka zaidi.",
 
     },
     {
         user_id: 2,
-        community_id: 1,
+        community_id: 2,
         text:"Kumbe bei yake haiko juu sana. Acha nitaenda kununua siku napeleka sukuma wiki nilipanda kwa soko.",
 
     },
     {
         user_id: 1,
-        community_id: 1,
+        community_id: 2,
         text:"Hata mimi naona nitajaribu kutest soil pH nijue kama hiyo pia ndiyo husababisha mazao mabaya kwa hii shamba yangu hata baada ya kuweka mbolea ya kutosha.",
 
     },
     {
         user_id: 2,
-        community_id: 1,
+        community_id: 2,
         text:"Asante sana James. Tunajifunza mengi kutokana na ushauri wako.",
 
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"You're welcome. We're together in this. Nikiwa na shida pia sitasita kuwauliza.",
 
     },
     {
         user_id: 1,
-        community_id: 1,
+        community_id: 2,
         text:"Tutashirikiana pamoja. Asante, na muwe na siku njema.",
 
     },
