@@ -7200,7 +7200,7 @@ messages = Message.create([
     {
         user_id: 1,
         community_id: 2,
-        text:"Nawezatumia nini ndiyo hiyo blight iishe kwa nyanya yangu?",
+        text:"Nawezatumia nini ndiyo hiyo smut iishe kwa mahindi yangu?",
 
     },
     {
@@ -7211,7 +7211,7 @@ messages = Message.create([
     },
     {
         user_id: 2,
-        community_id: 1,
+        community_id: 2,
         text:"Ukitumia foliar spray ama any other pesticide unafaa kuhakikisha unatumia dawa salama kwa ajili ya wakulima na wanyama.",
         text:"Njia yenye nilitumia kuzuia blight na ilisaidia ni kumix maji ya baking soda na sunflower oil. Then hiyo mixture nikayunyizia kwenye majani ya nyanya",
 
@@ -7230,7 +7230,7 @@ messages = Message.create([
     },
     {
         user_id: 4,
-        community_id: 1,
+        community_id: 2,
         text:"Halafu pia unawezaondoa majani yote yaliyoathiriwa na blight na kuyatupa nje ya shamba lako ili kuzuia maambukizi zaidi",
 
     },
