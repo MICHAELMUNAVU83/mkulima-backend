@@ -1495,29 +1495,43 @@ plantable_crops = PlantableCrop.create(
             kipindi_cha_ukomavu:"Miezi 5",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
-            site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
-            It requires a pH: 5.0 - 7.0 Zn Mn and Fe become deficient and below 4.5 producing sour fruits,
-            Tomato nutrient requirements include: N  P  K  Mg  Ca  S  Mn  Mo  Zn  Bo  Cu  Fe ,
-            Temperature range,
-            The temperatures should be 18 - 29 oC ,
-            Rainfall,
-            Rainfall of 600 mm is essential during production period
+            site_selection:"Advisory: Select site suitable for wheat production.
+            Rainfall
+            
+            Wheat does well in moderate rainfall ranging from 500-1300mm.
+            Altitude
+            
+            Wheat does best in medium to high altitude, depending on the variety.
+            Wheat growing areas have an altitude range of 1500-2900 masl.
+            Temperature
+            
+            Wheat requires a relatively warm temperature range of 15-25 degrees centigrade for at least three months.
+            Hot and humid climate is harmful because it encourages the infestation of diseases like rust, root rot.
+          
+          
 
 
 
             ",
-            uteuzi_wa_tovuti:"Ushauri: Chagua ardhi inayofaa na isiyo na maji mengi kulingana na mahitaji ya kilimo ya ikolojia ya zao, safu ya mwinuko, Nyanya huhitaji mwinuko wa 0 - 2000 masl, aina na hali ya udongo, udongo wenye rutuba wenye kina kirefu na usiotuamisha maji kwa wingi wa viumbe hai,
-             Inahitaji pH: 5.0 - 7.0 Zn Mn na Fe hupungukiwa na chini ya 4.5 kutoa matunda chachu;
-             Mahitaji ya virutubisho vya nyanya ni pamoja na: N P K Mg Ca S Mn Mo Zn Bo Cu Fe ,
-             Kiwango cha joto,
-             Joto linapaswa kuwa 18-29 oC;
-             Mvua,
-             Mvua ya mm 600 ni muhimu wakati wa uzalishaji",
-            land_preparation:"Advisory: Prepare the main field 1-2 weeks before transplanting to create good condition for field establishment ,
-            Steps during land preparation,
-            Prepare the main field 1-2 weeks before transplanting,
-            Plough and harrow to appropriate tilth,
-            Apply manure and basic fertilizer according to soil analysis results and recommendations
+            uteuzi_wa_tovuti:"Ushauri: Chagua tovuti inayofaa kwa uzalishaji wa ngano.
+            Mvua
+            
+            Ngano hufanya vizuri katika mvua ya wastani kuanzia 500-1300mm.
+            Urefu
+            
+            Ngano hufanya vizuri kwa urefu wa kati hadi juu, kulingana na anuwai.
+            Maeneo yanayokua ya ngano yana urefu wa 1500-2900 masl.
+            Joto
+            
+            Ngano inahitaji kiwango cha joto cha joto cha sentimita 15-25 kwa angalau miezi mitatu.
+            Hali ya hewa ya moto na yenye unyevu ni hatari kwa sababu inahimiza udhalilishaji wa magonjwa kama kutu, kuoza kwa mizizi",
+            land_preparation:"Advisory: Wheat requires a fine seed bed for uniform germination.
+            The land should be well ploughed and harrowed.
+            It should be free from growing weeds and weed seeds, to prevent strangulation of the young crop.
+            It is recommended to first apply a pre-emergence herbicide (Glyphosate) followed by thorough ploughing and harrowing, at least 4 weeks before planting.
+            Early land preparation will ensure the land does not have fresh compost (plant material that is not fully rotten) during planting, which is harmful to germination and early plant growth.
+            Land preparation for stubble land should begin 1-2 months after harvesting.
+            Early land preparation not only improves moisture conservation, but also controls weeds better.
 
 
 
@@ -1529,21 +1543,9 @@ plantable_crops = PlantableCrop.create(
              Tayarisha shamba kuu wiki 1-2 kabla ya kupanda,
              Lima na kulima kwa shamba linalofaa;
              Weka mbolea na mbolea ya msingi kulingana na matokeo ya uchambuzi wa udongo na mapendekezo",
-            pre_planting:"Advisory: Select planting materials from reliable sources/agro-vets that are early maturing bushy short stem and preferred in the market,
-            Direct planting can be done or seedlings can be raised in a nursery by:,
-            Constructing raised or sunken nursery beds at 1 m width by desired length
-
-            Incorporate 5 kg of well-decomposed compost or manure/m2 into the seedbed
-
-            Sterilize the nursery bed with hot water treatment burning solarization or application of appropriate pesticide,
-            Sow seeds in the furrows 20cm spaced at 2.5cm and cover lightly with soil
-
-          Mulch and water regularly until the seedlings emerge,
-
-          After emergence of seedlings remove the mulch from the beds and construct a raised shade (about 1 m),
-          Apply adequate water regularly to sustain good, healthy growth of the seedlings
-
-           Keep the nursery weed-free and scout for pests and diseases
+            pre_planting:"Advisory: Common planting materials for wheat include certified seeds and farmer saved seeds.
+            Seeds should be obtained from reliable sources.
+            Farmer saved seeds are alternatives where certified seeds are not available or the seed can be bought from the market.
 
 
 
@@ -1551,117 +1553,103 @@ plantable_crops = PlantableCrop.create(
 
             
             ",
-            upandaji_wa_kabla:"Ushauri: Chagua nyenzo za upanzi kutoka kwa vyanzo vya kuaminika/vets za kilimo ambazo zinakomaa mapema na kupendelewa sokoni;
-             Kupanda moja kwa moja kunaweza kufanywa au miche inaweza kukuzwa kwenye kitalu kwa:,
-             Kujenga vitalu vya kitalu vilivyoinuliwa au vilivyozama kwa upana wa m 1 kwa urefu unaohitajika
-
-             Weka kilo 5 za mboji iliyooza vizuri au samadi/m2 kwenye kitalu cha mbegu.
-
-             Safisha kitalu kwa uchomaji wa jua kwa matibabu ya maji ya moto au uwekaji wa dawa inayofaa,
-             Panda mbegu kwenye mifereji yenye umbali wa sentimita 20 kwa nafasi ya 2.5cm na funika kwa udongo kidogo
-
-           tandaza na kumwagilia maji mara kwa mara hadi miche itokee;
-
-           Baada ya miche kuota, toa matandazo kutoka kwenye vitanda na ujenge kivuli kilichoinuliwa (kama mita 1).
-           Weka maji ya kutosha mara kwa mara ili kudumisha ukuaji mzuri, wenye afya wa miche
-
-            Weka kitalu bila magugu na chunguza wadudu na magonjwa",
-            planting:"Advisory: Direct planting or transplanting can be practiced,
-            Planting ,
-            Water the nursery to saturation point 12 hours before transplanting,
-            Transplant seedlings at 3-4 weeks in the nursery, 
-            Make furrows or planting holes depending on the spacing of the specific variety,,
-            Wider spacing of 100 cm x 50 cm is good,
-            Target plant population density 37,000 to 9,300 plants per ha
+            upandaji_wa_kabla:"Ushauri: Vifaa vya kawaida vya upandaji wa ngano ni pamoja na mbegu zilizothibitishwa na mbegu zilizookolewa za mkulima.
+            Mbegu zinapaswa kupatikana kutoka kwa vyanzo vya kuaminika.
+            Mbegu zilizookolewa za mkulima ni mbadala ambapo mbegu zilizothibitishwa hazipatikani au mbegu inaweza kununuliwa kutoka soko.",
+            planting:"Advisory: Plant wheat at the onset of rains for proper germination..
+            Planting is best done using a seed drill.
+            Planting spacing should be 15cm between rows.
+            The seed drill and speed of planting should be set according to the seedrate of the variety to be planted.
+            In small-scale farms, wheat can be sown successfully by broadcasting the seed and fertilizer and covering with a light harrow as a final operation.
+            Higher seed and fertilizer rates are required for a good crop stand (1.5 bags of 50kg of certified seed and 1.5 bags of 50kg DAP per acre).
 
             ",
-            kupanda:"Ushauri: Kupanda au kupandikiza moja kwa moja kunaweza kufanywa,
-             Kupanda,
-             Mwagilia kitalu hadi kueneza masaa 12 kabla ya kupandikiza,
-             Pandikiza miche kwa wiki 3-4 kwenye kitalu,
-             Tengeneza mifereji au mashimo ya kupandia kulingana na nafasi ya aina maalum,
-             Nafasi pana ya cm 100 x 50 ni nzuri,
-             Msongamano wa mimea inayolengwa kati ya mimea 37,000 hadi 9,300 kwa hekta",
-            water_management:"Advisory: Irrigate regularly especially during critical periods like nursery, flower setting and fruit development and during dry spell,
-            Irrigate early in the morning to avoid late blight disease,
-            Reduce watering at the end of crop maturity,
-            Regular wateringreduces blossom end rot ensures uniform fruit development prevents fruit splitting reduces the risk of sun scorch enhances fruit growth and increases the size and number of fruits
+            kupanda:"Ushauri: Panda ngano mwanzoni mwa mvua kwa kuota sahihi..
+            Kupanda ni bora kufanywa kwa kutumia kuchimba visima kwa mbegu.
+            Nafasi za kupanda zinapaswa kuwa 15cm kati ya safu.
+            Kuchimba mbegu na kasi ya kupanda inapaswa kuwekwa kulingana na kiwango cha mbegu cha aina hiyo kupandwa.
+            Katika shamba ndogo, ngano inaweza kupandwa kwa mafanikio kwa kutangaza mbegu na mbolea na kufunika na kinubi nyepesi kama operesheni ya mwisho.
+            Viwango vya juu vya mbegu na mbolea vinahitajika kwa kusimama kwa mazao mazuri ( mifuko 1.5 ya 50kg ya mbegu iliyothibitishwa na mifuko 1.5 ya 50kg DAP kwa ekari ).
+                      ",
+            water_management:"Advisory: Irrigate wheat incase of prolonged drought.
+            Use of conservation agriculture (CA) techniques are encouraged since they enhance both soil and water conservation.
+            Irrigation has great potential to increase wheat production. It can be practised in basins, by furrow, or using overhead sprinklers.
+            Care must be taken not to over-irrigate as wheat, which unlike rice, is very sensitive to early water logging. Critical water demanding periods is:
+            Right after planting.
+            At tillering stage.
+             Flowering stage. 
             
             ",
 
-            usimamizi_wa_maji:"Ushauri: Mwagilia maji mara kwa mara hasa katika vipindi muhimu kama vile kitalu, maua na ukuzaji wa matunda na wakati wa kiangazi;
-             Mwagilia maji mapema asubuhi ili kuepusha ugonjwa wa baa,
-             Kupunguza kumwagilia mwishoni mwa ukomavu wa mazao,
-             Kumwagilia maji mara kwa mara hupunguza kuoza kwa maua huhakikisha ukuaji wa matunda sawa na kuzuia mgawanyiko wa matunda hupunguza hatari ya kuchomwa na jua huongeza ukuaji wa matunda na huongeza saizi na idadi ya matunda.
-            
-            
-            
-            ",
-            soil_fertility:"Advisory: Apply required nutrients based on results of soil test analysis and on plant nutrient requirements,
-            Apply top-dressing fertilizer such as CAN in 2 splits at 100kg per ha (5g or ½ teaspoonful per plant) and 200kg per ha at 4 and 8 weeks respectively after transplanting
-            ",
-
-            udongo_wajadi:"Weka virutubisho vinavyohitajika kulingana na matokeo ya uchunguzi wa udongo na mahitaji ya virutubishi vya mimea;
-             Weka mbolea ya kuongeza kiwango cha juu kama vile CAN katika vipande 2 vya kilo 100 kwa hekta (5g au ½ kijiko kidogo cha chai kwa kila mmea) na kilo 200 kwa hekta kwa wiki 4 na 8 mtawalia baada ya kupandikiza.",
-            crop_management:"Advisory: Prune to leave 1 to 2 main stems and pinch out the lateral as they grow every week,
-            Stake if necessary depending on the varieties,
-            Guide plant along the trellising string or wire,
-            Put a 2m stick firmly in the ground for each tomato plant and tie the stems loosely as the plant grows
-
-            or
-
-            Put a stout pole in the ground at every 4m and 2 wires running one at 2m and another at 0.15m above the ground,
-            Tie a strong string between the two wires behind each tomato plant,
-            Twist the plants carefully around the strings as they grow,
-            Start staking about two weeks after transplanting,
-            Pruning is done by removing the lower mature leaves and checking for the presence of pests and diseases
-
+            usimamizi_wa_maji:"Ushauri: Kuchochea ngano ya ukame wa muda mrefu.
+            Matumizi ya kilimo cha uhifadhi ( CA ) mbinu zinahimizwa kwani zinaongeza utunzaji wa mchanga na maji.
+            Umwagiliaji una uwezo mkubwa wa kuongeza uzalishaji wa ngano. Inaweza kufanywa kwa mabonde, na manyoya, au kutumia vinyunyizio vya juu.
+            Utunzaji lazima uchukuliwe sio kuzidi kama ngano, ambayo tofauti na mchele, ni nyeti sana kwa ukataji wa maji mapema. Vipindi muhimu vya maji vinavyohitajika ni:
+            Mara tu baada ya kupanda.
+            Katika hatua ya kulima.
+             Hatua ya maua. 
             
             
             ",
-            usimamizi_wa_mazao:"Ushauri: Pogoa ili kuacha shina kuu 1 hadi 2 na uondoe kando kando inapokua kila wiki;
-             Shika ikiwa ni lazima kulingana na aina,
-             Elekeza mmea kando ya uzi au waya,
-             Weka kijiti cha mita 2 ardhini kwa kila mmea na funga mashina huku mmea ukikua.
+            soil_fertility:"Advisory: Add manure and fertilizer with recommendations from soil testing and analysis
+            Some areas in Kenya have been found to have soil deficient in copper.
+            This results in poor growth and tip burn of all grasses and grains including wheat.
+            Copper deficient areas include:
+            
+            Nakuru County: Njoro, Rongai, Menengai, Lanet, areas bordering Elburgon and Mau Narok as well as Gilgil and Naivasha areas. The whole of Narok county.
+            In addressing copper deficiency, the seed must be dressed with copper oxychloride (1 kg/100 kg of seed). Also a foliar spray of 1 kg/ha should be applied at early tillering stage.
+            ",
 
-             au
-
-             Weka nguzo ngumu ardhini kwa kila mita 4 na waya 2 zinazokimbia moja kwa 2m na nyingine kwa 0.15m juu ya ardhi;
-             Funga kamba kali kati ya nyaya mbili nyuma ya kila mmea wa nyanya,
-             Pindua mimea kwa uangalifu karibu na nyuzi inapokua,
-             Anza kuota wiki mbili baada ya kupandikiza,
-             Kupogoa hufanywa kwa kuondoa majani yaliyokomaa chini na kuangalia uwepo wa wadudu na magonjwa",
-            harvesting:"Advisory: Harvest is done at different stages depending on the market requirement and distance to the market,
-            Harvesting is done by hand by twisting and turning until the fruits snap off the vine,
-            Harvesting should preferably done early in the morning when temperatures are cool,
-            Put the harvested fruits into holding containers (plastic buckets),
-            The harvested fruits are put in a cool place e.g. in a shade,
-            Harvesting should be done early in the morning or late in the evening since this is when the plant is turgid,
-            Tomato will produce 25-100 tons per ha with proper management
+            udongo_wajadi:"Ushauri: Ongeza mbolea na mbolea na mapendekezo kutoka kwa upimaji wa mchanga na uchambuzi
+            Maeneo mengine nchini Kenya yamepatikana kuwa na upungufu wa mchanga katika shaba.
+            Hii husababisha ukuaji duni na kuchoma ncha ya nyasi zote na nafaka pamoja na ngano.
+            Maeneo yenye upungufu wa shaba ni pamoja na:
+            
+            Kaunti ya Nakuru: Njoro, Rongai, Menengai, Lanet, maeneo yanayopakana na Elburgon na Mau Narok na maeneo ya Gilgil na Naivasha. Kaunti nzima ya Narok.
+            Katika kushughulikia upungufu wa shaba, mbegu lazima iwe imevaliwa na oxychloride ya shaba ( kilo 1 / kilo 100 ya mbegu ). Pia dawa ya foliar ya kilo 1 / ha inapaswa kutumika katika hatua za mapema za kulima.
+                      ",
+            crop_management:"Advisory: Proper wheat crop management increases yields.
+            Uniform crop stand and early vigour discourage weed growth. In this respect tillering allows the crop to compensate for poor stands and variable weather conditions.
+            Yield losses due to weeds are caused by early competition in the first 4-5 weeks. Weeds can be controlled by hand weeding and proper crop rotation. 
+            Wheat is best rotated with non-graminaceous crops, particularly with pulses, potatoes or any other crop which is possible to keep free of weeds.
+            Weeds effectively compete with wheat for nutrients, water and light and are the biggest constraint to good yields.
+            Early seed bed preparation, allowing weeds to germinate with the first rains, followed by a very shallow harrowing will greatly reduce the amount of weeds in the wheat crop.
+            
+            
+            ",
+            usimamizi_wa_mazao:"Ushauri: Usimamizi sahihi wa mazao ya ngano huongeza mavuno.
+            Simama ya mazao ya sare na nguvu ya mapema kukatisha tamaa ukuaji wa magugu. Kwa maana hii upandaji wa mazao huruhusu mmea kulipia fidia kwa hali duni na hali ya hewa tofauti.
+            Hasara za mavuno kwa sababu ya magugu husababishwa na ushindani wa mapema katika wiki 4-5 za kwanza. Magugu yanaweza kudhibitiwa na kupalilia kwa mkono na mzunguko sahihi wa mazao. 
+            Ngano imezungushwa vyema na mazao yasiyo ya graminaceous, haswa na mapigo, viazi au mazao mengine yoyote ambayo inawezekana kuweka bure ya magugu.
+            Magugu hushindana vizuri na ngano kwa virutubishi, maji na mwanga na ndio shida kubwa kwa mavuno mazuri.
+            Utayarishaji wa kitanda cha mbegu za mapema, kuruhusu magugu kuota na mvua za kwanza, ikifuatiwa na mvua ya kina kirefu itapunguza sana kiwango cha magugu katika mazao ya ngano.",
+            harvesting:"Advisory: Wheat matures in 4-7 months depending on variety and altitude. At higher altitudes it takes longer.
+            Harvest when the wheat has reached full maturity, the kernel becomes difficult to divide with a thumbnail, cannot be crushed between fingernails, and can no longer be dented by a thumbnail.
+            Wheat is ready for harvesting when the kernels have achieved maximum weight and suitable moisture level.  An experienced farmer can determine this by biting the kernels.
+            A crop harvested at physiological maturity must be dried thoroughly before threshing.
+            Small scale farmers usually cut the wheat using hand sickles.
+            This should be done when the kernels have become hard. The wheat is then tied into bundles and stacked to be threshed when completely dry.
+            Where birds are not a problem the cut wheat plants can be stacked or spread out to dry in the sun in a clean area - preferably on a cement slab or plastic sheet in order to reduce losses.
 
 
             ",
-            uvunaji:"Ushauri: Mavuno hufanywa kwa hatua tofauti kulingana na mahitaji ya soko na umbali wa soko.
-             Uvunaji hufanywa kwa mikono kwa kupindisha na kugeuza hadi matunda kung'oa mzabibu;
-             Uvunaji unapaswa kufanywa mapema asubuhi wakati hali ya joto iko baridi.
-             Weka matunda yaliyovunwa kwenye vyombo vya kuhifadhia (ndoo za plastiki),
-             Matunda yaliyovunwa huwekwa mahali pa baridi k.m. kwenye kivuli,
-             Uvunaji unapaswa kufanywa mapema asubuhi au jioni, kwa sababu wakati huu mmea unakuwa shwari.
-             Nyanya itazalisha tani 25-100 kwa hekta kwa usimamizi mzuri",
-            storage:"Advisory: Maintain cold chain at retail displays to maximize storage and shelf-life,  
-            Tomatoes are placed into plastic or wooden crates in the field until they are transported to the market,
-            Transportation is done by pick-ups lorries and motorbikes,
-            Tomatoes are packed in environmentally friendly canvass bags 1-1.5kg for sale at retail level,
-            Other retail units include plastic containers 2-5kg traditional baskets 2-5kg and heaps 3-5 fruits,
-            Tomatoes are marketed in the fresh produce markets supermarkets retail shops hotels restaurants institutions and food processing factories
+            uvunaji:"Ushauri: Ngano inakua katika miezi 4-7 kulingana na anuwai na urefu. Katika mwinuko wa juu inachukua muda mrefu.
+            Mavuno wakati ngano imefikia ukomavu kamili, kernel inakuwa ngumu kugawanyika na kijipicha, haiwezi kukandamizwa kati ya vidole, na haiwezi tena kutolewa kwa kijipicha.
+            Ngano iko tayari kwa uvunaji wakati kernels zimepata uzito wa juu na kiwango cha unyevu kinachofaa.  Mkulima mwenye uzoefu anaweza kuamua hii kwa kuuma kernels.
+            Mimea iliyovunwa katika ukomavu wa kisaikolojia lazima ivuke kabisa kabla ya kupuliza.
+            Wakulima wadogo kawaida hukata ngano kwa kutumia sindano za mikono.
+            Hii inapaswa kufanywa wakati kernels imekuwa ngumu. Ngano hiyo hufungwa ndani ya vifurushi na kushonwa ili kuyeyushwa wakati kavu kabisa.
+            Ambapo ndege sio shida mimea iliyokatwa ya ngano inaweza kupigwa au kuenea ili kukauka kwenye jua katika eneo safi - ikiwezekana kwenye slab ya saruji au karatasi ya plastiki ndani kuagiza kupunguza hasara.",
+            storage:"Grains must be stored under cool dry conditions after harvest in order to avoid damage by pests, moisture and fluctuating temperatures.
+            Moisture build up is the first step in quality deterioration hence should be maintained at 13%.
+            The grain should be stored in clean stores, silos or hermatic bags.
+            Appropriate storage facilities such as metallic bins.
         
             ",
-            uhifadhi:"Ushauri: Dumisha mnyororo baridi kwenye maonyesho ya rejareja ili kuongeza uhifadhi na maisha ya rafu,
-             Nyanya huwekwa kwenye kreti za plastiki au mbao shambani hadi zisafirishwe sokoni;
-             Usafiri unafanywa na magari ya mizigo na pikipiki,
-             Nyanya zimepakiwa kwenye mifuko ya turubai ambayo ni rafiki kwa mazingira ya kilo 1-1.5 kwa ajili ya kuuzwa kwa reja reja,
-             Vitengo vingine vya rejareja ni pamoja na vyombo vya plastiki vikapu 2-5kg vya kiasili kilo 2-5 na lundo la matunda 3-5;
-             Nyanya zinauzwa katika soko la mazao mapya maduka makubwa maduka ya reja reja hoteli migahawa taasisi na viwanda vya usindikaji wa chakula.",
+            uhifadhi:"Nafaka lazima zihifadhiwe chini ya hali kavu kavu baada ya mavuno ili kuzuia uharibifu na wadudu, unyevu na joto linalobadilika.
+            Ujengaji wa unyevu ni hatua ya kwanza katika kuzorota kwa ubora kwa hivyo inapaswa kudumishwa kwa 13%.
+            Nafaka inapaswa kuhifadhiwa katika duka safi, silos au mifuko ya hermatic.
+            Vituo sahihi vya uhifadhi kama vile mapipa ya chuma.",
             precipitation_needed: 200,
             county_id:27,
             
