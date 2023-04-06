@@ -1479,22 +1479,20 @@ plantable_crops = PlantableCrop.create(
             
         },
         {
-            name: "Tomato",
-            jina: "Nyanya",
+            name: "Wheat",
+            jina: "Ngano",
             variety:"Money maker",
-          
             region: "Rift Valley",
-            
-            description:"Tomatoes are a popular vegetable that can be grown in almost any garden. First, choose a location with plenty of sunlight and well-draining soil rich in organic matter. Tomato plants require at least 6-8 hours of direct sunlight daily to grow properly. Once you have selected the location, plant the tomato seedlings about 2-3 feet apart in the soil, burying them up to the first set of leaves. Water the plants well and mulch around the base to help retain moisture in the soil. Tomatoes need regular watering and fertilizer to grow, so be sure to water them deeply and fertilize them with a balanced fertilizer every few weeks. As the plants grow, support them with stakes or cages to keep them upright and prevent the fruit from touching the ground. Finally, harvest the tomatoes when they are ripe, typically when they have turned fully red and are slightly soft to the touch.",
-            maelezo:"Nyanya ni mboga maarufu ambayo inaweza kupandwa karibu na bustani yoyote. Kwanza, chagua eneo lenye jua nyingi na mchanga wenye unyevu mzuri ulio na vitu vya kikaboni. Mimea ya nyanya inahitaji angalau masaa 6-8 ya jua moja kwa moja kila siku kukua vizuri. Mara tu ukichagua eneo hilo, panda miche ya nyanya karibu futi 2-3 kando ya mchanga, ukizika hadi seti ya kwanza ya majani. Maji mimea vizuri na mulch kuzunguka msingi kusaidia kuhifadhi unyevu kwenye mchanga. Nyanya zinahitaji kumwagilia mara kwa mara na mbolea kukua, kwa hivyo hakikisha kuzitia kwa undani na kuzi mbolea yenye mbolea kila wiki chache. Mimea inapokua, waunge mkono na vijiti au mabwawa ili kuwaweka sawa na kuzuia matunda kugusa ardhi. Mwishowe, vunja nyanya wakati zimeiva, kawaida wakati wamegeuka nyekundu kabisa na ni laini kidogo kwa kugusa.",
+            description:"To grow wheat, choose a suitable location with well-drained soil and full sunlight. Prepare the soil by removing weeds and debris and loosening the soil. Plant the seeds in the fall or spring, water them gently and fertilize the plants. Protect them from pests and diseases and harvest the wheat when the plants turn golden brown and the seed heads are ready.",
+            maelezo:"Kukua ngano, chagua eneo linalofaa na mchanga ulio na mchanga na jua kamili. Andaa udongo kwa kuondoa magugu na uchafu na looshed udongo. Panda mbegu katika msimu wa joto au chemchemi, unyage kwa upole na mbolea mimea. Walinde kutokana na wadudu na magonjwa na uvunaji wa ngano wakati mimea inageuka hudhurungi ya dhahabu na vichwa vya mbegu viko tayari.",
 
             
             extension_officer_phone_number: "0740769567",
            
-            cost_of_production_per_acre:"20,000 - 180,000",
+            cost_of_production_per_acre:"70,000 - 120,000",
           
-            maturity_period: "3 months",
-            kipindi_cha_ukomavu:"Miezi 3",
+            maturity_period: "5 months",
+            kipindi_cha_ukomavu:"Miezi 5",
             image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
 
             site_selection:"Advisory: Select a suitable and well drained ground depending on the agro ecological requirement of the crop,Altitude range,Tomato require altitudes of 0 - 2000 masl,Soil type and conditions,Deep and well-drained fertile loams soil rich in organic matter,
