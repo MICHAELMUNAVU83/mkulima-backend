@@ -1493,7 +1493,7 @@ plantable_crops = PlantableCrop.create(
           
             maturity_period: "5 months",
             kipindi_cha_ukomavu:"Miezi 5",
-            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680250958/josephine-baran-g4wzhY8qiMw-unsplash_g14mb5.jpg",
+            image:"https://res.cloudinary.com/dakiak4mc/image/upload/v1680934652/evi-radauscher-NLlvBb9sLts-unsplash_yfrsns.jpg",
 
             site_selection:"Advisory: Select site suitable for wheat production.
             Rainfall

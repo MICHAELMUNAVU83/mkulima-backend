@@ -11,9 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "animal_feeds", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -22,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
     t.string "location"
     t.string "contact"
     t.boolean "approved", default: false
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_animal_feeds_on_user_id"
@@ -37,7 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
 
   create_table "constituencies", force: :cascade do |t|
     t.string "name"
-    t.bigint "county_id", null: false
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_constituencies_on_county_id"
@@ -56,7 +53,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
   create_table "crops", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.bigint "county_id", null: false
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_crops_on_county_id"
@@ -72,7 +69,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
     t.string "location"
     t.string "contact"
     t.boolean "approved", default: false
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_input_supplies_on_user_id"
@@ -81,7 +78,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
   create_table "market_prices", force: :cascade do |t|
     t.integer "retail_price"
     t.integer "wholesale_price"
-    t.bigint "plantable_crop_id", null: false
+    t.integer "plantable_crop_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["plantable_crop_id"], name: "index_market_prices_on_plantable_crop_id"
@@ -89,7 +86,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
 
   create_table "markets", force: :cascade do |t|
     t.string "name"
-    t.bigint "county_id", null: false
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_markets_on_county_id"
@@ -97,8 +94,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
 
   create_table "messages", force: :cascade do |t|
     t.string "text"
-    t.bigint "user_id", null: false
-    t.bigint "community_id", null: false
+    t.integer "user_id", null: false
+    t.integer "community_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["community_id"], name: "index_messages_on_community_id"
@@ -140,15 +137,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
     t.string "storage"
     t.integer "precipitation_needed"
     t.string "soil_type_needed"
-    t.bigint "county_id", null: false
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_plantable_crops_on_county_id"
   end
 
   create_table "selected_crops", force: :cascade do |t|
-    t.bigint "user_id", null: false
-    t.bigint "plantable_crop_id", null: false
+    t.integer "user_id", null: false
+    t.integer "plantable_crop_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["plantable_crop_id"], name: "index_selected_crops_on_plantable_crop_id"
@@ -163,7 +160,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
     t.string "location"
     t.string "contact"
     t.boolean "approved", default: false
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_sold_products_on_user_id"
@@ -185,7 +182,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_113523) do
     t.integer "name"
     t.integer "precipitation"
     t.string "soil_type"
-    t.bigint "county_id", null: false
+    t.integer "county_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["county_id"], name: "index_years_on_county_id"
