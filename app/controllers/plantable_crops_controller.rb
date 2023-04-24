@@ -59,7 +59,7 @@ class PlantableCropsController < ApplicationController
     def top_selected
       @plantable_crops = PlantableCrop.all
      @selected_crops = SelectedCrop.all
-     @top_crops = ["Tomato", "Sukumawiki", "Beans", "Maize", "Onions"]
+     @top_crops = ["Maize","Wheat", "Beans"]
         @top_crops = @top_crops.map { |crop| { name: crop, count: @selected_crops.select { |sc| sc.plantable_crop.name == crop }.count } }
 
 
